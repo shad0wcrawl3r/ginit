@@ -1,0 +1,12 @@
+dist/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+.env
+ird.p
+findings.md
+.claude/

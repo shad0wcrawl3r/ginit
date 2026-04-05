@@ -1,0 +1,43 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "v*"
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-go@v5
+        with:
+          go-version-file: go.mod
+
+      - name: Build binaries
+        run: |
+          version="${GITHUB_REF_NAME}"
+          ldflags="-s -w -X main.version=${version}"
+          mkdir -p dist
+
+          for pair in linux/amd64 linux/arm64 darwin/amd64 darwin/arm64 windows/amd64 windows/arm64; do
+            os="${pair%/*}"
+            arch="${pair#*/}"
+            ext=""
+            [ "$os" = "windows" ] && ext=".exe"
+            out="dist/ginit-${os}-${arch}${ext}"
+
+            echo "::group::Building ${out}"
+            GOOS=$os GOARCH=$arch go build -ldflags "$ldflags" -trimpath -o "$out" .
+            echo "::endgroup::"
+          done
+
+      - name: Create GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: dist/*
+          generate_release_notes: true
