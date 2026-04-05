@@ -6629,6 +6629,13 @@
     "category": "Hardware"
   },
   {
+    "name": "moody",
+    "import": "github.com/dinakars777/moody",
+    "url": "https://github.com/dinakars777/moody",
+    "description": "Hardware event personality daemon for macOS. Monitors USB, charger, lid, and other hardware events and responds with customizable personalities.",
+    "category": "Hardware"
+  },
+  {
     "name": "sysinfo",
     "import": "github.com/zcalusic/sysinfo",
     "url": "https://github.com/zcalusic/sysinfo",
@@ -13325,13 +13332,6 @@
     "import": "github.com/codeship/codeship-go",
     "url": "https://github.com/codeship/codeship-go",
     "description": "Go client library for interacting with Codeship's API v2.",
-    "category": "Third-party APIs"
-  },
-  {
-    "name": "coinpaprika-go",
-    "import": "github.com/coinpaprika/coinpaprika-api-go-client",
-    "url": "https://github.com/coinpaprika/coinpaprika-api-go-client",
-    "description": "Go client library for interacting with Coinpaprika's API.",
     "category": "Third-party APIs"
   },
   {
