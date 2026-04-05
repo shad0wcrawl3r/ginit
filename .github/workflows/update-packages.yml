@@ -1,4 +1,4 @@
-name: Update packages.json
+name: Update packages
 
 on:
   schedule:
@@ -13,6 +13,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # need full history for tags
 
       - uses: actions/setup-go@v5
         with:
@@ -21,11 +23,64 @@ jobs:
       - name: Regenerate packages.json
         run: go run ./cmd/genpkgs -o internal/pkgdata/packages.json
 
-      - name: Commit and push if changed
+      - name: Check for changes
+        id: diff
         run: |
-          git diff --quiet internal/pkgdata/packages.json && exit 0
+          if git diff --quiet internal/pkgdata/packages.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Commit updated packages
+        if: steps.diff.outputs.changed == 'true'
+        run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add internal/pkgdata/packages.json
           git commit -m "chore: update packages.json"
           git push
+
+      - name: Compute next patch version
+        if: steps.diff.outputs.changed == 'true'
+        id: version
+        run: |
+          latest=$(git tag --sort=-v:refname | grep -E '^v[0-9]+\.' | head -1)
+          if [ -z "$latest" ]; then
+            echo "tag=v0.1.1" >> "$GITHUB_OUTPUT"
+          else
+            # bump the patch number: v0.1.0 -> v0.1.1
+            IFS='.' read -r major minor patch <<< "${latest#v}"
+            echo "tag=v${major}.${minor}.$((patch + 1))" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Build binaries
+        if: steps.diff.outputs.changed == 'true'
+        run: |
+          version="${{ steps.version.outputs.tag }}"
+          ldflags="-s -w -X main.version=${version}"
+          mkdir -p dist
+
+          for pair in linux/amd64 linux/arm64 darwin/amd64 darwin/arm64 windows/amd64 windows/arm64; do
+            os="${pair%/*}"
+            arch="${pair#*/}"
+            ext=""
+            [ "$os" = "windows" ] && ext=".exe"
+            out="dist/ginit-${os}-${arch}${ext}"
+
+            echo "::group::Building ${out}"
+            GOOS=$os GOARCH=$arch go build -ldflags "$ldflags" -trimpath -o "$out" .
+            echo "::endgroup::"
+          done
+
+      - name: Tag and release
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          tag="${{ steps.version.outputs.tag }}"
+          git tag "$tag"
+          git push origin "$tag"
+          gh release create "$tag" dist/* \
+            --title "$tag" \
+            --notes "Automated release — updated awesome-go package list."
