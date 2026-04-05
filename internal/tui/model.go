@@ -166,9 +166,6 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 					m.moduleActivePart = 2
 					cmds = append(cmds, m.moduleInput.Focus())
 				}
-			} else if m.step == StepProjectName {
-				m.textInput, cmd = m.textInput.Update(msg)
-				cmds = append(cmds, cmd)
 			}
 
 		case "shift+tab":
@@ -185,12 +182,12 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 				}
 			}
 
-		case "up", "k":
+		case "up":
 			if m.cursor > 0 {
 				m.cursor--
 			}
 
-		case "down", "j":
+		case "down":
 			switch m.step {
 			case StepTemplate:
 				if m.cursor < len(templates)-1 {
@@ -251,7 +248,7 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 				cmds = append(cmds, m.userInput.Focus())
 
 			case StepModulePath:
-				if m.userInput.Value() == "" {
+				if m.domainInput.Value() == "" || m.userInput.Value() == "" || m.moduleInput.Value() == "" {
 					return m, nil
 				}
 				m.modulePath = m.domainInput.Value() + "/" + m.userInput.Value() + "/" + m.moduleInput.Value()

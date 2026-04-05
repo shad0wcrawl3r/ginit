@@ -108,8 +108,7 @@ func main() {
 			continue
 		}
 
-		imp := u.Host + strings.TrimSuffix(u.Path, ".git")
-		imp = strings.TrimSuffix(imp, "/")
+		imp := moduleRoot(u.Host, u.Path)
 
 		// Deduplicate by import path.
 		if seen[imp] {
@@ -145,4 +144,29 @@ func main() {
 	}
 
 	fmt.Fprintf(os.Stderr, "wrote %d packages\n", len(packages))
+}
+
+// moduleRoot extracts a valid Go module path from a URL host+path.
+// GitHub/GitLab/etc deep links like /owner/repo/tree/main/subpkg are
+// trimmed to /owner/repo, preserving an optional /vN version suffix.
+func moduleRoot(host, path string) string {
+	path = strings.TrimSuffix(path, ".git")
+	path = strings.TrimSuffix(path, "/")
+
+	switch host {
+	case "github.com", "gitlab.com", "bitbucket.org", "codeberg.org":
+		parts := strings.SplitN(strings.TrimPrefix(path, "/"), "/", 4)
+		if len(parts) < 2 {
+			return host + path
+		}
+		root := host + "/" + parts[0] + "/" + parts[1]
+		// keep /vN version suffix (e.g. /v2, /v10)
+		if len(parts) >= 3 && len(parts[2]) >= 2 &&
+			parts[2][0] == 'v' && parts[2][1] >= '1' && parts[2][1] <= '9' {
+			root += "/" + parts[2]
+		}
+		return root
+	}
+
+	return host + path
 }

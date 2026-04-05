@@ -1,7 +1,7 @@
 [
   {
     "name": "asyncmachine-go/pkg/machine",
-    "import": "github.com/pancsta/asyncmachine-go/tree/main/pkg/machine",
+    "import": "github.com/pancsta/asyncmachine-go",
     "url": "https://github.com/pancsta/asyncmachine-go/tree/main/pkg/machine",
     "description": "Graph control flow library (AOP, actor, state-machine).",
     "category": "Actor Model"
@@ -57,7 +57,7 @@
   },
   {
     "name": "fun",
-    "import": "gitlab.com/tozd/go/fun",
+    "import": "gitlab.com/tozd/go",
     "url": "https://gitlab.com/tozd/go/fun",
     "description": "The simplest but powerful way to use large language models (LLMs) in Go.",
     "category": "Artificial Intelligence"
@@ -897,7 +897,7 @@
   },
   {
     "name": "gommon/color",
-    "import": "github.com/labstack/gommon/tree/master/color",
+    "import": "github.com/labstack/gommon",
     "url": "https://github.com/labstack/gommon/tree/master/color",
     "description": "Style terminal text.",
     "category": "Command Line"
@@ -1261,7 +1261,7 @@
   },
   {
     "name": "hiboot cli",
-    "import": "github.com/hidevopsio/hiboot/tree/master/pkg/app/cli",
+    "import": "github.com/hidevopsio/hiboot",
     "url": "https://github.com/hidevopsio/hiboot/tree/master/pkg/app/cli",
     "description": "cli application framework with auto configuration and dependency injection.",
     "category": "Command Line"
@@ -1632,7 +1632,7 @@
   },
   {
     "name": "gone/jconf",
-    "import": "github.com/One-com/gone/tree/master/jconf",
+    "import": "github.com/One-com/gone",
     "url": "https://github.com/One-com/gone/tree/master/jconf",
     "description": "Modular JSON configuration. Keep your config structs along with the code they configure and delegate parsing to submodules without sacrificing full config serialization.",
     "category": "Configuration"
@@ -1863,7 +1863,7 @@
   },
   {
     "name": "go-test-coverage",
-    "import": "github.com/marketplace/actions/go-test-coverage",
+    "import": "github.com/marketplace/actions",
     "url": "https://github.com/marketplace/actions/go-test-coverage",
     "description": "A GitHub Action which reports issues when test coverage is below set threshold.",
     "category": "Continuous Integration"
@@ -3193,7 +3193,7 @@
   },
   {
     "name": "soda",
-    "import": "github.com/gobuffalo/pop/tree/master/soda",
+    "import": "github.com/gobuffalo/pop",
     "url": "https://github.com/gobuffalo/pop/tree/master/soda",
     "description": "Database migration, creation, ORM, etc... for MySQL, PostgreSQL, and SQLite.",
     "category": "Database"
@@ -4985,13 +4985,6 @@
   },
   {
     "name": "errors",
-    "import": "gitlab.com/tozd/go/errors",
-    "url": "https://gitlab.com/tozd/go/errors",
-    "description": "Providing errors with a stack trace and optional structured details. Compatible with github.com/pkg/errors API but does not use it internally.",
-    "category": "Error Handling"
-  },
-  {
-    "name": "errors",
     "import": "github.com/naughtygopher/errors",
     "url": "https://github.com/naughtygopher/errors",
     "description": "Drop-in replacement for builtin Go errors. This is a minimal error handling package with custom error types, user friendly messages, Unwrap \u0026 Is. With very easy to use and straightforward helper functions.",
@@ -6448,7 +6441,7 @@
   },
   {
     "name": "Goey",
-    "import": "bitbucket.org/rj/goey/src/master",
+    "import": "bitbucket.org/rj/goey",
     "url": "https://bitbucket.org/rj/goey/src/master/",
     "description": "Cross platform UI toolkit aggregator for Windows / Linux / Mac. GTK, Cocoa, Windows API",
     "category": "GUI"
@@ -7515,13 +7508,6 @@
     "import": "github.com/apsdehal/go-logger",
     "url": "https://github.com/apsdehal/go-logger",
     "description": "Simple logger of Go Programs, with level handlers.",
-    "category": "Logging"
-  },
-  {
-    "name": "gone/log",
-    "import": "github.com/One-com/gone/tree/master/log",
-    "url": "https://github.com/One-com/gone/tree/master/log",
-    "description": "Fast, extendable, full-featured, std-lib source compatible log library.",
     "category": "Logging"
   },
   {
@@ -8940,7 +8926,7 @@
   },
   {
     "name": "bexp",
-    "import": "github.com/happy-sdk/happy/tree/main/pkg/strings/bexp",
+    "import": "github.com/happy-sdk/happy",
     "url": "https://github.com/happy-sdk/happy/tree/main/pkg/strings/bexp",
     "description": "Go implementation of Brace Expansion mechanism to generate arbitrary strings.",
     "category": "Miscellaneous"
@@ -9395,7 +9381,7 @@
   },
   {
     "name": "VarHandler",
-    "import": "github.com/azr/generators/tree/master/varhandler",
+    "import": "github.com/azr/generators",
     "url": "https://github.com/azr/generators/tree/master/varhandler",
     "description": "Generate boilerplate http input and output handling.",
     "category": "Miscellaneous"
@@ -10623,13 +10609,6 @@
     "import": "github.com/marlow/marlow",
     "url": "https://github.com/marlow/marlow",
     "description": "Generated ORM from project structs for compile time safety assurances.",
-    "category": "ORM"
-  },
-  {
-    "name": "pop/soda",
-    "import": "github.com/gobuffalo/pop",
-    "url": "https://github.com/gobuffalo/pop",
-    "description": "Database migration, creation, ORM, etc... for MySQL, PostgreSQL, and SQLite.",
     "category": "ORM"
   },
   {
@@ -12758,13 +12737,6 @@
     "import": "github.com/Guitarbum722/align",
     "url": "https://github.com/Guitarbum722/align",
     "description": "A general purpose application that aligns text.",
-    "category": "Text Processing"
-  },
-  {
-    "name": "bytes",
-    "import": "github.com/labstack/gommon/tree/master/bytes",
-    "url": "https://github.com/labstack/gommon/tree/master/bytes",
-    "description": "Formats and parses numeric byte values (10K, 2M, 3G, etc.).",
     "category": "Text Processing"
   },
   {
@@ -15317,7 +15289,7 @@
   },
   {
     "name": "uniq",
-    "import": "gitlab.com/skilstak/code/go/uniq",
+    "import": "gitlab.com/skilstak/code",
     "url": "https://gitlab.com/skilstak/code/go/uniq",
     "description": "No hassle safe, fast unique identifiers with commands.",
     "category": "UUID"
@@ -15488,6 +15460,13 @@
     "import": "github.com/gabyx/githooks",
     "url": "https://github.com/gabyx/githooks",
     "description": "Per-repo and shared Git hooks with version control and auto update.",
+    "category": "Version Control"
+  },
+  {
+    "name": "gitty",
+    "import": "github.com/Omibranch/gitty",
+    "url": "https://github.com/Omibranch/gitty",
+    "description": "Single-binary Git/GitHub CLI that replaces add→commit→push with one command; human-readable syntax, no external dependencies.",
     "category": "Version Control"
   },
   {
@@ -15740,13 +15719,6 @@
     "import": "github.com/cloudwego/hertz",
     "url": "https://github.com/cloudwego/hertz",
     "description": "A high-performance and strong-extensibility Go HTTP framework that helps developers build microservices.",
-    "category": "Web Frameworks"
-  },
-  {
-    "name": "hiboot",
-    "import": "github.com/hidevopsio/hiboot",
-    "url": "https://github.com/hidevopsio/hiboot",
-    "description": "hiboot is a high performance web application framework with auto configuration and dependency injection support.",
     "category": "Web Frameworks"
   },
   {
@@ -16584,7 +16556,7 @@
   },
   {
     "name": "staticcheck",
-    "import": "github.com/dominikh/go-tools/tree/master/cmd/staticcheck",
+    "import": "github.com/dominikh/go-tools",
     "url": "https://github.com/dominikh/go-tools/tree/master/cmd/staticcheck",
     "description": "staticcheck is `go vet` on steroids, applying a ton of static analysis checks you might be used to from tools like ReSharper for C#.",
     "category": "Code Analysis"

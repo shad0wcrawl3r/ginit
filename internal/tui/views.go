@@ -79,7 +79,6 @@ var (
 	userStyle   = lipgloss.NewStyle().Foreground(lipgloss.Color("75"))
 	moduleStyle = lipgloss.NewStyle().Foreground(lipgloss.Color("212")).Bold(true)
 	cmdStyle    = lipgloss.NewStyle().Foreground(lipgloss.Color("243")).Italic(true)
-	labelStyle  = lipgloss.NewStyle().Foreground(lipgloss.Color("241"))
 )
 
 func (m Model) ProjectDirView() tea.View {
@@ -191,24 +190,17 @@ func (m Model) PackagesView() tea.View {
 			box = "[x]"
 		}
 
-		desc := p.Description
-		if len(desc) > 48 {
-			desc = desc[:45] + "..."
-		}
+		name := truncateRunes(p.Name, 20)
+		desc := truncateRunes(p.Description, 48)
 		cat := dimStyle.Render(p.Category)
 
-		nameCol := fmt.Sprintf("%-22s", p.Name)
+		nameCol := fmt.Sprintf("%-22s", name)
 		descCol := fmt.Sprintf("%-50s", desc)
-
-		cursor := "  "
-		if i == m.cursor {
-			cursor = "> "
-		}
 
 		var line string
 		switch {
 		case i == m.cursor:
-			line = selectedStyle.Render(cursor+box+" "+nameCol+"  "+descCol) + "  " + cat
+			line = selectedStyle.Render("> "+box+" "+nameCol+"  "+descCol) + "  " + cat
 		case selected:
 			line = checkStyle.Render("  "+box+" "+nameCol) + dimStyle.Render("  "+descCol) + "  " + cat
 		default:
@@ -230,6 +222,14 @@ func (m Model) DoneView() tea.View {
 	}
 	msg := checkStyle.Render("✔") + " Done! Project " + questionStyle.Render(m.projectName) + " created.\n"
 	return tea.NewView(withHistory(m, msg))
+}
+
+func truncateRunes(s string, max int) string {
+	r := []rune(s)
+	if len(r) <= max {
+		return s
+	}
+	return string(r[:max-3]) + "..."
 }
 
 func yesNoView(question string, cursor int) string {
