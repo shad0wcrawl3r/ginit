@@ -1,8 +1,8 @@
 package tui
 
 import (
-	"gnit/internal/config"
-	"gnit/internal/pkgdata"
+	"github.com/shad0wcrawl3r/ginit/internal/config"
+	"github.com/shad0wcrawl3r/ginit/internal/pkgdata"
 
 	"charm.land/bubbles/v2/spinner"
 	"charm.land/bubbles/v2/textinput"

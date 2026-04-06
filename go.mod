@@ -1,4 +1,4 @@
-module gnit
+module github.com/shad0wcrawl3r/ginit
 
 go 1.26.1
 

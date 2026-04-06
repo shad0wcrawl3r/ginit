@@ -3,7 +3,7 @@ package tui
 import (
 	"strings"
 
-	"gnit/internal/pkgdata"
+	"github.com/shad0wcrawl3r/ginit/internal/pkgdata"
 )
 
 const pkgVisible = 12
