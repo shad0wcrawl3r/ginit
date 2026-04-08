@@ -686,6 +686,13 @@
     "category": "Bot Building"
   },
   {
+    "name": "ymsdk",
+    "import": "github.com/rekurt/ymsdk",
+    "url": "https://github.com/rekurt/ymsdk",
+    "description": "Go SDK for Yandex Messenger Bot API with type-safe models, automatic retry, and rate-limit handling.",
+    "category": "Bot Building"
+  },
+  {
     "name": "Wisp",
     "import": "github.com/wisp-trading/wisp",
     "url": "https://github.com/wisp-trading/wisp",
@@ -9471,6 +9478,13 @@
     "category": "Natural Language Processing"
   },
   {
+    "name": "go-propisyu",
+    "import": "github.com/rekurt/go-propisyu",
+    "url": "https://github.com/rekurt/go-propisyu",
+    "description": "Convert numbers to Russian words with correct grammatical gender and noun declension.",
+    "category": "Natural Language Processing"
+  },
+  {
     "name": "golibstemmer",
     "import": "github.com/rjohnsondev/golibstemmer",
     "url": "https://github.com/rjohnsondev/golibstemmer",
@@ -11407,6 +11421,13 @@
     "import": "github.com/dwin/goSecretBoxPassword",
     "url": "https://github.com/dwin/goSecretBoxPassword",
     "description": "A probably paranoid package for securely hashing and encrypting passwords.",
+    "category": "Security"
+  },
+  {
+    "name": "gost-crypto",
+    "import": "github.com/rekurt/gost-crypto",
+    "url": "https://github.com/rekurt/gost-crypto",
+    "description": "Go library for Russian GOST cryptographic standards (digital signatures, Streebog hash, Kuznechik cipher, MGM AEAD) backed by OpenSSL gost-engine.",
     "category": "Security"
   },
   {
