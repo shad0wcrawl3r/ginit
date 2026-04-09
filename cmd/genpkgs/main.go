@@ -42,6 +42,7 @@ var codeHosts = map[string]bool{
 }
 
 var skipCategories = map[string]bool{
+	// Meta sections
 	"Contents":     true,
 	"Contributing": true,
 	"License":      true,
@@ -51,6 +52,14 @@ var skipCategories = map[string]bool{
 	"Social Media": true,
 	"Meetups":      true,
 	"Conferences":  true,
+	// Projects / applications / non-importable entries
+	"Software Packages": true,
+	"Server Applications": true,
+	"E-Books":           true,
+	"Gophers":           true,
+	"Editor Plugins":    true,
+	"Benchmarks":        true,
+	"Go Tools":          true,
 }
 
 func main() {

@@ -213,6 +213,14 @@ func (m Model) PackagesView() tea.View {
 	return tea.NewView(withHistory(m, strings.Join(lines, "\n")))
 }
 
+func (m Model) ReviewCmdView() tea.View {
+	hint := dimStyle.Render("  edit if needed · enter to run")
+	content := questionStyle.Render("? Review go get command") + "\n" +
+		m.goGetInput.View() + "\n\n" +
+		hint
+	return tea.NewView(withHistory(m, content))
+}
+
 func (m Model) DoneView() tea.View {
 	if m.executing {
 		return tea.NewView(withHistory(m, m.spinner.View()+" Setting up project..."))

@@ -22,6 +22,7 @@ const (
 	StepReadme
 	StepGitIgnore
 	StepPackages
+	StepReviewCmd
 	StepDone
 )
 
@@ -73,6 +74,10 @@ type Model struct {
 	searchQuery     string
 	selectedImports map[string]bool
 	listOffset      int
+
+	// StepReviewCmd
+	goGetInput textinput.Model
+	goGetCmd   string
 
 	spinner   spinner.Model
 	cfg       config.Config
@@ -146,11 +151,16 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 
 		case "q":
 			if m.step != StepProjectName && m.step != StepProjectDir &&
-				m.step != StepModulePath && m.step != StepPackages {
+				m.step != StepModulePath && m.step != StepPackages &&
+				m.step != StepReviewCmd {
 				return m, tea.Quit
 			}
 			if m.step == StepPackages {
 				m.searchInput, cmd = m.searchInput.Update(msg)
+				cmds = append(cmds, cmd)
+			}
+			if m.step == StepReviewCmd {
+				m.goGetInput, cmd = m.goGetInput.Update(msg)
 				cmds = append(cmds, cmd)
 			}
 
@@ -294,6 +304,25 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 					}
 				}
 				m.packages = selected
+				if len(selected) > 0 {
+					goGetCmd := "go get"
+					for _, p := range selected {
+						goGetCmd += " " + p.Import + "@latest"
+					}
+					m.goGetCmd = goGetCmd
+					m.goGetInput = textinput.New()
+					m.goGetInput.SetValue(goGetCmd)
+					m.goGetInput.CharLimit = 512
+					m.goGetInput.SetWidth(70)
+					m.step = StepReviewCmd
+					return m, m.goGetInput.Focus()
+				}
+				m.step = StepDone
+				m.executing = true
+				return m, initProject(m)
+
+			case StepReviewCmd:
+				m.goGetCmd = m.goGetInput.Value()
 				m.step = StepDone
 				m.executing = true
 				return m, initProject(m)
@@ -316,6 +345,9 @@ func (m Model) Update(msg tea.Msg) (tea.Model, tea.Cmd) {
 				cmds = append(cmds, cmd)
 			case StepPackages:
 				m.searchInput, cmd = m.searchInput.Update(msg)
+				cmds = append(cmds, cmd)
+			case StepReviewCmd:
+				m.goGetInput, cmd = m.goGetInput.Update(msg)
 				cmds = append(cmds, cmd)
 			}
 		}
@@ -366,6 +398,8 @@ func (m Model) View() tea.View {
 		return m.GitIgnoreView()
 	case StepPackages:
 		return m.PackagesView()
+	case StepReviewCmd:
+		return m.ReviewCmdView()
 	case StepDone:
 		return m.DoneView()
 	default:

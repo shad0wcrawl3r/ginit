@@ -58,11 +58,14 @@ func initProject(m Model) tea.Cmd {
 			return doneMsg{err: fmt.Errorf("create main.go: %w", err)}
 		}
 
-		for _, pkg := range m.packages {
-			cmd := exec.Command("go", "get", pkg.Import+"@latest")
-			cmd.Dir = dir
-			if out, err := cmd.CombinedOutput(); err != nil {
-				return doneMsg{err: fmt.Errorf("go get %s: %s: %w", pkg.Name, strings.TrimSpace(string(out)), err)}
+		if m.goGetCmd != "" {
+			args := strings.Fields(m.goGetCmd)
+			if len(args) >= 3 { // at minimum: "go get <pkg>"
+				cmd := exec.Command(args[0], args[1:]...)
+				cmd.Dir = dir
+				if out, err := cmd.CombinedOutput(); err != nil {
+					return doneMsg{err: fmt.Errorf("go get: %s: %w", strings.TrimSpace(string(out)), err)}
+				}
 			}
 		}
 
