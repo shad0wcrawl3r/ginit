@@ -11830,6 +11830,13 @@
     "category": "Server Applications"
   },
   {
+    "name": "Kono",
+    "import": "github.com/starwalkn/kono",
+    "url": "https://github.com/starwalkn/kono",
+    "description": "lightweight extendable API Gateway in Go - parallel fan-out, flexible aggregation, and zero configuration magic.",
+    "category": "Server Applications"
+  },
+  {
     "name": "lets-proxy2",
     "import": "github.com/rekby/lets-proxy2",
     "url": "https://github.com/rekby/lets-proxy2",
