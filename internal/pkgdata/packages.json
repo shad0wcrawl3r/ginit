@@ -11830,6 +11830,13 @@
     "category": "Template Engines"
   },
   {
+    "name": "gox",
+    "import": "github.com/doors-dev/gox",
+    "url": "https://github.com/doors-dev/gox",
+    "description": "HTML templates as first-class Go expressions, with seamless editor support.",
+    "category": "Template Engines"
+  },
+  {
     "name": "jet",
     "import": "github.com/CloudyKit/jet",
     "url": "https://github.com/CloudyKit/jet",
