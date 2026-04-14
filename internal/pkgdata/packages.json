@@ -2940,6 +2940,13 @@
     "category": "Database"
   },
   {
+    "name": "NornicDB",
+    "import": "github.com/orneryd/NornicDB",
+    "url": "https://github.com/orneryd/NornicDB",
+    "description": "High performance graph + vector database (Neo4j and qDrant compatible), focused on low latency graph-rag retreival for AI systems.",
+    "category": "Database"
+  },
+  {
     "name": "nutsdb",
     "import": "github.com/xujiajun/nutsdb",
     "url": "https://github.com/xujiajun/nutsdb",
@@ -15439,6 +15446,13 @@
     "import": "github.com/abemedia/go-don",
     "url": "https://github.com/abemedia/go-don",
     "description": "A highly performant and simple to use API framework.",
+    "category": "Web Frameworks"
+  },
+  {
+    "name": "doors",
+    "import": "github.com/doors-dev/doors",
+    "url": "https://github.com/doors-dev/doors",
+    "description": "Server-driven framework for building stateful, reactive web applications entirely in Go.",
     "category": "Web Frameworks"
   },
   {
