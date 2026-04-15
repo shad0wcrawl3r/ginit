@@ -42,6 +42,20 @@
     "category": "Artificial Intelligence"
   },
   {
+    "name": "Aetheris",
+    "import": "github.com/Colin4k1024/Aetheris",
+    "url": "https://github.com/Colin4k1024/Aetheris",
+    "description": "AI Agent execution runtime with event sourcing, checkpoint recovery, and At-Most-Once execution guarantee. Written in Go.",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "name": "agent-sdk-go",
+    "import": "github.com/agenticenv/agent-sdk-go",
+    "url": "https://github.com/agenticenv/agent-sdk-go",
+    "description": "Go SDK for building durable AI agents on Temporal with support for tools, MCP, human approvals, and sub-agent delegation.",
+    "category": "Artificial Intelligence"
+  },
+  {
     "name": "ai",
     "import": "github.com/joakimcarlsson/ai",
     "url": "https://github.com/joakimcarlsson/ai",
