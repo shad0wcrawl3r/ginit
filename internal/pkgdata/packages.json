@@ -10416,6 +10416,13 @@
     "category": "Networking"
   },
   {
+    "name": "hedge",
+    "import": "github.com/bhope/hedge",
+    "url": "https://github.com/bhope/hedge",
+    "description": "Adaptive hedged requests for Go. Cuts p99 latency with zero configuration, based on Google's \"The Tail at Scale\" paper.",
+    "category": "Networking"
+  },
+  {
     "name": "heimdall",
     "import": "github.com/gojektech/heimdall",
     "url": "https://github.com/gojektech/heimdall",
@@ -11536,10 +11543,24 @@
     "category": "Security"
   },
   {
+    "name": "procscope",
+    "import": "github.com/Mutasem-mk4/procscope",
+    "url": "https://github.com/Mutasem-mk4/procscope",
+    "description": "Process-scoped runtime investigator using eBPF to trace process lifecycle, file activity, and network connections.",
+    "category": "Security"
+  },
+  {
     "name": "qrand",
     "import": "github.com/bitfield/qrand",
     "url": "https://github.com/bitfield/qrand",
     "description": "Client for the ANU Quantum Numbers (AQN) API, providing quantum-mechanically secure random data.",
+    "category": "Security"
+  },
+  {
+    "name": "redact",
+    "import": "github.com/alesr/redact",
+    "url": "https://github.com/alesr/redact",
+    "description": "Redact sensitive information from slog-based logs using a configurable pipeline.",
     "category": "Security"
   },
   {
@@ -16377,6 +16398,13 @@
     "import": "github.com/segmentio/golines",
     "url": "https://github.com/segmentio/golines",
     "description": "Formatter that automatically shortens long lines in Go code.",
+    "category": "Code Analysis"
+  },
+  {
+    "name": "gomarklint",
+    "import": "github.com/shinagawa-web/gomarklint",
+    "url": "https://github.com/shinagawa-web/gomarklint",
+    "description": "Markdown linter with built-in HTTP link validation, single binary, no Node.js required.",
     "category": "Code Analysis"
   },
   {
