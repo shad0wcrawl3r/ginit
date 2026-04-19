@@ -4200,6 +4200,13 @@
     "category": "Distributed Systems"
   },
   {
+    "name": "cmd-stream-go",
+    "import": "github.com/cmd-stream/cmd-stream-go",
+    "url": "https://github.com/cmd-stream/cmd-stream-go",
+    "description": "High-performance distributed command pattern library for Go.",
+    "category": "Distributed Systems"
+  },
+  {
     "name": "committer",
     "import": "github.com/vadiminshakov/committer",
     "url": "https://github.com/vadiminshakov/committer",
@@ -11739,6 +11746,13 @@
     "category": "Serialization"
   },
   {
+    "name": "mus-go",
+    "import": "github.com/mus-format/mus-go",
+    "url": "https://github.com/mus-format/mus-go",
+    "description": "MUS format serializer for Go.",
+    "category": "Serialization"
+  },
+  {
     "name": "php_session_decoder",
     "import": "github.com/yvasiyarov/php_session_decoder",
     "url": "https://github.com/yvasiyarov/php_session_decoder",
@@ -15320,6 +15334,13 @@
     "import": "github.com/bmf-san/ggc",
     "url": "https://github.com/bmf-san/ggc",
     "description": "A Git CLI tool with both traditional command-line and interactive incremental-search UI, workflow support, and configurable keybindings.",
+    "category": "Version Control"
+  },
+  {
+    "name": "git-courer",
+    "import": "github.com/Alejandro-M-P/git-courer",
+    "url": "https://github.com/Alejandro-M-P/git-courer",
+    "description": "Local MCP server for Git operations using Ollama to save tokens and prevent secret leakage.",
     "category": "Version Control"
   },
   {
