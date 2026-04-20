@@ -11466,6 +11466,13 @@
     "category": "Security"
   },
   {
+    "name": "gspy",
+    "import": "github.com/Mutasem-mk4/gspy",
+    "url": "https://github.com/Mutasem-mk4/gspy",
+    "description": "Forensic goroutine-to-syscall inspector for live Go processes.",
+    "category": "Security"
+  },
+  {
     "name": "Interpol",
     "import": "github.com/avahidi/interpol",
     "url": "https://github.com/avahidi/interpol",
@@ -15002,8 +15009,8 @@
   },
   {
     "name": "stacktower",
-    "import": "github.com/matzehuels/stacktower",
-    "url": "https://github.com/matzehuels/stacktower",
+    "import": "github.com/stacktower-io/stacktower",
+    "url": "https://github.com/stacktower-io/stacktower",
     "description": "Visualize dependency graphs as physical tower structures, inspired by XKCD #2347.",
     "category": "Utilities"
   },
