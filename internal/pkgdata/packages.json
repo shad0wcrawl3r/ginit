@@ -7203,6 +7203,13 @@
     "category": "Job Scheduler"
   },
   {
+    "name": "tickstem/cron",
+    "import": "github.com/tickstem/cron",
+    "url": "https://github.com/tickstem/cron",
+    "description": "Go client for scheduling HTTP cron jobs, with execution history, failure alerts, and tsk-local for testing handlers without live credentials.",
+    "category": "Job Scheduler"
+  },
+  {
     "name": "ajson",
     "import": "github.com/spyzhov/ajson",
     "url": "https://github.com/spyzhov/ajson",
@@ -15740,6 +15747,13 @@
     "import": "github.com/ankorstore/yokai",
     "url": "https://github.com/ankorstore/yokai",
     "description": "Simple, modular, and observable Go framework for backend applications.",
+    "category": "Web Frameworks"
+  },
+  {
+    "name": "NotNet",
+    "import": "github.com/nottechdm/notnet",
+    "url": "https://github.com/nottechdm/notnet",
+    "description": "A lightweight Go framework for building fast, ergonomic RESTful APIs with middleware and flexible routing.",
     "category": "Web Frameworks"
   },
   {
