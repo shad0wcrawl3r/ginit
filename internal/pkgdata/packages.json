@@ -4802,6 +4802,13 @@
     "category": "Email"
   },
   {
+    "name": "tickstem/verify",
+    "import": "github.com/tickstem/verify",
+    "url": "https://github.com/tickstem/verify",
+    "description": "Validate email addresses before they hit your database: syntax, MX lookup, disposable domains, and role-based inboxes.",
+    "category": "Email"
+  },
+  {
     "name": "truemail-go",
     "import": "github.com/truemail-rb/truemail-go",
     "url": "https://github.com/truemail-rb/truemail-go",
@@ -10161,6 +10168,13 @@
     "import": "github.com/kirillDanshin/llb",
     "url": "https://github.com/kirillDanshin/llb",
     "description": "It's a very simple but quick backend for proxy servers. Can be useful for fast redirection to predefined domain with zero memory allocation and fast response.",
+    "category": "Networking"
+  },
+  {
+    "name": "macwifi",
+    "import": "github.com/jaisonerick/macwifi",
+    "url": "https://github.com/jaisonerick/macwifi",
+    "description": "Wi-Fi scanning and Keychain password retrieval for macOS 13+.",
     "category": "Networking"
   },
   {
@@ -15964,6 +15978,13 @@
     "import": "github.com/razonyang/fastrouter",
     "url": "https://github.com/razonyang/fastrouter",
     "description": "a fast, flexible HTTP router written in Go.",
+    "category": "Web Frameworks"
+  },
+  {
+    "name": "Fox",
+    "import": "github.com/fox-toolkit/fox",
+    "url": "https://github.com/fox-toolkit/fox",
+    "description": "A high-performance HTTP router for building reverse proxies and API gateways, with first-class support for mutating routes at runtime.",
     "category": "Web Frameworks"
   },
   {
