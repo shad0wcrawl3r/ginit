@@ -12488,17 +12488,17 @@
     "category": "Testing"
   },
   {
-    "name": "gock",
-    "import": "github.com/h2non/gock",
-    "url": "https://github.com/h2non/gock",
-    "description": "Versatile HTTP mocking made easy.",
-    "category": "Testing"
-  },
-  {
     "name": "gomock",
     "import": "github.com/uber-go/mock",
     "url": "https://github.com/uber-go/mock",
     "description": "Mocking framework for the Go programming language.",
+    "category": "Testing"
+  },
+  {
+    "name": "gomock",
+    "import": "github.com/vibridi/gomock",
+    "url": "https://github.com/vibridi/gomock",
+    "description": "CLI tool to generate typed and framework-agnostic interface mocks, with support for generics.",
     "category": "Testing"
   },
   {
