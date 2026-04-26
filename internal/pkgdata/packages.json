@@ -2950,7 +2950,7 @@
     "name": "NoKV",
     "import": "github.com/feichai0017/NoKV",
     "url": "https://github.com/feichai0017/NoKV",
-    "description": "High-performance distributed KV storage based on LSM Tree.",
+    "description": "Native metadata service for distributed filesystems, object storage, and AI dataset workloads.",
     "category": "Database"
   },
   {
