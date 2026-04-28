@@ -2933,6 +2933,13 @@
     "category": "Database"
   },
   {
+    "name": "lynxdb",
+    "import": "github.com/lynxbase/lynxdb",
+    "url": "https://github.com/lynxbase/lynxdb",
+    "description": "Lightweight columnar log analytics database with a pipe-style query language inspired by SPL.",
+    "category": "Database"
+  },
+  {
     "name": "Milvus",
     "import": "github.com/milvus-io/milvus",
     "url": "https://github.com/milvus-io/milvus",
