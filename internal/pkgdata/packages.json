@@ -2485,6 +2485,13 @@
     "category": "Data Structures and Algorithms"
   },
   {
+    "name": "radixtree",
+    "import": "github.com/gammazero/radixtree",
+    "url": "https://github.com/gammazero/radixtree",
+    "description": "Adaptive radix tree (prefix-tree or compact-trie).",
+    "category": "Data Structures and Algorithms"
+  },
+  {
     "name": "trie",
     "import": "github.com/derekparker/trie",
     "url": "https://github.com/derekparker/trie",
