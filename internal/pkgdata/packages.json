@@ -3346,6 +3346,13 @@
     "category": "Database"
   },
   {
+    "name": "pgxcli",
+    "import": "github.com/Balaji01-4D/pgxcli",
+    "url": "https://github.com/Balaji01-4D/pgxcli",
+    "description": "PostgreSQL CLI client written in Go, inspired by pgcli.",
+    "category": "Database"
+  },
+  {
     "name": "prep",
     "import": "github.com/hexdigest/prep",
     "url": "https://github.com/hexdigest/prep",
@@ -6577,6 +6584,13 @@
     "import": "github.com/gopherlibs/appindicator",
     "url": "https://github.com/gopherlibs/appindicator",
     "description": "Go bindings for libappindicator3 C library.",
+    "category": "GUI"
+  },
+  {
+    "name": "gogpu/systray",
+    "import": "github.com/gogpu/systray",
+    "url": "https://github.com/gogpu/systray",
+    "description": "Pure Go system tray library for Windows, macOS, and Linux with zero CGO (part of [GoGPU](https://github.com/gogpu) ecosystem).",
     "category": "GUI"
   },
   {
@@ -11389,6 +11403,13 @@
     "category": "Security"
   },
   {
+    "name": "canery",
+    "import": "github.com/rluders/canery",
+    "url": "https://github.com/rluders/canery",
+    "description": "Minimal, stateless authorization engine with a pluggable evaluation model.",
+    "category": "Security"
+  },
+  {
     "name": "Cameradar",
     "import": "github.com/Ullaakut/cameradar",
     "url": "https://github.com/Ullaakut/cameradar",
@@ -15677,6 +15698,13 @@
     "import": "github.com/danielgtaylor/huma",
     "url": "https://github.com/danielgtaylor/huma/",
     "description": "Framework for modern REST/GraphQL APIs with built-in OpenAPI 3, generated documentation, and a CLI.",
+    "category": "Web Frameworks"
+  },
+  {
+    "name": "httpsuite",
+    "import": "github.com/rluders/httpsuite",
+    "url": "https://github.com/rluders/httpsuite",
+    "description": "HTTP request parsing and RFC 9457 problem responses for Go, with a stdlib-only core and optional validation.",
     "category": "Web Frameworks"
   },
   {
