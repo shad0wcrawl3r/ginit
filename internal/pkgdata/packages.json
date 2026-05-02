@@ -5740,6 +5740,13 @@
     "category": "Game Development"
   },
   {
+    "name": "gogpu/wgpu",
+    "import": "github.com/gogpu/wgpu",
+    "url": "https://github.com/gogpu/wgpu",
+    "description": "Pure Go WebGPU implementation with Vulkan, DX12, and Metal backends, zero CGO (part of [GoGPU](https://github.com/gogpu) ecosystem).",
+    "category": "Game Development"
+  },
+  {
     "name": "gonet",
     "import": "github.com/xtaci/gonet",
     "url": "https://github.com/xtaci/gonet",
