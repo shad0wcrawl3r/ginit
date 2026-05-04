@@ -7252,6 +7252,13 @@
     "category": "Job Scheduler"
   },
   {
+    "name": "tickstem/heartbeat",
+    "import": "github.com/tickstem/heartbeat",
+    "url": "https://github.com/tickstem/heartbeat",
+    "description": "Go client for dead-man's switch heartbeat monitoring: ping a URL after each job run and get alerted by email if pings stop arriving.",
+    "category": "Job Scheduler"
+  },
+  {
     "name": "ajson",
     "import": "github.com/spyzhov/ajson",
     "url": "https://github.com/spyzhov/ajson",
