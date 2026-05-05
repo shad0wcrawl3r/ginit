@@ -3339,6 +3339,13 @@
     "category": "Database"
   },
   {
+    "name": "pgrwl",
+    "import": "github.com/pgrwl/pgrwl",
+    "url": "https://github.com/pgrwl/pgrwl",
+    "description": "Cloud-native continuous backup for PostgreSQL.",
+    "category": "Database"
+  },
+  {
     "name": "pgweb",
     "import": "github.com/sosedoff/pgweb",
     "url": "https://github.com/sosedoff/pgweb",
@@ -4484,6 +4491,13 @@
     "import": "github.com/liftbridge-io/liftbridge",
     "url": "https://github.com/liftbridge-io/liftbridge",
     "description": "Lightweight, fault-tolerant message streams for NATS.",
+    "category": "Distributed Systems"
+  },
+  {
+    "name": "lock",
+    "import": "github.com/ubgo/lock",
+    "url": "https://github.com/ubgo/lock",
+    "description": "Distributed lock family with one Go interface and five backends (filelock, flock, Redis, Postgres, etcd) — fencing tokens, semaphore mode, and observability hooks across all backends.",
     "category": "Distributed Systems"
   },
   {
