@@ -11389,6 +11389,13 @@
     "category": "Security"
   },
   {
+    "name": "aes-ctr-drbg",
+    "import": "github.com/sixafter/aes-ctr-drbg",
+    "url": "https://github.com/sixafter/aes-ctr-drbg",
+    "description": "A Deterministic Random Bit Generator based on AES in Counter mode (AES-CTR-DRBG) as specified in NIST SP 800-90A.",
+    "category": "Security"
+  },
+  {
     "name": "age",
     "import": "github.com/FiloSottile/age",
     "url": "https://github.com/FiloSottile/age",
@@ -11655,6 +11662,13 @@
     "category": "Security"
   },
   {
+    "name": "Razify",
+    "import": "github.com/Hossiy21/razify",
+    "url": "https://github.com/Hossiy21/razify",
+    "description": "CLI to scan, validate and audit .env files for leaked secrets and environment drift.",
+    "category": "Security"
+  },
+  {
     "name": "redact",
     "import": "github.com/alesr/redact",
     "url": "https://github.com/alesr/redact",
@@ -11855,6 +11869,13 @@
     "import": "github.com/vimeda/pletter",
     "url": "https://github.com/vimeda/pletter",
     "description": "A standard way to wrap a proto message for message brokers.",
+    "category": "Serialization"
+  },
+  {
+    "name": "proto",
+    "import": "github.com/emicklei/proto",
+    "url": "https://github.com/emicklei/proto",
+    "description": "Parser and writer for Google ProtocolBuffers .proto files.",
     "category": "Serialization"
   },
   {
@@ -14886,6 +14907,13 @@
     "import": "github.com/tomodian/release",
     "url": "https://github.com/tomodian/release",
     "description": "CLI for Keep-a-changelog formatted changelogs.",
+    "category": "Utilities"
+  },
+  {
+    "name": "relimpact",
+    "import": "github.com/hashmap-kz/relimpact",
+    "url": "https://github.com/hashmap-kz/relimpact",
+    "description": "Fast API compatibility reports for Go projects.",
     "category": "Utilities"
   },
   {
