@@ -14420,6 +14420,13 @@
     "category": "Utilities"
   },
   {
+    "name": "go-snk",
+    "import": "github.com/SharkByteSoftware/go-snk",
+    "url": "https://github.com/SharkByteSoftware/go-snk",
+    "description": "Type-safe generic helpers for slices, maps, strings, errors, JSON, HTTP, and containers, organized as small independently adoptable packages.",
+    "category": "Utilities"
+  },
+  {
     "name": "go-trigger",
     "import": "github.com/sadlil/go-trigger",
     "url": "https://github.com/sadlil/go-trigger",
