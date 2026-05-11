@@ -147,6 +147,13 @@
     "category": "Artificial Intelligence"
   },
   {
+    "name": "zenflow",
+    "import": "github.com/zendev-sh/zenflow",
+    "url": "https://github.com/zendev-sh/zenflow",
+    "description": "Multi-agent orchestration \u0026 workflow engine. Declarative YAML workflows, LLM coordinator with hub-and-spoke mailboxes, race-safe delivery. One YAML file, one Go binary. Runs on any goai-supported provider.",
+    "category": "Artificial Intelligence"
+  },
+  {
     "name": "beep",
     "import": "github.com/gopxl/beep",
     "url": "https://github.com/gopxl/beep",
