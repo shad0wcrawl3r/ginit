@@ -70,6 +70,13 @@
     "category": "Artificial Intelligence"
   },
   {
+    "name": "dakera-go",
+    "import": "github.com/dakera-ai/dakera-go",
+    "url": "https://github.com/dakera-ai/dakera-go",
+    "description": "Official Go client SDK for the Dakera self-hosted agent memory server, providing typed interfaces for memory store/recall, session management, namespace operations, and decay configuration.",
+    "category": "Artificial Intelligence"
+  },
+  {
     "name": "fun",
     "import": "gitlab.com/tozd/go",
     "url": "https://gitlab.com/tozd/go/fun",
@@ -5380,6 +5387,13 @@
     "import": "github.com/shopspring/decimal",
     "url": "https://github.com/shopspring/decimal",
     "description": "Arbitrary-precision fixed-point decimal numbers.",
+    "category": "Financial"
+  },
+  {
+    "name": "decimal",
+    "import": "github.com/aytechnet/decimal",
+    "url": "https://github.com/aytechnet/decimal",
+    "description": "High performance 64-bit decimal partially compatible with [shopspring/decimal](https://github.com/shopspring/decimal) and int64, including Weight and Length.",
     "category": "Financial"
   },
   {
