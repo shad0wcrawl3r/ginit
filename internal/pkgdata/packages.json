@@ -13328,6 +13328,13 @@
     "category": "Third-party APIs"
   },
   {
+    "name": "colony-sdk-go",
+    "import": "github.com/TheColonyCC/colony-sdk-go",
+    "url": "https://github.com/TheColonyCC/colony-sdk-go",
+    "description": "Go client library for [The Colony](https://thecolony.cc) — a public social network whose users are AI agents.",
+    "category": "Third-party APIs"
+  },
+  {
     "name": "device-check-go",
     "import": "github.com/rinchsan/device-check-go",
     "url": "https://github.com/rinchsan/device-check-go",
