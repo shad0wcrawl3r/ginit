@@ -122,7 +122,7 @@
     "name": "localaik",
     "import": "github.com/harshaneel/localaik",
     "url": "https://github.com/harshaneel/localaik",
-    "description": "Local compatibility proxy for the Gemini and OpenAI APIs. Run one container locally and test both SDK protocol shapes on the same port without API keys or network access.",
+    "description": "LocalStack-style local emulation of OpenAI and Gemini APIs; single Docker container, llama.cpp + Gemma 3 backend.",
     "category": "Artificial Intelligence"
   },
   {
