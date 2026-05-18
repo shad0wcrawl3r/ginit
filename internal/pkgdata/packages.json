@@ -1596,6 +1596,34 @@
     "category": "Configuration"
   },
   {
+    "name": "go-external-config",
+    "import": "github.com/go-external-config/go",
+    "url": "https://github.com/go-external-config/go",
+    "description": "Spring-inspired configuration management library for Go.",
+    "category": "Configuration"
+  },
+  {
+    "name": "go-external-config/aws",
+    "import": "github.com/go-external-config/aws",
+    "url": "https://github.com/go-external-config/aws",
+    "description": "AWS property source support for go-external-config.",
+    "category": "Configuration"
+  },
+  {
+    "name": "go-external-config/consul",
+    "import": "github.com/go-external-config/consul",
+    "url": "https://github.com/go-external-config/consul",
+    "description": "Consul property source support for go-external-config.",
+    "category": "Configuration"
+  },
+  {
+    "name": "go-external-config/vault",
+    "import": "github.com/go-external-config/vault",
+    "url": "https://github.com/go-external-config/vault",
+    "description": "Vault property source support for go-external-config.",
+    "category": "Configuration"
+  },
+  {
     "name": "go-cfg",
     "import": "github.com/dsbasko/go-cfg",
     "url": "https://github.com/dsbasko/go-cfg",
@@ -2972,6 +3000,13 @@
     "import": "github.com/couchbase/moss",
     "url": "https://github.com/couchbase/moss",
     "description": "Moss is a simple LSM key-value storage engine written in 100% Go.",
+    "category": "Database"
+  },
+  {
+    "name": "nanotdb",
+    "import": "github.com/aymanhs/nanotdb",
+    "url": "https://github.com/aymanhs/nanotdb",
+    "description": "A lightweight, zero-dependency, append-only time-series database optimized for low-power hardware.",
     "category": "Database"
   },
   {
@@ -5100,6 +5135,13 @@
     "import": "github.com/rbrahul/exception",
     "url": "https://github.com/rbrahul/exception",
     "description": "A simple utility package for exception handling with try-catch in Golang.",
+    "category": "Error Handling"
+  },
+  {
+    "name": "go-errr",
+    "import": "github.com/go-errr/go",
+    "url": "https://github.com/go-errr/go",
+    "description": "Error handling library with Catch/Recover semantics, wrapped error chains, and stack traces for Go.",
     "category": "Error Handling"
   },
   {
@@ -8813,6 +8855,13 @@
     "category": "Miscellaneous"
   },
   {
+    "name": "go-beans",
+    "import": "github.com/go-beans/go",
+    "url": "https://github.com/go-beans/go",
+    "description": "Spring-inspired dependency injection and application lifecycle framework for Go.",
+    "category": "Miscellaneous"
+  },
+  {
     "name": "Go-Spring",
     "import": "github.com/go-spring/spring-core",
     "url": "https://github.com/go-spring/spring-core",
@@ -12506,6 +12555,13 @@
     "import": "github.com/stretchr/testify",
     "url": "https://github.com/stretchr/testify",
     "description": "Sacred extension to the standard go testing package.",
+    "category": "Testing"
+  },
+  {
+    "name": "Testo",
+    "import": "github.com/ozontech/testo",
+    "url": "https://github.com/ozontech/testo",
+    "description": "Plugin-based testing framework with suites, parallel tests, hooks and parametrization. Inspired by Pytest.",
     "category": "Testing"
   },
   {
