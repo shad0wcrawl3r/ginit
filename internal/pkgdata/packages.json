@@ -12314,9 +12314,9 @@
   },
   {
     "name": "go-mutesting",
-    "import": "github.com/zimmski/go-mutesting",
-    "url": "https://github.com/zimmski/go-mutesting",
-    "description": "Mutation testing for Go source code.",
+    "import": "github.com/jonbaldie/go-mutesting",
+    "url": "https://github.com/jonbaldie/go-mutesting",
+    "description": "Mutation testing for Go with CI quality gates, coverage-aware MSI, baseline tracking, and git-diff filtering.",
     "category": "Testing"
   },
   {
@@ -14389,6 +14389,13 @@
     "import": "github.com/prashantgupta24/go-clip",
     "url": "https://github.com/prashantgupta24/go-clip",
     "description": "A minimalistic clipboard manager for Mac.",
+    "category": "Utilities"
+  },
+  {
+    "name": "Go-Constant",
+    "import": "github.com/sajjadrabiee/go-constant",
+    "url": "https://github.com/sajjadrabiee/go-constant",
+    "description": "Generic typed constant sets with safe string parsing for Go's missing enum type.",
     "category": "Utilities"
   },
   {
