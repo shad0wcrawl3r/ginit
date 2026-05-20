@@ -154,6 +154,13 @@
     "category": "Artificial Intelligence"
   },
   {
+    "name": "web-researcher-mcp",
+    "import": "github.com/zoharbabin/web-researcher-mcp",
+    "url": "https://github.com/zoharbabin/web-researcher-mcp",
+    "description": "MCP server providing AI assistants with web search, content extraction, and multi-source research capabilities. Single binary, 5 search providers with circuit-breaker failover, 4-tier scraping pipeline.",
+    "category": "Artificial Intelligence"
+  },
+  {
     "name": "zenflow",
     "import": "github.com/zendev-sh/zenflow",
     "url": "https://github.com/zendev-sh/zenflow",
@@ -11337,6 +11344,13 @@
     "import": "github.com/MatProGo-dev/MatProInterface.go",
     "url": "https://github.com/MatProGo-dev/MatProInterface.go",
     "description": "MatProInterface.go is an open source package for defining mathematical programs (e.g., convex optimization problems) in Go.",
+    "category": "Science and Data Analysis"
+  },
+  {
+    "name": "matrix",
+    "import": "github.com/Arceus-7/matrix",
+    "url": "https://github.com/Arceus-7/matrix",
+    "description": "A clean, generic, zero-dependency matrix math package for Go with support for arithmetic, decompositions, and linear system solving.",
     "category": "Science and Data Analysis"
   },
   {
