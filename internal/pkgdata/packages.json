@@ -798,6 +798,13 @@
     "category": "Build Automation"
   },
   {
+    "name": "rex",
+    "import": "github.com/rexrun-dev/rex",
+    "url": "https://github.com/rexrun-dev/rex",
+    "description": "Zero-config universal project runner. Detects your stack (Go, Node, Python, Rust, PHP, Zig, Elixir) and runs the right command.",
+    "category": "Build Automation"
+  },
+  {
     "name": "Task",
     "import": "github.com/go-task/task",
     "url": "https://github.com/go-task/task",
@@ -3679,6 +3686,13 @@
     "import": "github.com/philippgille/gokv",
     "url": "https://github.com/philippgille/gokv",
     "description": "Simple key-value store abstraction and implementations for Go (Redis, Consul, etcd, bbolt, BadgerDB, LevelDB, Memcached, DynamoDB, S3, PostgreSQL, MongoDB, CockroachDB and many more).",
+    "category": "Database Drivers"
+  },
+  {
+    "name": "transactor",
+    "import": "github.com/metalfm/transactor",
+    "url": "https://github.com/metalfm/transactor",
+    "description": "Type-safe transaction boundary abstraction with adapters for database/sql, sqlx, and pgx.",
     "category": "Database Drivers"
   },
   {
@@ -12359,6 +12373,13 @@
     "import": "github.com/maxatome/go-testdeep",
     "url": "https://github.com/maxatome/go-testdeep",
     "description": "Extremely flexible golang deep comparison, extends the go testing package.",
+    "category": "Testing"
+  },
+  {
+    "name": "go-testing",
+    "import": "github.com/tkrop/go-testing",
+    "url": "https://github.com/tkrop/go-testing",
+    "description": "Go testing extension, that allows a simple setup of strongly isolated unit, component, and integration test providing advanced mock support extending gomock and gock.",
     "category": "Testing"
   },
   {
