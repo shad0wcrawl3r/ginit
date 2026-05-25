@@ -1344,6 +1344,13 @@
     "category": "Command Line"
   },
   {
+    "name": "memsh",
+    "import": "github.com/amjadjibon/memsh",
+    "url": "https://github.com/amjadjibon/memsh",
+    "description": "Virtual bash shell in Go: executes shell commands against an in-memory filesystem (afero), with WASM plugin support and an embeddable HTTP server.",
+    "category": "Command Line"
+  },
+  {
     "name": "mkideal/cli",
     "import": "github.com/mkideal/cli",
     "url": "https://github.com/mkideal/cli",
@@ -3020,7 +3027,7 @@
     "name": "nanotdb",
     "import": "github.com/aymanhs/nanotdb",
     "url": "https://github.com/aymanhs/nanotdb",
-    "description": "A lightweight, zero-dependency, append-only time-series database optimized for low-power hardware.",
+    "description": "A lightweight, zero-dependency, append-only Time-Series Database and Dashboard optimized for low-power hardware.",
     "category": "Database"
   },
   {
@@ -5842,6 +5849,13 @@
     "import": "github.com/gogpu/wgpu",
     "url": "https://github.com/gogpu/wgpu",
     "description": "Pure Go WebGPU implementation with Vulkan, DX12, and Metal backends, zero CGO (part of [GoGPU](https://github.com/gogpu) ecosystem).",
+    "category": "Game Development"
+  },
+  {
+    "name": "GOKe",
+    "import": "github.com/kjkrol/goke",
+    "url": "https://github.com/kjkrol/goke",
+    "description": "Data-Oriented (DOD), archetype-based ECS engine utilizing an L1 cache-aligned chunked SoA layout for predictable, stepless memory growth and zero-allocation execution paths.",
     "category": "Game Development"
   },
   {
