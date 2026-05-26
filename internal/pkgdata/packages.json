@@ -16499,6 +16499,13 @@
     "category": "Workflow Frameworks"
   },
   {
+    "name": "Flowbaker",
+    "import": "github.com/flowbaker/flowbaker",
+    "url": "https://github.com/flowbaker/flowbaker",
+    "description": "Self-hosted execution engine for building, connecting, and automating no-code workflows.",
+    "category": "Workflow Frameworks"
+  },
+  {
     "name": "go-dag",
     "import": "github.com/rhosocial/go-dag",
     "url": "https://github.com/rhosocial/go-dag",
@@ -16769,6 +16776,13 @@
     "import": "github.com/dominikh/go-tools",
     "url": "https://github.com/dominikh/go-tools/tree/master/cmd/staticcheck",
     "description": "staticcheck is `go vet` on steroids, applying a ton of static analysis checks you might be used to from tools like ReSharper for C#.",
+    "category": "Code Analysis"
+  },
+  {
+    "name": "structalign",
+    "import": "github.com/peczenyj/structalign",
+    "url": "https://github.com/peczenyj/structalign",
+    "description": "Shows how a struct's fields could be reordered to use less memory, printing a diff instead of rewriting files.",
     "category": "Code Analysis"
   },
   {
