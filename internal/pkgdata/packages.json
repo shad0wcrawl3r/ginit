@@ -1988,6 +1988,13 @@
     "category": "Continuous Integration"
   },
   {
+    "name": "PikoCI",
+    "import": "github.com/pikoci/pikoci",
+    "url": "https://github.com/pikoci/pikoci",
+    "description": "Self-hosted CI/CD inspired by Concourse. Single binary, any database, any queue. HCL pipelines, pluggable resource types and runners.",
+    "category": "Continuous Integration"
+  },
+  {
     "name": "roveralls",
     "import": "github.com/LawrenceWoodman/roveralls",
     "url": "https://github.com/LawrenceWoodman/roveralls",
@@ -3371,6 +3378,13 @@
     "import": "github.com/siddontang/go-mysql",
     "url": "https://github.com/siddontang/go-mysql",
     "description": "Go toolset to handle MySQL protocol and replication.",
+    "category": "Database"
+  },
+  {
+    "name": "go-postgres-s3-backup",
+    "import": "github.com/nicobistolfi/go-postgres-s3-backup",
+    "url": "https://github.com/nicobistolfi/go-postgres-s3-backup",
+    "description": "Serverless PostgreSQL backups to S3 using AWS Lambda, with daily, monthly, and yearly rotation.",
     "category": "Database"
   },
   {
