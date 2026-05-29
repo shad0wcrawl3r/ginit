@@ -10941,6 +10941,13 @@
     "category": "Performance"
   },
   {
+    "name": "go-perfstat",
+    "import": "github.com/go-perfstat/go",
+    "url": "https://github.com/go-perfstat/go",
+    "description": "Lightweight performance statistics and execution time aggregation for Go.",
+    "category": "Performance"
+  },
+  {
     "name": "jaeger",
     "import": "github.com/jaegertracing/jaeger",
     "url": "https://github.com/jaegertracing/jaeger",
@@ -13990,6 +13997,13 @@
     "import": "github.com/sergiotapia/smitego",
     "url": "https://github.com/sergiotapia/smitego",
     "description": "Go package to wraps access to the Smite game API.",
+    "category": "Third-party APIs"
+  },
+  {
+    "name": "spec",
+    "import": "github.com/oaswrap/spec",
+    "url": "https://github.com/oaswrap/spec",
+    "description": "Lightweight OpenAPI 3.x builder supporting static generation and popular frameworks like chi, echo, gin, fiber, mux and more.",
     "category": "Third-party APIs"
   },
   {
