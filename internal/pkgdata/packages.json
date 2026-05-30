@@ -11613,6 +11613,13 @@
     "category": "Security"
   },
   {
+    "name": "dotlock",
+    "import": "github.com/ahmadraza100/dotlock",
+    "url": "https://github.com/ahmadraza100/dotlock",
+    "description": "Encrypted .env vault manager with interactive TUI for managing secrets across multiple environments and profiles.",
+    "category": "Security"
+  },
+  {
     "name": "encid",
     "import": "github.com/bobg/encid",
     "url": "https://github.com/bobg/encid",
