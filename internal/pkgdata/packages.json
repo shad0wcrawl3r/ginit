@@ -7273,6 +7273,13 @@
     "category": "Job Scheduler"
   },
   {
+    "name": "go-cron",
+    "import": "github.com/netresearch/go-cron",
+    "url": "https://github.com/netresearch/go-cron",
+    "description": "Cron job scheduler with runtime schedule updates, per-entry context, resilience middleware (retry, circuit breaker, rate limiting), and observability hooks; successor to robfig/cron.",
+    "category": "Job Scheduler"
+  },
+  {
     "name": "go-job",
     "import": "github.com/cybergarage/go-job",
     "url": "https://github.com/cybergarage/go-job",
@@ -8083,6 +8090,13 @@
     "url": "https://github.com/nkmr-jp/zl",
     "description": "High Developer Experience, zap based logger. It offers rich functionality but is easy to configure.",
     "category": "Logging"
+  },
+  {
+    "name": "Anneal",
+    "import": "github.com/georgebuilds/anneal",
+    "url": "https://github.com/georgebuilds/anneal",
+    "description": "Machine learning compiler in Go, a from-scratch tinygrad port with a WebGPU backend.",
+    "category": "Machine Learning"
   },
   {
     "name": "bayesian",
