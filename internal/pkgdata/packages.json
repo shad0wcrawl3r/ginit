@@ -7343,6 +7343,13 @@
     "category": "Job Scheduler"
   },
   {
+    "name": "ofelia",
+    "import": "github.com/netresearch/ofelia",
+    "url": "https://github.com/netresearch/ofelia",
+    "description": "Docker job scheduler (crontab for Docker); fork of mcuadros/ofelia that adds a web UI, job dependencies, retries, and job persistence.",
+    "category": "Job Scheduler"
+  },
+  {
     "name": "pending",
     "import": "github.com/kahoon/pending",
     "url": "https://github.com/kahoon/pending",
