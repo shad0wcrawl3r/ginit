@@ -1365,6 +1365,13 @@
     "category": "Command Line"
   },
   {
+    "name": "neuron-cli",
+    "import": "github.com/steevin/neuron-cli",
+    "url": "https://github.com/steevin/neuron-cli",
+    "description": "A local-first, Obsidian-compatible terminal knowledge manager.",
+    "category": "Command Line"
+  },
+  {
     "name": "ops",
     "import": "github.com/nanovms/ops",
     "url": "https://github.com/nanovms/ops",
@@ -13920,6 +13927,13 @@
     "import": "github.com/clevabit/libgoffi",
     "url": "https://github.com/clevabit/libgoffi",
     "description": "Library adapter toolbox for native [libffi](https://sourceware.org/libffi/) integration",
+    "category": "Third-party APIs"
+  },
+  {
+    "name": "libopenapi",
+    "import": "github.com/pb33f/libopenapi",
+    "url": "https://github.com/pb33f/libopenapi",
+    "description": "Parse, validate, and work with OpenAPI, Swagger, Overlays, and Arazzo specifications.",
     "category": "Third-party APIs"
   },
   {
