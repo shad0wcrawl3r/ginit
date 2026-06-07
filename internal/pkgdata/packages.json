@@ -6678,6 +6678,13 @@
     "category": "GUI"
   },
   {
+    "name": "proton",
+    "import": "github.com/CzaxStudio/proton",
+    "url": "https://github.com/CzaxStudio/proton",
+    "description": "Pure Go immediate-mode GUI framework built on Gio with zero Cgo dependencies.",
+    "category": "GUI"
+  },
+  {
     "name": "qt",
     "import": "github.com/therecipe/qt",
     "url": "https://github.com/therecipe/qt",
