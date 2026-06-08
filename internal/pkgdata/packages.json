@@ -126,6 +126,13 @@
     "category": "Artificial Intelligence"
   },
   {
+    "name": "mcp-go",
+    "import": "github.com/mark3labs/mcp-go",
+    "url": "https://github.com/mark3labs/mcp-go",
+    "description": "Go implementation of the Model Context Protocol for building MCP servers and clients in Go.",
+    "category": "Artificial Intelligence"
+  },
+  {
     "name": "Ollama",
     "import": "github.com/jmorganca/ollama",
     "url": "https://github.com/jmorganca/ollama",
@@ -1509,6 +1516,13 @@
     "import": "github.com/num30/config",
     "url": "https://github.com/num30/config",
     "description": "configure your app using file, environment variables, or flags in two lines of code.",
+    "category": "Configuration"
+  },
+  {
+    "name": "config",
+    "import": "github.com/andreiavrammsd/config",
+    "url": "https://github.com/andreiavrammsd/config",
+    "description": "Struct-based configuration loader with a dedicated config file parser, supporting env vars, flags, defaults, and validation.",
     "category": "Configuration"
   },
   {
