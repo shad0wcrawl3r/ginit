@@ -161,6 +161,13 @@
     "category": "Artificial Intelligence"
   },
   {
+    "name": "trpc-agent-go",
+    "import": "github.com/trpc-group/trpc-agent-go",
+    "url": "https://github.com/trpc-group/trpc-agent-go",
+    "description": "Framework for building LLM-based multi-agent systems.",
+    "category": "Artificial Intelligence"
+  },
+  {
     "name": "web-researcher-mcp",
     "import": "github.com/zoharbabin/web-researcher-mcp",
     "url": "https://github.com/zoharbabin/web-researcher-mcp",
@@ -7767,6 +7774,13 @@
     "import": "github.com/apsdehal/go-logger",
     "url": "https://github.com/apsdehal/go-logger",
     "description": "Simple logger of Go Programs, with level handlers.",
+    "category": "Logging"
+  },
+  {
+    "name": "GoLogX",
+    "import": "github.com/AyoubTadlaoui/GoLogX",
+    "url": "https://github.com/AyoubTadlaoui/GoLogX",
+    "description": "Append-only, hash-chained, optionally Ed25519-signed slog handler with offline verification of tampering.",
     "category": "Logging"
   },
   {
@@ -15628,6 +15642,13 @@
     "import": "github.com/thedevsaddam/govalidator",
     "url": "https://github.com/thedevsaddam/govalidator",
     "description": "Validate Golang request data with simple rules. Highly inspired by Laravel's request validation.",
+    "category": "Validation"
+  },
+  {
+    "name": "govy",
+    "import": "github.com/nobl9/govy",
+    "url": "https://github.com/nobl9/govy",
+    "description": "strongly-typed validation rules over functional interface, powered by generics and reflection free with heavy focus on crafting clear and information-rich error messages.",
     "category": "Validation"
   },
   {
