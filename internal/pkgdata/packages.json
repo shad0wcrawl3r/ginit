@@ -11704,6 +11704,13 @@
     "category": "Security"
   },
   {
+    "name": "fort",
+    "import": "github.com/djadmin/fort",
+    "url": "https://github.com/djadmin/fort",
+    "description": "Audits macOS security settings across 16 checks, reports a score, and fixes issues where it safely can. Single binary, installable via Homebrew.",
+    "category": "Security"
+  },
+  {
     "name": "go-generate-password",
     "import": "github.com/m1/go-generate-password",
     "url": "https://github.com/m1/go-generate-password",
