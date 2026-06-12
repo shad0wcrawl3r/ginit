@@ -13083,6 +13083,13 @@
     "category": "Text Processing"
   },
   {
+    "name": "mdsmith",
+    "import": "github.com/jeduden/mdsmith",
+    "url": "https://github.com/jeduden/mdsmith",
+    "description": "fast, auto-fixing Markdown linter and formatter. Checks style, readability, structure, and cross-file integrity.",
+    "category": "Text Processing"
+  },
+  {
     "name": "mxj",
     "import": "github.com/clbanning/mxj",
     "url": "https://github.com/clbanning/mxj",
