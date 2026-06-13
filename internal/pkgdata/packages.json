@@ -3668,6 +3668,13 @@
     "category": "Database"
   },
   {
+    "name": "sqlh",
+    "import": "github.com/kirill-scherba/sqlh",
+    "url": "https://github.com/kirill-scherba/sqlh",
+    "description": "Zero-boilerplate SQL helper with struct tags and Go generics (CRUD, UPSERT, JOIN, benchmarks).",
+    "category": "Database"
+  },
+  {
     "name": "sqlingo",
     "import": "github.com/lqs/sqlingo",
     "url": "https://github.com/lqs/sqlingo",
