@@ -16576,6 +16576,13 @@
     "category": "Webhooks Server"
   },
   {
+    "name": "HookRun",
+    "import": "github.com/bluvenr/hookrun",
+    "url": "https://github.com/bluvenr/hookrun",
+    "description": "Lightweight webhook action engine (~3MB single binary, zero deps) that executes commands and scripts from YAML rules with token/HMAC/IP auth and hot reload.",
+    "category": "Webhooks Server"
+  },
+  {
     "name": "webhooked",
     "import": "github.com/42Atomys/webhooked",
     "url": "https://github.com/42Atomys/webhooked",
