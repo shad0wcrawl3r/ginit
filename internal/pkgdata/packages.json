@@ -2065,6 +2065,13 @@
     "category": "Data Integration Frameworks"
   },
   {
+    "name": "confluence2md",
+    "import": "github.com/gkoos/confluence2md",
+    "url": "https://github.com/gkoos/confluence2md",
+    "description": "Confluence to Markdown crawler and converter.",
+    "category": "Data Integration Frameworks"
+  },
+  {
     "name": "omniparser",
     "import": "github.com/jf-tech/omniparser",
     "url": "https://github.com/jf-tech/omniparser",
@@ -12954,6 +12961,13 @@
     "import": "github.com/go-rod/rod",
     "url": "https://github.com/go-rod/rod",
     "description": "A Devtools driver to make web automation and scraping easy.",
+    "category": "Testing"
+  },
+  {
+    "name": "selenosis",
+    "import": "github.com/alcounit/selenosis",
+    "url": "https://github.com/alcounit/selenosis",
+    "description": "Stateless Kubernetes-native hub that routes Selenium, Playwright, and MCP sessions to on-demand browser pods via custom resources.",
     "category": "Testing"
   },
   {
