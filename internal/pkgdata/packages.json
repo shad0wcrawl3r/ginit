@@ -5628,6 +5628,13 @@
     "category": "Financial"
   },
   {
+    "name": "paystack-sdk-go",
+    "import": "github.com/samaasi/paystack-sdk-go",
+    "url": "https://github.com/samaasi/paystack-sdk-go",
+    "description": "A comprehensive, zero-dependency, and fully typed Go SDK for the Paystack API.",
+    "category": "Financial"
+  },
+  {
     "name": "techan",
     "import": "github.com/sdcoffey/techan",
     "url": "https://github.com/sdcoffey/techan",
