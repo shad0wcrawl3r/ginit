@@ -973,6 +973,13 @@
     "category": "Command Line"
   },
   {
+    "name": "goscaf",
+    "import": "github.com/iyashjayesh/goscaf",
+    "url": "https://github.com/iyashjayesh/goscaf",
+    "description": "goscaf generates opinionated, production-quality Go project boilerplate via an interactive CLI. Stop copy-pasting skeleton code between projects.",
+    "category": "Command Line"
+  },
+  {
     "name": "lazyenv",
     "import": "github.com/lazynop/lazyenv",
     "url": "https://github.com/lazynop/lazyenv",
@@ -1106,17 +1113,17 @@
     "category": "Command Line"
   },
   {
+    "name": "vhs",
+    "import": "github.com/charmbracelet/vhs",
+    "url": "https://github.com/charmbracelet/vhs",
+    "description": "Your CLI home video recorder - generate terminal GIFs from code for documentation and tutorials.",
+    "category": "Command Line"
+  },
+  {
     "name": "yacspin",
     "import": "github.com/theckman/yacspin",
     "url": "https://github.com/theckman/yacspin",
     "description": "Yet Another CLi Spinner package, for working with terminal spinners.",
-    "category": "Command Line"
-  },
-  {
-    "name": "goscaf",
-    "import": "github.com/iyashjayesh/goscaf",
-    "url": "https://github.com/iyashjayesh/goscaf",
-    "description": "goscaf generates opinionated, production-quality Go project boilerplate via an interactive CLI. Stop copy-pasting skeleton code between projects.",
     "category": "Command Line"
   },
   {
@@ -1645,6 +1652,27 @@
     "category": "Configuration"
   },
   {
+    "name": "go-cfg",
+    "import": "github.com/dsbasko/go-cfg",
+    "url": "https://github.com/dsbasko/go-cfg",
+    "description": "The library provides a unified way to read configuration data into a structure from various sources, such as env, flags, and configuration files (.json, .yaml, .toml, .env).",
+    "category": "Configuration"
+  },
+  {
+    "name": "go-conf",
+    "import": "github.com/ThomasObenaus/go-conf",
+    "url": "https://github.com/ThomasObenaus/go-conf",
+    "description": "Simple library for application configuration based on annotated structs. It supports reading the configuration from environment variables, config files and command line parameters.",
+    "category": "Configuration"
+  },
+  {
+    "name": "go-config",
+    "import": "github.com/MordaTeam/go-config",
+    "url": "https://github.com/MordaTeam/go-config",
+    "description": "Simple and convenient library for working with app configurations.",
+    "category": "Configuration"
+  },
+  {
     "name": "go-external-config",
     "import": "github.com/go-external-config/go",
     "url": "https://github.com/go-external-config/go",
@@ -1670,27 +1698,6 @@
     "import": "github.com/go-external-config/vault",
     "url": "https://github.com/go-external-config/vault",
     "description": "Vault property source support for go-external-config.",
-    "category": "Configuration"
-  },
-  {
-    "name": "go-cfg",
-    "import": "github.com/dsbasko/go-cfg",
-    "url": "https://github.com/dsbasko/go-cfg",
-    "description": "The library provides a unified way to read configuration data into a structure from various sources, such as env, flags, and configuration files (.json, .yaml, .toml, .env).",
-    "category": "Configuration"
-  },
-  {
-    "name": "go-conf",
-    "import": "github.com/ThomasObenaus/go-conf",
-    "url": "https://github.com/ThomasObenaus/go-conf",
-    "description": "Simple library for application configuration based on annotated structs. It supports reading the configuration from environment variables, config files and command line parameters.",
-    "category": "Configuration"
-  },
-  {
-    "name": "go-config",
-    "import": "github.com/MordaTeam/go-config",
-    "url": "https://github.com/MordaTeam/go-config",
-    "description": "Simple and convenient library for working with app configurations.",
     "category": "Configuration"
   },
   {
@@ -2975,6 +2982,13 @@
     "category": "Database"
   },
   {
+    "name": "go-sqlite",
+    "import": "github.com/glebarez/go-sqlite",
+    "url": "https://github.com/glebarez/go-sqlite",
+    "description": "A Pure Golang implemented SQLite driver without CGO.",
+    "category": "Database"
+  },
+  {
     "name": "godis",
     "import": "github.com/hdt3213/godis",
     "url": "https://github.com/hdt3213/godis",
@@ -3056,6 +3070,13 @@
     "import": "github.com/milvus-io/milvus",
     "url": "https://github.com/milvus-io/milvus",
     "description": "Milvus is a vector database for embedding management, analytics and search.",
+    "category": "Database"
+  },
+  {
+    "name": "minisql",
+    "import": "github.com/RichardKnop/minisql",
+    "url": "https://github.com/RichardKnop/minisql",
+    "description": "Embedded single file SQL database.",
     "category": "Database"
   },
   {
@@ -3203,13 +3224,6 @@
     "import": "github.com/VictoriaMetrics/VictoriaMetrics",
     "url": "https://github.com/VictoriaMetrics/VictoriaMetrics",
     "description": "fast, resource-effective and scalable open source time series database. May be used as long-term remote storage for Prometheus. Supports PromQL.",
-    "category": "Database"
-  },
-  {
-    "name": "minisql",
-    "import": "github.com/RichardKnop/minisql",
-    "url": "https://github.com/RichardKnop/minisql",
-    "description": "Embedded single file SQL database.",
     "category": "Database"
   },
   {
@@ -4152,9 +4166,9 @@
   },
   {
     "name": "skizze",
-    "import": "github.com/seiflotfy/skizze",
-    "url": "https://github.com/seiflotfy/skizze",
-    "description": "probabilistic data-structures service and storage.",
+    "import": "github.com/skizzehq/skizze",
+    "url": "https://github.com/skizzehq/skizze",
+    "description": "A probabilistic data structure service and storage.",
     "category": "Database Drivers"
   },
   {
@@ -4638,13 +4652,6 @@
     "import": "github.com/luraproject/lura",
     "url": "https://github.com/luraproject/lura",
     "description": "Ultra performant API Gateway framework with middlewares.",
-    "category": "Distributed Systems"
-  },
-  {
-    "name": "micro",
-    "import": "github.com/micro/micro",
-    "url": "https://github.com/micro/micro",
-    "description": "A distributed systems runtime for the cloud and beyond.",
     "category": "Distributed Systems"
   },
   {
@@ -5222,13 +5229,6 @@
     "category": "Error Handling"
   },
   {
-    "name": "go-errr",
-    "import": "github.com/go-errr/go",
-    "url": "https://github.com/go-errr/go",
-    "description": "Error handling library with Catch/Recover semantics, wrapped error chains, and stack traces for Go.",
-    "category": "Error Handling"
-  },
-  {
     "name": "Falcon",
     "import": "github.com/SonicRoshan/falcon",
     "url": "https://github.com/SonicRoshan/falcon",
@@ -5240,6 +5240,13 @@
     "import": "github.com/Southclaws/fault",
     "url": "https://github.com/Southclaws/fault",
     "description": "An ergonomic mechanism for wrapping errors in order to facilitate structured metadata and context for error values.",
+    "category": "Error Handling"
+  },
+  {
+    "name": "go-errr",
+    "import": "github.com/go-errr/go",
+    "url": "https://github.com/go-errr/go",
+    "description": "Error handling library with Catch/Recover semantics, wrapped error chains, and stack traces for Go.",
     "category": "Error Handling"
   },
   {
@@ -5562,13 +5569,6 @@
     "import": "github.com/rhymond/go-money",
     "url": "https://github.com/rhymond/go-money",
     "description": "Implementation of Fowler's Money pattern.",
-    "category": "Financial"
-  },
-  {
-    "name": "coinpaprika-api-go-client",
-    "import": "github.com/coinpaprika/coinpaprika-api-go-client",
-    "url": "https://github.com/coinpaprika/coinpaprika-api-go-client",
-    "description": "Go client for the CoinPaprika cryptocurrency market data API.",
     "category": "Financial"
   },
   {
@@ -6034,6 +6034,13 @@
     "category": "Generators"
   },
   {
+    "name": "go-apispec",
+    "import": "github.com/antst/go-apispec",
+    "url": "https://github.com/antst/go-apispec",
+    "description": "Generate OpenAPI 3.1 specs from Go source code via static analysis with automatic framework detection.",
+    "category": "Generators"
+  },
+  {
     "name": "go-enum",
     "import": "github.com/abice/go-enum",
     "url": "https://github.com/abice/go-enum",
@@ -6045,13 +6052,6 @@
     "import": "github.com/nikolaydubina/go-enum-encoding",
     "url": "https://github.com/nikolaydubina/go-enum-encoding",
     "description": "Code generation for enum encoding from code comments.",
-    "category": "Generators"
-  },
-  {
-    "name": "go-apispec",
-    "import": "github.com/antst/go-apispec",
-    "url": "https://github.com/antst/go-apispec",
-    "description": "Generate OpenAPI 3.1 specs from Go source code via static analysis with automatic framework detection.",
     "category": "Generators"
   },
   {
@@ -6325,6 +6325,13 @@
     "import": "github.com/lab210-dev/async-job",
     "url": "https://github.com/lab210-dev/async-job",
     "description": "AsyncJob is an asynchronous queue job manager with light code, clear and speed.",
+    "category": "Goroutines"
+  },
+  {
+    "name": "autopool",
+    "import": "github.com/AshvinBambhaniya/autopool",
+    "url": "https://github.com/AshvinBambhaniya/autopool",
+    "description": "Zero-config, auto-scaling worker pool for Go with priority-aware scheduling.",
     "category": "Goroutines"
   },
   {
@@ -6626,13 +6633,6 @@
     "import": "github.com/gammazero/workerpool",
     "url": "https://github.com/gammazero/workerpool",
     "description": "Goroutine pool that limits the concurrency of task execution, not the number of tasks queued.",
-    "category": "Goroutines"
-  },
-  {
-    "name": "autopool",
-    "import": "github.com/AshvinBambhaniya/autopool",
-    "url": "https://github.com/AshvinBambhaniya/autopool",
-    "description": "Zero-config, auto-scaling worker pool for Go with priority-aware scheduling.",
     "category": "Goroutines"
   },
   {
@@ -9765,6 +9765,13 @@
     "category": "Natural Language Processing"
   },
   {
+    "name": "go-propisyu",
+    "import": "github.com/rekurt/go-propisyu",
+    "url": "https://github.com/rekurt/go-propisyu",
+    "description": "Convert numbers to Russian words with correct grammatical gender and noun declension.",
+    "category": "Natural Language Processing"
+  },
+  {
     "name": "go-stem",
     "import": "github.com/agonopol/go-stem",
     "url": "https://github.com/agonopol/go-stem",
@@ -9776,13 +9783,6 @@
     "import": "github.com/danieldk/go2vec",
     "url": "https://github.com/danieldk/go2vec",
     "description": "Reader and utility functions for word2vec embeddings.",
-    "category": "Natural Language Processing"
-  },
-  {
-    "name": "go-propisyu",
-    "import": "github.com/rekurt/go-propisyu",
-    "url": "https://github.com/rekurt/go-propisyu",
-    "description": "Convert numbers to Russian words with correct grammatical gender and noun declension.",
     "category": "Natural Language Processing"
   },
   {
@@ -10164,6 +10164,13 @@
     "category": "Networking"
   },
   {
+    "name": "fibersse",
+    "import": "github.com/vinod-morya/fibersse",
+    "url": "https://github.com/vinod-morya/fibersse",
+    "description": "Production-grade Server-Sent Events (SSE) for Fiber v3 with event coalescing, priority lanes, topic wildcards, adaptive throttling, and built-in auth.",
+    "category": "Networking"
+  },
+  {
     "name": "fortio",
     "import": "github.com/fortio/fortio",
     "url": "https://github.com/fortio/fortio",
@@ -10283,13 +10290,6 @@
     "category": "Networking"
   },
   {
-    "name": "fibersse",
-    "import": "github.com/vinod-morya/fibersse",
-    "url": "https://github.com/vinod-morya/fibersse",
-    "description": "Production-grade Server-Sent Events (SSE) for Fiber v3 with event coalescing, priority lanes, topic wildcards, adaptive throttling, and built-in auth.",
-    "category": "Networking"
-  },
-  {
     "name": "go-stun",
     "import": "github.com/ccding/go-stun",
     "url": "https://github.com/ccding/go-stun",
@@ -10399,13 +10399,6 @@
     "import": "github.com/xtaci/kcp-go",
     "url": "https://github.com/xtaci/kcp-go",
     "description": "KCP - Fast and Reliable ARQ Protocol.",
-    "category": "Networking"
-  },
-  {
-    "name": "kcptun",
-    "import": "github.com/xtaci/kcptun",
-    "url": "https://github.com/xtaci/kcptun",
-    "description": "Extremely simple \u0026 fast udp tunnel based on KCP protocol.",
     "category": "Networking"
   },
   {
@@ -11655,17 +11648,17 @@
     "category": "Security"
   },
   {
-    "name": "canery",
-    "import": "github.com/rluders/canery",
-    "url": "https://github.com/rluders/canery",
-    "description": "Minimal, stateless authorization engine with a pluggable evaluation model.",
-    "category": "Security"
-  },
-  {
     "name": "Cameradar",
     "import": "github.com/Ullaakut/cameradar",
     "url": "https://github.com/Ullaakut/cameradar",
     "description": "Tool and library to remotely hack RTSP streams from surveillance cameras.",
+    "category": "Security"
+  },
+  {
+    "name": "canery",
+    "import": "github.com/rluders/canery",
+    "url": "https://github.com/rluders/canery",
+    "description": "Minimal, stateless authorization engine with a pluggable evaluation model.",
     "category": "Security"
   },
   {
@@ -12600,13 +12593,6 @@
     "category": "Testing"
   },
   {
-    "name": "Gont",
-    "import": "github.com/stv0g/gont",
-    "url": "https://github.com/stv0g/gont",
-    "description": "Go network testing toolkit for testing building complex network topologies using Linux namespaces.",
-    "category": "Testing"
-  },
-  {
     "name": "gospecify",
     "import": "github.com/stesla/gospecify",
     "url": "https://github.com/stesla/gospecify",
@@ -12639,6 +12625,13 @@
     "import": "github.com/rdrdr/hamcrest",
     "url": "https://github.com/rdrdr/hamcrest",
     "description": "fluent framework for declarative Matcher objects that, when applied to input values, produce self-describing results.",
+    "category": "Testing"
+  },
+  {
+    "name": "httper",
+    "import": "github.com/gustofarbi/httper",
+    "url": "https://github.com/gustofarbi/httper",
+    "description": "CLI runner for JetBrains .http files with scripting, assertions, gRPC, and load testing.",
     "category": "Testing"
   },
   {
@@ -12786,13 +12779,6 @@
     "import": "github.com/posener/wstest",
     "url": "https://github.com/posener/wstest",
     "description": "Websocket client for unit-testing a websocket http.Handler.",
-    "category": "Testing"
-  },
-  {
-    "name": "connexions",
-    "import": "github.com/cubahno/connexions",
-    "url": "https://github.com/cubahno/connexions",
-    "description": "Combine multiple APIs with meaningful responses, configurable latency and error codes based on OpenAPI 3.0 specifications and files.",
     "category": "Testing"
   },
   {
@@ -13188,13 +13174,6 @@
     "category": "Text Processing"
   },
   {
-    "name": "encdec",
-    "import": "github.com/mickep76/encdec",
-    "url": "https://github.com/mickep76/encdec",
-    "description": "Package provides a generic interface to encoders and decoders.",
-    "category": "Text Processing"
-  },
-  {
     "name": "go-fasttld",
     "import": "github.com/elliotwutingfeng/go-fasttld",
     "url": "https://github.com/elliotwutingfeng/go-fasttld",
@@ -13573,17 +13552,17 @@
     "category": "Third-party APIs"
   },
   {
-    "name": "clarifai",
-    "import": "github.com/samuelcouch/clarifai",
-    "url": "https://github.com/samuelcouch/clarifai",
-    "description": "Go client library for interfacing with the Clarifai API.",
-    "category": "Third-party APIs"
-  },
-  {
     "name": "codeship-go",
     "import": "github.com/codeship/codeship-go",
     "url": "https://github.com/codeship/codeship-go",
     "description": "Go client library for interacting with Codeship's API v2.",
+    "category": "Third-party APIs"
+  },
+  {
+    "name": "coinpaprika-go",
+    "import": "github.com/coinpaprika/coinpaprika-api-go-client",
+    "url": "https://github.com/coinpaprika/coinpaprika-api-go-client",
+    "description": "Go client library for interacting with Coinpaprika's API.",
     "category": "Third-party APIs"
   },
   {
@@ -15890,17 +15869,17 @@
     "category": "Video"
   },
   {
-    "name": "manifestor",
-    "import": "github.com/alanzng/manifestor",
-    "url": "https://github.com/alanzng/manifestor",
-    "description": "Zero-dependency library for parsing, filtering, transforming, and building HLS and DASH manifests.",
-    "category": "Video"
-  },
-  {
     "name": "libvlc-go",
     "import": "github.com/adrg/libvlc-go",
     "url": "https://github.com/adrg/libvlc-go",
     "description": "Go bindings for libvlc 2.X/3.X/4.X (used by the VLC media player).",
+    "category": "Video"
+  },
+  {
+    "name": "manifestor",
+    "import": "github.com/alanzng/manifestor",
+    "url": "https://github.com/alanzng/manifestor",
+    "description": "Zero-dependency library for parsing, filtering, transforming, and building HLS and DASH manifests.",
     "category": "Video"
   },
   {
@@ -16037,13 +16016,6 @@
     "category": "Web Frameworks"
   },
   {
-    "name": "golamb",
-    "import": "github.com/twharmon/golamb",
-    "url": "https://github.com/twharmon/golamb",
-    "description": "Golamb makes it easier to write API endpoints for use with AWS Lambda and API Gateway.",
-    "category": "Web Frameworks"
-  },
-  {
     "name": "Gone",
     "import": "github.com/gone-io/gone",
     "url": "https://github.com/gone-io/gone",
@@ -16072,17 +16044,17 @@
     "category": "Web Frameworks"
   },
   {
-    "name": "Huma",
-    "import": "github.com/danielgtaylor/huma",
-    "url": "https://github.com/danielgtaylor/huma/",
-    "description": "Framework for modern REST/GraphQL APIs with built-in OpenAPI 3, generated documentation, and a CLI.",
-    "category": "Web Frameworks"
-  },
-  {
     "name": "httpsuite",
     "import": "github.com/rluders/httpsuite",
     "url": "https://github.com/rluders/httpsuite",
     "description": "HTTP request parsing and RFC 9457 problem responses for Go, with a stdlib-only core and optional validation.",
+    "category": "Web Frameworks"
+  },
+  {
+    "name": "Huma",
+    "import": "github.com/danielgtaylor/huma",
+    "url": "https://github.com/danielgtaylor/huma/",
+    "description": "Framework for modern REST/GraphQL APIs with built-in OpenAPI 3, generated documentation, and a CLI.",
     "category": "Web Frameworks"
   },
   {
@@ -16104,6 +16076,13 @@
     "import": "github.com/claygod/microservice",
     "url": "https://github.com/claygod/microservice",
     "description": "The framework for the creation of microservices, written in Golang.",
+    "category": "Web Frameworks"
+  },
+  {
+    "name": "NotNet",
+    "import": "github.com/nottechdm/notnet",
+    "url": "https://github.com/nottechdm/notnet",
+    "description": "A lightweight Go framework for building fast, ergonomic RESTful APIs with middleware and flexible routing.",
     "category": "Web Frameworks"
   },
   {
@@ -16181,13 +16160,6 @@
     "import": "github.com/ankorstore/yokai",
     "url": "https://github.com/ankorstore/yokai",
     "description": "Simple, modular, and observable Go framework for backend applications.",
-    "category": "Web Frameworks"
-  },
-  {
-    "name": "NotNet",
-    "import": "github.com/nottechdm/notnet",
-    "url": "https://github.com/nottechdm/notnet",
-    "description": "A lightweight Go framework for building fast, ergonomic RESTful APIs with middleware and flexible routing.",
     "category": "Web Frameworks"
   },
   {
@@ -16604,17 +16576,17 @@
     "category": "WebAssembly"
   },
   {
-    "name": "webhook",
-    "import": "github.com/adnanh/webhook",
-    "url": "https://github.com/adnanh/webhook",
-    "description": "Tool which allows user to create HTTP endpoints (hooks) that execute commands on the server.",
-    "category": "Webhooks Server"
-  },
-  {
     "name": "HookRun",
     "import": "github.com/bluvenr/hookrun",
     "url": "https://github.com/bluvenr/hookrun",
     "description": "Lightweight webhook action engine (~3MB single binary, zero deps) that executes commands and scripts from YAML rules with token/HMAC/IP auth and hot reload.",
+    "category": "Webhooks Server"
+  },
+  {
+    "name": "webhook",
+    "import": "github.com/adnanh/webhook",
+    "url": "https://github.com/adnanh/webhook",
+    "description": "Tool which allows user to create HTTP endpoints (hooks) that execute commands on the server.",
     "category": "Webhooks Server"
   },
   {
