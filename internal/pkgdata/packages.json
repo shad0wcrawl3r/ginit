@@ -3647,6 +3647,13 @@
     "category": "Database"
   },
   {
+    "name": "qrafter",
+    "import": "github.com/SennovE/qrafter",
+    "url": "https://github.com/SennovE/qrafter",
+    "description": "Type-safe SQL query builder with dialect-aware rendering, schema introspection, and migration generation.",
+    "category": "Database"
+  },
+  {
     "name": "qry",
     "import": "github.com/HnH/qry",
     "url": "https://github.com/HnH/qry",
