@@ -11866,8 +11866,8 @@
   },
   {
     "name": "pii-shield",
-    "import": "github.com/aragossa/pii-shield",
-    "url": "https://github.com/aragossa/pii-shield",
+    "import": "github.com/pii-shield/pii-shield",
+    "url": "https://github.com/pii-shield/pii-shield",
     "description": "Zero-code log sanitization sidecar for Kubernetes that redacts PII from logs.",
     "category": "Security"
   },
