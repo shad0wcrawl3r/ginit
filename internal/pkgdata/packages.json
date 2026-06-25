@@ -15400,6 +15400,13 @@
     "category": "Utilities"
   },
   {
+    "name": "sqlex",
+    "import": "github.com/go-sqlex/sqlex",
+    "url": "https://github.com/go-sqlex/sqlex",
+    "description": "Drop-in modernization of jmoiron/sqlx with fixed SQL lexer bugs, automatic IN-clause expansion, pluggable hooks, and unified DB/Tx/Conn interfaces.",
+    "category": "Utilities"
+  },
+  {
     "name": "sqlx",
     "import": "github.com/jmoiron/sqlx",
     "url": "https://github.com/jmoiron/sqlx",
@@ -16139,6 +16146,13 @@
     "import": "github.com/axzilla/templui",
     "url": "https://github.com/axzilla/templui",
     "description": "Modern UI Components for Go \u0026 Templ.",
+    "category": "Web Frameworks"
+  },
+  {
+    "name": "togo",
+    "import": "github.com/togo-framework/togo",
+    "url": "https://github.com/togo-framework/togo",
+    "description": "Full-stack framework that ships your Go backend and React frontend as a single binary; a Laravel-artisan-grade CLI.",
     "category": "Web Frameworks"
   },
   {
