@@ -14525,6 +14525,13 @@
     "category": "Utilities"
   },
   {
+    "name": "gh-image",
+    "import": "github.com/drogers0/gh-image",
+    "url": "https://github.com/drogers0/gh-image",
+    "description": "A gh CLI extension that uploads images to GitHub issues, PRs, and READMEs from the command line, producing user-attachments URLs that respect repository visibility.",
+    "category": "Utilities"
+  },
+  {
     "name": "ghokin",
     "import": "github.com/antham/ghokin",
     "url": "https://github.com/antham/ghokin",
