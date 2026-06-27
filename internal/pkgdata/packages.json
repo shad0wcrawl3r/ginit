@@ -952,6 +952,13 @@
     "category": "Command Line"
   },
   {
+    "name": "go-tui",
+    "import": "github.com/grindlemire/go-tui",
+    "url": "https://github.com/grindlemire/go-tui",
+    "description": "A declarative terminal UI framework with templ-like templates, flexbox layout, and a language server for editor support.",
+    "category": "Command Line"
+  },
+  {
     "name": "gocui",
     "import": "github.com/jroimartin/gocui",
     "url": "https://github.com/jroimartin/gocui",
@@ -10455,6 +10462,13 @@
     "import": "github.com/lesismal/nbio",
     "url": "https://github.com/lesismal/nbio",
     "description": "Pure Go 1000k+ connections solution, support tls/http1.x/websocket and basically compatible with net/http, with high-performance and low memory cost, non-blocking, event-driven, easy-to-use.",
+    "category": "Networking"
+  },
+  {
+    "name": "nethawk",
+    "import": "github.com/Flowtriq/nethawk",
+    "url": "https://github.com/Flowtriq/nethawk",
+    "description": "Terminal UI for real-time network traffic capture, analysis, and attack detection with JSON output mode.",
     "category": "Networking"
   },
   {
