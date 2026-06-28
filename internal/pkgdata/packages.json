@@ -616,6 +616,13 @@
     "category": "Blockchain"
   },
   {
+    "name": "pactus",
+    "import": "github.com/pactus-project/pactus",
+    "url": "https://github.com/pactus-project/pactus",
+    "description": "A full-node implementation of the Pactus blockchain in Go.",
+    "category": "Blockchain"
+  },
+  {
     "name": "solana-go",
     "import": "github.com/gagliardetto/solana-go",
     "url": "https://github.com/gagliardetto/solana-go",
@@ -11946,6 +11953,13 @@
     "import": "github.com/xaionaro-go/secureio",
     "url": "https://github.com/xaionaro-go/secureio",
     "description": "An keyexchanging+authenticating+encrypting wrapper and multiplexer for `io.ReadWriteCloser` based on XChaCha20-poly1305, ECDH and ED25519.",
+    "category": "Security"
+  },
+  {
+    "name": "Sentinel",
+    "import": "github.com/sentinel-cli/sentinel",
+    "url": "https://github.com/sentinel-cli/sentinel",
+    "description": "Local pre-commit secret scanner using an Aho-Corasick automaton.",
     "category": "Security"
   },
   {
