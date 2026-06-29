@@ -161,6 +161,13 @@
     "category": "Artificial Intelligence"
   },
   {
+    "name": "skillreaper",
+    "import": "github.com/thousandflowers/skillreaper",
+    "url": "https://github.com/thousandflowers/skillreaper",
+    "description": "CLI that scans AI agent session transcripts to identify and safely quarantine unused skills, MCP servers, and agents across Claude Code, Codex CLI, Hermes, OpenCode, Cursor, and OpenClaw.",
+    "category": "Artificial Intelligence"
+  },
+  {
     "name": "trpc-agent-go",
     "import": "github.com/trpc-group/trpc-agent-go",
     "url": "https://github.com/trpc-group/trpc-agent-go",
