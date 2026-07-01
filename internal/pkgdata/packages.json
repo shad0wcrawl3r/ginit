@@ -112,6 +112,13 @@
     "category": "Artificial Intelligence"
   },
   {
+    "name": "llm-box",
+    "import": "github.com/alib8b8/llm-box",
+    "url": "https://github.com/alib8b8/llm-box",
+    "description": "Terminal-based AI workflow engine with YAML-driven pipelines, 20+ LLM providers (DeepSeek, Qwen, GLM, Mistral, etc.), and a TUI for workflow management.",
+    "category": "Artificial Intelligence"
+  },
+  {
     "name": "LocalAI",
     "import": "github.com/mudler/LocalAI",
     "url": "https://github.com/mudler/LocalAI",
@@ -12831,6 +12838,13 @@
     "category": "Testing"
   },
   {
+    "name": "fabricator",
+    "import": "github.com/Goldziher/fabricator",
+    "url": "https://github.com/Goldziher/fabricator",
+    "description": "Type-safe factories for generating mock and fake data in Go, inspired by factory_boy and interface-forge.",
+    "category": "Testing"
+  },
+  {
     "name": "genmock",
     "import": "gitlab.com/so_literate/genmock",
     "url": "https://gitlab.com/so_literate/genmock",
@@ -14781,6 +14795,13 @@
     "import": "github.com/mikekonan/go-types",
     "url": "https://github.com/mikekonan/go-types",
     "description": "Library providing Go types for store/validation and transfer of ISO-4217, ISO-3166, and other types.",
+    "category": "Utilities"
+  },
+  {
+    "name": "go-utils",
+    "import": "github.com/Goldziher/go-utils",
+    "url": "https://github.com/Goldziher/go-utils",
+    "description": "Simple, performant generic utilities for Go inspired by JavaScript and Python (map, filter, reduce, and more).",
     "category": "Utilities"
   },
   {
