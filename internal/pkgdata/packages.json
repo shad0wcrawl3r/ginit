@@ -7735,6 +7735,13 @@
     "category": "JSON"
   },
   {
+    "name": "silentjson",
+    "import": "github.com/GenshIv/silentjson",
+    "url": "https://github.com/GenshIv/silentjson",
+    "description": "Zero-allocation JSON boundary scanner and splitter utilizing AVX2 SIMD instructions.",
+    "category": "JSON"
+  },
+  {
     "name": "SJSON",
     "import": "github.com/tidwall/sjson",
     "url": "https://github.com/tidwall/sjson",
