@@ -10766,6 +10766,13 @@
     "category": "Networking"
   },
   {
+    "name": "impersonate-http",
+    "import": "github.com/North-web-dev/impersonate-http",
+    "url": "https://github.com/North-web-dev/impersonate-http",
+    "description": "Drop-in net/http.Client with a byte-exact browser TLS (JA3/JA4) and HTTP/2 (Akamai) fingerprint.",
+    "category": "Networking"
+  },
+  {
     "name": "pester",
     "import": "github.com/sethgrid/pester",
     "url": "https://github.com/sethgrid/pester",
