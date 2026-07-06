@@ -5418,6 +5418,13 @@
     "category": "File Handling"
   },
   {
+    "name": "gopdfrab",
+    "import": "github.com/voidrab/gopdfrab",
+    "url": "https://github.com/voidrab/gopdfrab",
+    "description": "PDF/A processing for Go.",
+    "category": "File Handling"
+  },
+  {
     "name": "gulter",
     "import": "github.com/adelowo/gulter",
     "url": "https://github.com/adelowo/gulter",
