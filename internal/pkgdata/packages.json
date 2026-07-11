@@ -3010,6 +3010,13 @@
     "category": "Database"
   },
   {
+    "name": "gedb",
+    "import": "github.com/vinicius-lino-figueiredo/gedb",
+    "url": "https://github.com/vinicius-lino-figueiredo/gedb",
+    "description": "MongoDB-like embedded database, written in pure-go. Supports indexing and complex queries.",
+    "category": "Database"
+  },
+  {
     "name": "go-sqlite",
     "import": "github.com/glebarez/go-sqlite",
     "url": "https://github.com/glebarez/go-sqlite",
