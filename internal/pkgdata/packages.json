@@ -6615,6 +6615,13 @@
     "category": "Goroutines"
   },
   {
+    "name": "powerlock",
+    "import": "github.com/donomii/powerlock",
+    "url": "https://github.com/donomii/powerlock",
+    "description": "Named FIFO mutexes with context cancellation, bounded wait queues, watchdog diagnostics, pprof profiles, and Prometheus metrics.",
+    "category": "Goroutines"
+  },
+  {
     "name": "rill",
     "import": "github.com/destel/rill",
     "url": "https://github.com/destel/rill",
