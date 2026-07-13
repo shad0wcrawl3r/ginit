@@ -98,6 +98,13 @@
     "category": "Artificial Intelligence"
   },
   {
+    "name": "jargo",
+    "import": "github.com/gojargo/jargo",
+    "url": "https://github.com/gojargo/jargo",
+    "description": "Framework for building real-time voice AI agents over WebRTC, wiring speech-to-text, LLMs, and text-to-speech into a streaming pipeline.",
+    "category": "Artificial Intelligence"
+  },
+  {
     "name": "langchaingo",
     "import": "github.com/tmc/langchaingo",
     "url": "https://github.com/tmc/langchaingo",
@@ -221,6 +228,13 @@
     "import": "github.com/leberKleber/go-mpris",
     "url": "https://github.com/leberKleber/go-mpris",
     "description": "Client for mpris dbus interfaces.",
+    "category": "Audio and Music"
+  },
+  {
+    "name": "go-resample",
+    "import": "github.com/gojargo/go-resample",
+    "url": "https://github.com/gojargo/go-resample",
+    "description": "Pure-Go (no cgo) audio sample-rate converter with sinc, linear, and zero-order-hold converters.",
     "category": "Audio and Music"
   },
   {
