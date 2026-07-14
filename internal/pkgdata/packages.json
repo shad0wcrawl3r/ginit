@@ -91,6 +91,13 @@
     "category": "Artificial Intelligence"
   },
   {
+    "name": "GoModel",
+    "import": "github.com/ENTERPILOT/GoModel",
+    "url": "https://github.com/ENTERPILOT/GoModel",
+    "description": "AI gateway exposing a unified OpenAI-compatible API across OpenAI, Anthropic, Gemini, Groq, xAI, Ollama and other providers, with routing, usage tracking, rate limits, and guardrails.",
+    "category": "Artificial Intelligence"
+  },
+  {
     "name": "hotplex",
     "import": "github.com/hrygo/hotplex",
     "url": "https://github.com/hrygo/hotplex",
@@ -11774,6 +11781,13 @@
     "category": "Security"
   },
   {
+    "name": "Crenox",
+    "import": "github.com/crenoxhq/crenox",
+    "url": "https://github.com/crenoxhq/crenox",
+    "description": "Zero-dependency pre-commit secret scanner using Aho-Corasick for high-performance credentials leak detection.",
+    "category": "Security"
+  },
+  {
     "name": "dongle",
     "import": "github.com/golang-module/dongle",
     "url": "https://github.com/golang-module/dongle",
@@ -12016,13 +12030,6 @@
     "import": "github.com/xaionaro-go/secureio",
     "url": "https://github.com/xaionaro-go/secureio",
     "description": "An keyexchanging+authenticating+encrypting wrapper and multiplexer for `io.ReadWriteCloser` based on XChaCha20-poly1305, ECDH and ED25519.",
-    "category": "Security"
-  },
-  {
-    "name": "Sentinel",
-    "import": "github.com/sentinel-cli/sentinel",
-    "url": "https://github.com/sentinel-cli/sentinel",
-    "description": "Local pre-commit secret scanner using an Aho-Corasick automaton.",
     "category": "Security"
   },
   {
@@ -16021,6 +16028,13 @@
     "url": "https://github.com/korandiz/v4l",
     "description": "Video capture library for Linux, written in Go.",
     "category": "Video"
+  },
+  {
+    "name": "Andurel",
+    "import": "github.com/mbvlabs/andurel",
+    "url": "https://github.com/mbvlabs/andurel",
+    "description": "Rails-inspired full-stack Go web framework with scaffolding, database tooling, and server-rendered or Inertia frontends.",
+    "category": "Web Frameworks"
   },
   {
     "name": "Atreugo",
