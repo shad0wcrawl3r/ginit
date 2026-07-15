@@ -3311,6 +3311,13 @@
     "category": "Database"
   },
   {
+    "name": "db-migrator.go",
+    "import": "github.com/raoptimus/db-migrator.go",
+    "url": "https://github.com/raoptimus/db-migrator.go",
+    "description": "CLI for versioned database schema migrations with support for PostgreSQL, MySQL, ClickHouse, Tarantool, and Apache Iceberg.",
+    "category": "Database"
+  },
+  {
     "name": "dbmate",
     "import": "github.com/amacneil/dbmate",
     "url": "https://github.com/amacneil/dbmate",
@@ -9202,6 +9209,13 @@
     "import": "github.com/Melkeydev/go-blueprint",
     "url": "https://github.com/Melkeydev/go-blueprint",
     "description": "Allows users to spin up a quick Go project using a popular framework.",
+    "category": "Miscellaneous"
+  },
+  {
+    "name": "go-ddd",
+    "import": "github.com/sklinkert/go-ddd",
+    "url": "https://github.com/sklinkert/go-ddd",
+    "description": "Domain-Driven Design template with CQRS, value objects, idempotent commands, and a transactional outbox.",
     "category": "Miscellaneous"
   },
   {
