@@ -182,6 +182,13 @@
     "category": "Artificial Intelligence"
   },
   {
+    "name": "semantic-search",
+    "import": "github.com/DavidBelicza/semantic-search",
+    "url": "https://github.com/DavidBelicza/semantic-search",
+    "description": "Meaning-based search over PDF, Markdown, DOCX, source code, and other file types, using generative AI embedding models to vectorize files into a vector database.",
+    "category": "Artificial Intelligence"
+  },
+  {
     "name": "skillreaper",
     "import": "github.com/thousandflowers/skillreaper",
     "url": "https://github.com/thousandflowers/skillreaper",
