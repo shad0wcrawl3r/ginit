@@ -1449,6 +1449,13 @@
     "category": "Command Line"
   },
   {
+    "name": "OpenCLI",
+    "import": "github.com/bcdxn/opencli",
+    "url": "https://github.com/bcdxn/opencli",
+    "description": "OpenAPI-style specification for CLIs; define your interface in a language-agnostic document to generate documentation and framework boilerplate code.",
+    "category": "Command Line"
+  },
+  {
     "name": "ops",
     "import": "github.com/nanovms/ops",
     "url": "https://github.com/nanovms/ops",
@@ -14242,6 +14249,13 @@
     "import": "github.com/sergiotapia/smitego",
     "url": "https://github.com/sergiotapia/smitego",
     "description": "Go package to wraps access to the Smite game API.",
+    "category": "Third-party APIs"
+  },
+  {
+    "name": "sonarqube-client-go",
+    "import": "github.com/BoxBoxJason/sonarqube-client-go",
+    "url": "https://github.com/BoxBoxJason/sonarqube-client-go",
+    "description": "Go client library and command-line client for the SonarQube Web API.",
     "category": "Third-party APIs"
   },
   {
