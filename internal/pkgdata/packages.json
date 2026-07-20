@@ -14098,6 +14098,13 @@
     "category": "Third-party APIs"
   },
   {
+    "name": "httpsms-go",
+    "import": "github.com/NdoleStudio/httpsms-go",
+    "url": "https://github.com/NdoleStudio/httpsms-go",
+    "description": "Go client for the httpSMS API.",
+    "category": "Third-party APIs"
+  },
+  {
     "name": "igdb",
     "import": "github.com/Henry-Sarabia/igdb",
     "url": "https://github.com/Henry-Sarabia/igdb",
@@ -14130,6 +14137,13 @@
     "import": "github.com/ansd/lastpass-go",
     "url": "https://github.com/ansd/lastpass-go",
     "description": "Go client library for the [LastPass](https://www.lastpass.com/) API.",
+    "category": "Third-party APIs"
+  },
+  {
+    "name": "lemonsqueezy-go",
+    "import": "github.com/NdoleStudio/lemonsqueezy-go",
+    "url": "https://github.com/NdoleStudio/lemonsqueezy-go",
+    "description": "Go client for the Lemon Squeezy API.",
     "category": "Third-party APIs"
   },
   {
