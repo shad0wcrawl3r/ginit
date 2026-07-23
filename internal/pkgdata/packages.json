@@ -15141,6 +15141,13 @@
     "category": "Utilities"
   },
   {
+    "name": "LAN Orangutan",
+    "import": "github.com/291-Group/LAN-Orangutan",
+    "url": "https://github.com/291-Group/LAN-Orangutan",
+    "description": "Network device discovery and inventory with persistent labeling, multi-network scanning, and Tailscale integration.",
+    "category": "Utilities"
+  },
+  {
     "name": "lets-go",
     "import": "github.com/aplescia-chwy/lets-go",
     "url": "https://github.com/aplescia-chwy/lets-go",
