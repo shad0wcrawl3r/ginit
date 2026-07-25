@@ -2338,6 +2338,13 @@
     "category": "Data Structures and Algorithms"
   },
   {
+    "name": "genericsyncmap",
+    "import": "github.com/donomii/genericsyncmap",
+    "url": "https://github.com/donomii/genericsyncmap",
+    "description": "Type-safe generic wrapper for `sync.Map` with full method parity and zero dependencies.",
+    "category": "Data Structures and Algorithms"
+  },
+  {
     "name": "go-shelve",
     "import": "github.com/lucmq/go-shelve",
     "url": "https://github.com/lucmq/go-shelve",
@@ -6087,6 +6094,13 @@
     "import": "github.com/gen2brain/raylib-go",
     "url": "https://github.com/gen2brain/raylib-go",
     "description": "Go bindings for [raylib](https://www.raylib.com/), a simple and easy-to-use library to learn videogames programming.",
+    "category": "Game Development"
+  },
+  {
+    "name": "sceneCamera",
+    "import": "github.com/donomii/sceneCamera",
+    "url": "https://github.com/donomii/sceneCamera",
+    "description": "Camera movement and view/projection matrices for museum, FPS, RTS, and stereo rendering modes.",
     "category": "Game Development"
   },
   {
