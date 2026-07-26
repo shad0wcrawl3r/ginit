@@ -6118,6 +6118,13 @@
     "category": "Game Development"
   },
   {
+    "name": "apispec",
+    "import": "github.com/ehabterra/apispec",
+    "url": "https://github.com/ehabterra/apispec",
+    "description": "Generate OpenAPI 3.1 specs from Go code without annotations, plus a browser UI to configure, preview, and explore the call graph.",
+    "category": "Generators"
+  },
+  {
     "name": "convergen",
     "import": "github.com/reedom/convergen",
     "url": "https://github.com/reedom/convergen",
