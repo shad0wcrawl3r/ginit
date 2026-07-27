@@ -1806,6 +1806,13 @@
     "category": "Configuration"
   },
   {
+    "name": "goenv",
+    "import": "github.com/psyb0t/goenv",
+    "url": "https://github.com/psyb0t/goenv",
+    "description": "Reads the ENV environment variable and reports whether the process is running in production or development.",
+    "category": "Configuration"
+  },
+  {
     "name": "GoLobby/Config",
     "import": "github.com/golobby/config",
     "url": "https://github.com/golobby/config",
@@ -3140,6 +3147,13 @@
     "import": "github.com/lynxbase/lynxdb",
     "url": "https://github.com/lynxbase/lynxdb",
     "description": "Lightweight columnar log analytics database with a pipe-style query language inspired by SPL.",
+    "category": "Database"
+  },
+  {
+    "name": "MemHop",
+    "import": "github.com/qyiun666/MemHop",
+    "url": "https://github.com/qyiun666/MemHop",
+    "description": "Embedded cognitive memory database for AI agents. Six-layer architecture (L0-L5), Dream consolidation pipeline, three-channel RRF retrieval (BM25 + f16 vector + entity), single .meh file, pure Go, zero infrastructure.",
     "category": "Database"
   },
   {
@@ -5248,6 +5262,13 @@
     "url": "https://github.com/wa-lang/wa",
     "description": "The Wa Programming Language embedded in Go.",
     "category": "Embeddable Scripting Languages"
+  },
+  {
+    "name": "ctxerrors",
+    "import": "github.com/psyb0t/ctxerrors",
+    "url": "https://github.com/psyb0t/ctxerrors",
+    "description": "Wrap errors with the file, line, and function name of each call site.",
+    "category": "Error Handling"
   },
   {
     "name": "emperror",
@@ -8152,6 +8173,13 @@
     "import": "github.com/gookit/slog",
     "url": "https://github.com/gookit/slog",
     "description": "Lightweight, configurable, extensible logger for Go.",
+    "category": "Logging"
+  },
+  {
+    "name": "slog-configurator",
+    "import": "github.com/psyb0t/slog-configurator",
+    "url": "https://github.com/psyb0t/slog-configurator",
+    "description": "Configures the standard library log/slog logger from environment variables: level, format, source location, and stdout/stderr split.",
     "category": "Logging"
   },
   {
@@ -12065,6 +12093,13 @@
     "import": "github.com/rsjethani/secret",
     "url": "https://github.com/rsjethani/secret",
     "description": "Prevent your secrets from leaking into logs, std\\* etc.",
+    "category": "Security"
+  },
+  {
+    "name": "secretgenerator",
+    "import": "github.com/rafaelperoco/secretgenerator",
+    "url": "https://github.com/rafaelperoco/secretgenerator",
+    "description": "CSPRNG-backed credential generator with a versioned JSON schema for passwords, passphrases, secrets, API keys, and PINs.",
     "category": "Security"
   },
   {
