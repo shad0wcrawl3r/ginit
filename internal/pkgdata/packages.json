@@ -1834,6 +1834,13 @@
     "category": "Configuration"
   },
   {
+    "name": "gonfiguration",
+    "import": "github.com/psyb0t/gonfiguration",
+    "url": "https://github.com/psyb0t/gonfiguration",
+    "description": "Loads configuration from environment variables into structs via reflection, with struct-tag defaults and required fields.",
+    "category": "Configuration"
+  },
+  {
     "name": "gookit/config",
     "import": "github.com/gookit/config",
     "url": "https://github.com/gookit/config",
@@ -3633,6 +3640,13 @@
     "category": "Database"
   },
   {
+    "name": "xsql",
+    "import": "github.com/zx06/xsql",
+    "url": "https://github.com/zx06/xsql",
+    "description": "AI-first cross-database CLI tool with read-only protection and structured JSON output.",
+    "category": "Database"
+  },
+  {
     "name": "bqb",
     "import": "github.com/nullism/bqb",
     "url": "https://github.com/nullism/bqb",
@@ -4858,6 +4872,13 @@
     "category": "Distributed Systems"
   },
   {
+    "name": "servicepack",
+    "import": "github.com/psyb0t/servicepack",
+    "url": "https://github.com/psyb0t/servicepack",
+    "description": "Framework for running multiple services concurrently in a single binary, locally or distributed across machines.",
+    "category": "Distributed Systems"
+  },
+  {
     "name": "sleuth",
     "import": "github.com/ursiform/sleuth",
     "url": "https://github.com/ursiform/sleuth",
@@ -4995,6 +5016,13 @@
     "import": "github.com/xhit/go-simple-mail",
     "url": "https://github.com/xhit/go-simple-mail",
     "description": "Very simple package to send emails with SMTP Keep Alive and two timeouts: Connect and Send.",
+    "category": "Email"
+  },
+  {
+    "name": "go-spamcheck",
+    "import": "github.com/psyb0t/go-spamcheck",
+    "url": "https://github.com/psyb0t/go-spamcheck",
+    "description": "Client for Postmark's SpamCheck API that scores a raw email against SpamAssassin rules.",
     "category": "Email"
   },
   {
@@ -10654,6 +10682,13 @@
     "category": "Networking"
   },
   {
+    "name": "proxq",
+    "import": "github.com/psyb0t/docker-proxq",
+    "url": "https://github.com/psyb0t/docker-proxq",
+    "description": "Asynchronous reverse proxy that queues each request in Redis and returns a job ID to poll for the response, with path-prefix routing, retries, and caching.",
+    "category": "Networking"
+  },
+  {
     "name": "psql-wire",
     "import": "github.com/jeroenrinzema/psql-wire",
     "url": "https://github.com/jeroenrinzema/psql-wire",
@@ -16142,6 +16177,13 @@
     "category": "Video"
   },
   {
+    "name": "aichteeteapee",
+    "import": "github.com/psyb0t/aichteeteapee",
+    "url": "https://github.com/psyb0t/aichteeteapee",
+    "description": "Batteries-included HTTP server library with a router, middleware stack, WebSocket hubs, file uploads, and OpenAPI validation.",
+    "category": "Web Frameworks"
+  },
+  {
     "name": "Andurel",
     "import": "github.com/mbvlabs/andurel",
     "url": "https://github.com/mbvlabs/andurel",
@@ -17308,6 +17350,13 @@
     "import": "github.com/DylanMeeus/hasgo",
     "url": "https://github.com/DylanMeeus/hasgo",
     "description": "Generate Haskell inspired functions for your slices.",
+    "category": "Go Generate Tools"
+  },
+  {
+    "name": "oapixconstgen",
+    "import": "github.com/psyb0t/oapixconstgen",
+    "url": "https://github.com/psyb0t/oapixconstgen",
+    "description": "Generate typed Go constants from an OpenAPI spec's x-constants extension.",
     "category": "Go Generate Tools"
   },
   {
