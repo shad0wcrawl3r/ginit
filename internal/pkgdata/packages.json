@@ -196,6 +196,13 @@
     "category": "Artificial Intelligence"
   },
   {
+    "name": "Smeldr",
+    "import": "github.com/Smeldr/core",
+    "url": "https://github.com/Smeldr/core",
+    "description": "AI-native content backend with typed lifecycle management, native MCP tools for every content type, and zero runtime dependencies.",
+    "category": "Artificial Intelligence"
+  },
+  {
     "name": "trpc-agent-go",
     "import": "github.com/trpc-group/trpc-agent-go",
     "url": "https://github.com/trpc-group/trpc-agent-go",
