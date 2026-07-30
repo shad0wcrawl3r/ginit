@@ -10717,6 +10717,13 @@
     "category": "Networking"
   },
   {
+    "name": "roamr",
+    "import": "github.com/sourabh-khot65/roamr",
+    "url": "https://github.com/sourabh-khot65/roamr",
+    "description": "CLI that scores nearby saved WiFi networks and tells you which to use, and why.",
+    "category": "Networking"
+  },
+  {
     "name": "sdns",
     "import": "github.com/semihalev/sdns",
     "url": "https://github.com/semihalev/sdns",
@@ -12037,6 +12044,13 @@
     "import": "github.com/anatol/luks.go",
     "url": "https://github.com/anatol/luks.go",
     "description": "Pure Golang library to manage LUKS partitions.",
+    "category": "Security"
+  },
+  {
+    "name": "mcprobe",
+    "import": "github.com/tamish560/mcprobe",
+    "url": "https://github.com/tamish560/mcprobe",
+    "description": "Security scanner for MCP servers with prompt injection detection, tool shadowing, and SARIF output.",
     "category": "Security"
   },
   {
@@ -17063,6 +17077,13 @@
     "import": "github.com/bradleyfalzon/apicompat",
     "url": "https://github.com/bradleyfalzon/apicompat",
     "description": "Checks recent changes to a Go project for backwards incompatible changes.",
+    "category": "Code Analysis"
+  },
+  {
+    "name": "ast-metrics",
+    "import": "github.com/ast-metrics/ast-metrics",
+    "url": "https://github.com/ast-metrics/ast-metrics",
+    "description": "Static code analyzer for Go and other languages: complexity, coupling, cohesion and maintainability metrics, with HTML, JSON, Markdown and SARIF reports.",
     "category": "Code Analysis"
   },
   {
