@@ -11809,6 +11809,13 @@
     "category": "Security"
   },
   {
+    "name": "acme-proxy",
+    "import": "github.com/esnet/acme-proxy",
+    "url": "https://github.com/esnet/acme-proxy",
+    "description": "Solve ACME http-01 challenge without opening port 80 to the internet, obtain certs from an external certificate authority.",
+    "category": "Security"
+  },
+  {
     "name": "acopw-go",
     "import": "sr.ht/~jamesponddotco/acopw-go",
     "url": "https://sr.ht/~jamesponddotco/acopw-go/",
