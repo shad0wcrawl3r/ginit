@@ -15253,17 +15253,17 @@
     "category": "Utilities"
   },
   {
-    "name": "lang",
-    "import": "github.com/maxbolgarin/lang",
-    "url": "https://github.com/maxbolgarin/lang",
-    "description": "Generic one-liners to work with variables, slices and maps without boilerplate code.",
-    "category": "Utilities"
-  },
-  {
     "name": "LAN Orangutan",
     "import": "github.com/291-Group/LAN-Orangutan",
     "url": "https://github.com/291-Group/LAN-Orangutan",
     "description": "Network device discovery and inventory with persistent labeling, multi-network scanning, and Tailscale integration.",
+    "category": "Utilities"
+  },
+  {
+    "name": "lang",
+    "import": "github.com/maxbolgarin/lang",
+    "url": "https://github.com/maxbolgarin/lang",
+    "description": "Generic one-liners to work with variables, slices and maps without boilerplate code.",
     "category": "Utilities"
   },
   {
@@ -17119,6 +17119,13 @@
     "import": "github.com/amit-davidson/Chronos",
     "url": "https://github.com/amit-davidson/Chronos",
     "description": "Detects race conditions statically",
+    "category": "Code Analysis"
+  },
+  {
+    "name": "deadmono",
+    "import": "github.com/arxeiss/deadmono",
+    "url": "https://github.com/arxeiss/deadmono",
+    "description": "Wrapper around deadcode for detection of dead code in Go monorepo.",
     "category": "Code Analysis"
   },
   {
