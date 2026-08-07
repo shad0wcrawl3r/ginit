@@ -16352,6 +16352,13 @@
     "category": "Web Frameworks"
   },
   {
+    "name": "Goshtoso",
+    "import": "github.com/araihu/goshtoso",
+    "url": "https://github.com/araihu/goshtoso",
+    "description": "Server-rendered UI components for Go applications, built with templ, Tailwind CSS, HTMX, and Alpine.js.",
+    "category": "Web Frameworks"
+  },
+  {
     "name": "Goyave",
     "import": "github.com/go-goyave/goyave",
     "url": "https://github.com/go-goyave/goyave",
