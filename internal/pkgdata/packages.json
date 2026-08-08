@@ -9317,6 +9317,13 @@
     "category": "Miscellaneous"
   },
   {
+    "name": "go-grpc-bazel-example",
+    "import": "github.com/esurdam/go-grpc-bazel-example",
+    "url": "https://github.com/esurdam/go-grpc-bazel-example",
+    "description": "Example monorepo for Go gRPC microservices with Bazel, grpc-gateway, OpenAPI, and Kubernetes.",
+    "category": "Miscellaneous"
+  },
+  {
     "name": "go-module",
     "import": "github.com/octomation/go-module",
     "url": "https://github.com/octomation/go-module",
@@ -11918,6 +11925,13 @@
     "import": "github.com/crenoxhq/crenox",
     "url": "https://github.com/crenoxhq/crenox",
     "description": "Zero-dependency pre-commit secret scanner using Aho-Corasick for high-performance credentials leak detection.",
+    "category": "Security"
+  },
+  {
+    "name": "deidentify",
+    "import": "github.com/aliengiraffe/deidentify",
+    "url": "https://github.com/aliengiraffe/deidentify",
+    "description": "Deterministic, format-preserving removal of personally identifiable information from text and structured data.",
     "category": "Security"
   },
   {
