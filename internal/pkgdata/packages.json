@@ -7112,6 +7112,13 @@
     "category": "Images"
   },
   {
+    "name": "eagle-image-api",
+    "import": "github.com/nicobistolfi/eagle-image-api",
+    "url": "https://github.com/nicobistolfi/eagle-image-api",
+    "description": "Image optimization and transformation API using libvips, deployable to AWS Lambda and CloudFront.",
+    "category": "Images"
+  },
+  {
     "name": "geopattern",
     "import": "github.com/pravj/geopattern",
     "url": "https://github.com/pravj/geopattern",
