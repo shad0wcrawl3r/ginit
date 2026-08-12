@@ -112,6 +112,13 @@
     "category": "Artificial Intelligence"
   },
   {
+    "name": "keen-code",
+    "import": "github.com/mochow13/keen-code",
+    "url": "https://github.com/mochow13/keen-code",
+    "description": "A context-efficient terminal-based AI coding agent. Provider agnostic, supports MCPs, Agent Skills, Subagents, and more. Comes with a simple and straightforward TUI.",
+    "category": "Artificial Intelligence"
+  },
+  {
     "name": "langchaingo",
     "import": "github.com/tmc/langchaingo",
     "url": "https://github.com/tmc/langchaingo",
@@ -5646,6 +5653,13 @@
     "import": "github.com/c9s/bbgo",
     "url": "https://github.com/c9s/bbgo",
     "description": "A crypto trading bot framework written in Go. Including common crypto exchange API, standard indicators, back-testing and many built-in strategies.",
+    "category": "Financial"
+  },
+  {
+    "name": "cnn-fear-and-greed-parse",
+    "import": "github.com/wildsurfer/cnn-fear-and-greed-parse",
+    "url": "https://github.com/wildsurfer/cnn-fear-and-greed-parse",
+    "description": "Client for CNN's Fear \u0026 Greed Index with the seven component indicators and about a year of daily history.",
     "category": "Financial"
   },
   {
