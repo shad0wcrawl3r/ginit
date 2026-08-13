@@ -3640,6 +3640,13 @@
     "category": "Database"
   },
   {
+    "name": "sqly",
+    "import": "github.com/nao1215/sqly",
+    "url": "https://github.com/nao1215/sqly",
+    "description": "Execute SQL against CSV, TSV, LTSV, JSON, Parquet, and Excel files in an interactive shell, backed by in-memory SQLite.",
+    "category": "Database"
+  },
+  {
     "name": "vitess",
     "import": "github.com/youtube/vitess",
     "url": "https://github.com/youtube/vitess",
@@ -13395,6 +13402,13 @@
     "import": "github.com/bobg/htree",
     "url": "https://github.com/bobg/htree",
     "description": "Traverse, navigate, filter, and otherwise process trees of [html.Node](https://pkg.go.dev/golang.org/x/net/html#Node) objects.",
+    "category": "Text Processing"
+  },
+  {
+    "name": "markdown",
+    "import": "github.com/nao1215/markdown",
+    "url": "https://github.com/nao1215/markdown",
+    "description": "Markdown builder that generates GitHub Flavored Markdown and mermaid diagrams through method chaining.",
     "category": "Text Processing"
   },
   {
