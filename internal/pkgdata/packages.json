@@ -3535,6 +3535,13 @@
     "category": "Database"
   },
   {
+    "name": "filesql",
+    "import": "github.com/nao1215/filesql",
+    "url": "https://github.com/nao1215/filesql",
+    "description": "Query CSV, TSV, LTSV, JSON, JSONL, Parquet, Excel, ACH, and Fedwire files with SQL through the database/sql API, backed by in-memory SQLite.",
+    "category": "Database"
+  },
+  {
     "name": "gatewayd",
     "import": "github.com/gatewayd-io/gatewayd",
     "url": "https://github.com/gatewayd-io/gatewayd",
@@ -5709,6 +5716,13 @@
     "import": "github.com/govalues/decimal",
     "url": "https://github.com/govalues/decimal",
     "description": "Immutable decimal numbers with panic-free arithmetic.",
+    "category": "Financial"
+  },
+  {
+    "name": "eu-vat-rates-data-go",
+    "import": "github.com/vatnode/eu-vat-rates-data-go",
+    "url": "https://github.com/vatnode/eu-vat-rates-data-go",
+    "description": "VAT rates and VAT number formats for 45 European countries, embedded at compile time and refreshed daily from the European Commission TEDB.",
     "category": "Financial"
   },
   {
