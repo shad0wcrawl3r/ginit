@@ -8015,6 +8015,13 @@
     "category": "Logging"
   },
   {
+    "name": "go-log4g",
+    "import": "github.com/go-log4g/core",
+    "url": "https://github.com/go-log4g/core",
+    "description": "Log4g provides Log4j-style configuration and pattern layouts for Go's standard log/slog logging facade.",
+    "category": "Logging"
+  },
+  {
     "name": "go-logger",
     "import": "github.com/apsdehal/go-logger",
     "url": "https://github.com/apsdehal/go-logger",
