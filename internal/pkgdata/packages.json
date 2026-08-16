@@ -1351,6 +1351,13 @@
     "category": "Command Line"
   },
   {
+    "name": "go-arch",
+    "import": "github.com/SalvucciFacundo/go-arch",
+    "url": "https://github.com/SalvucciFacundo/go-arch",
+    "description": "CLI tool for scaffolding Go applications with Minimalist, Standard, and Hexagonal architecture patterns.",
+    "category": "Command Line"
+  },
+  {
     "name": "go-arg",
     "import": "github.com/alexflint/go-arg",
     "url": "https://github.com/alexflint/go-arg",
@@ -10346,6 +10353,13 @@
     "category": "Networking"
   },
   {
+    "name": "chicha-ip-proxy",
+    "import": "github.com/matveynator/chicha-ip-proxy",
+    "url": "https://github.com/matveynator/chicha-ip-proxy",
+    "description": "Zero-configuration TCP/UDP port proxy with autostart, IP-based access control, and OS-level network stack tuning.",
+    "category": "Networking"
+  },
+  {
     "name": "cidranger",
     "import": "github.com/yl2chen/cidranger",
     "url": "https://github.com/yl2chen/cidranger",
@@ -16265,6 +16279,13 @@
     "import": "github.com/Eyevinn/mp4ff",
     "url": "https://github.com/Eyevinn/mp4ff",
     "description": "Library and tools for working with MP4 files containing video, audio, subtitles, or metadata.",
+    "category": "Video"
+  },
+  {
+    "name": "mpeg-ts-analyzer",
+    "import": "github.com/small-teton/mpeg-ts-analyzer",
+    "url": "https://github.com/small-teton/mpeg-ts-analyzer",
+    "description": "Analyzer for MPEG-2 Transport Streams that checks PCR timing compliance and dumps low-level TS, PSI, and PES structures.",
     "category": "Video"
   },
   {
