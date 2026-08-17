@@ -10717,6 +10717,13 @@
     "category": "Networking"
   },
   {
+    "name": "netchan",
+    "import": "github.com/matveynator/netchan",
+    "url": "https://github.com/matveynator/netchan",
+    "description": "Network Channels (netchan) for Golang: Secure, cluster-ready, supports nested channels \u0026 any data type. Inspired by Rob Pike.",
+    "category": "Networking"
+  },
+  {
     "name": "nethawk",
     "import": "github.com/Flowtriq/nethawk",
     "url": "https://github.com/Flowtriq/nethawk",
