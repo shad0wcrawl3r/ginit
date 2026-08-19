@@ -70,6 +70,13 @@
     "category": "Artificial Intelligence"
   },
   {
+    "name": "crewai-go",
+    "import": "github.com/rhgs/crewai-go",
+    "url": "https://github.com/rhgs/crewai-go",
+    "description": "Idiomatic Go port of CrewAI (multi-agent orchestration). Zero dependencies, stdlib only.",
+    "category": "Artificial Intelligence"
+  },
+  {
     "name": "dakera-go",
     "import": "github.com/dakera-ai/dakera-go",
     "url": "https://github.com/dakera-ai/dakera-go",
@@ -487,6 +494,13 @@
     "import": "github.com/tarent/loginsrv",
     "url": "https://github.com/tarent/loginsrv",
     "description": "JWT login microservice with pluggable backends such as OAuth2 (Github), htpasswd, osiam.",
+    "category": "Authentication and Authorization"
+  },
+  {
+    "name": "melange",
+    "import": "github.com/pthm/melange",
+    "url": "https://github.com/pthm/melange",
+    "description": "Compiles OpenFGA authorization schemas into PL/pgSQL functions that run fine-grained relationship-based access control checks inside PostgreSQL.",
     "category": "Authentication and Authorization"
   },
   {
@@ -2839,6 +2853,13 @@
     "import": "github.com/EchoVault/EchoVault",
     "url": "https://github.com/EchoVault/EchoVault",
     "description": "Embeddable Distributed in-memory data store compatible with Redis clients.",
+    "category": "Database"
+  },
+  {
+    "name": "easycache",
+    "import": "github.com/hugocarreira/easycache",
+    "url": "https://github.com/hugocarreira/easycache",
+    "description": "A simple way to use in-memory cache in Golang (TTL/FIFO/LRU/LFU).",
     "category": "Database"
   },
   {
