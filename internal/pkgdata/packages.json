@@ -56,6 +56,13 @@
     "category": "Artificial Intelligence"
   },
   {
+    "name": "agy-mcp",
+    "import": "github.com/tphakala/agy-mcp",
+    "url": "https://github.com/tphakala/agy-mcp",
+    "description": "Model Context Protocol (MCP) server wrapping the Antigravity CLI to run prompts and peer reviews.",
+    "category": "Artificial Intelligence"
+  },
+  {
     "name": "ai",
     "import": "github.com/joakimcarlsson/ai",
     "url": "https://github.com/joakimcarlsson/ai",
@@ -259,10 +266,38 @@
     "category": "Audio and Music"
   },
   {
+    "name": "go-aac",
+    "import": "github.com/tphakala/go-aac",
+    "url": "https://github.com/tphakala/go-aac",
+    "description": "Pure-Go AAC-LC encoder and decoder ported from FFmpeg.",
+    "category": "Audio and Music"
+  },
+  {
+    "name": "go-audio-resampler",
+    "import": "github.com/tphakala/go-audio-resampler",
+    "url": "https://github.com/tphakala/go-audio-resampler",
+    "description": "Pure-Go, high-quality audio resampler with SIMD acceleration.",
+    "category": "Audio and Music"
+  },
+  {
+    "name": "go-flac",
+    "import": "github.com/tphakala/go-flac",
+    "url": "https://github.com/tphakala/go-flac",
+    "description": "Native Go FLAC encoder and decoder with SIMD acceleration.",
+    "category": "Audio and Music"
+  },
+  {
     "name": "go-mpris",
     "import": "github.com/leberKleber/go-mpris",
     "url": "https://github.com/leberKleber/go-mpris",
     "description": "Client for mpris dbus interfaces.",
+    "category": "Audio and Music"
+  },
+  {
+    "name": "go-opus",
+    "import": "github.com/tphakala/go-opus",
+    "url": "https://github.com/tphakala/go-opus",
+    "description": "Native Go implementation of the Opus audio codec (RFC 6716) with RFC-compliant decoder.",
     "category": "Audio and Music"
   },
   {
@@ -11848,6 +11883,13 @@
     "import": "github.com/khezen/rootfinding",
     "url": "https://github.com/khezen/rootfinding",
     "description": "root-finding algorithms library for finding roots of quadratic functions.",
+    "category": "Science and Data Analysis"
+  },
+  {
+    "name": "simd",
+    "import": "github.com/tphakala/simd",
+    "url": "https://github.com/tphakala/simd",
+    "description": "Native Go vector and SIMD operations on slices with multi-architecture assembly acceleration.",
     "category": "Science and Data Analysis"
   },
   {
