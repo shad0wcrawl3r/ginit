@@ -308,6 +308,13 @@
     "category": "Audio and Music"
   },
   {
+    "name": "go-wav",
+    "import": "github.com/tphakala/go-wav",
+    "url": "https://github.com/tphakala/go-wav",
+    "description": "Pure-Go WAV/RIFF reader and writer with RF64 and BW64 support for files larger than 4 GiB.",
+    "category": "Audio and Music"
+  },
+  {
     "name": "GoAudio",
     "import": "github.com/DylanMeeus/GoAudio",
     "url": "https://github.com/DylanMeeus/GoAudio",
@@ -5870,6 +5877,13 @@
     "import": "github.com/i25959341/orderbook",
     "url": "https://github.com/i25959341/orderbook",
     "description": "Matching Engine for Limit Order Book in Golang.",
+    "category": "Financial"
+  },
+  {
+    "name": "orderbook",
+    "import": "github.com/intrepidkarthi/orderbook",
+    "url": "https://github.com/intrepidkarthi/orderbook",
+    "description": "Embeddable limit order book and matching engine with integer-exact pricing, a single-writer core, and write-ahead-log crash recovery.",
     "category": "Financial"
   },
   {
