@@ -5789,6 +5789,13 @@
     "category": "Financial"
   },
   {
+    "name": "decimal",
+    "import": "github.com/klokare/decimal",
+    "url": "https://github.com/klokare/decimal",
+    "description": "A fixed-size, no allocation decimal type for when you don't need arbitrary precision.",
+    "category": "Financial"
+  },
+  {
     "name": "eu-vat-rates-data-go",
     "import": "github.com/vatnode/eu-vat-rates-data-go",
     "url": "https://github.com/vatnode/eu-vat-rates-data-go",
