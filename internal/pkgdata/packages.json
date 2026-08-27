@@ -52,7 +52,7 @@
     "name": "agent-sdk-go",
     "import": "github.com/agenticenv/agent-sdk-go",
     "url": "https://github.com/agenticenv/agent-sdk-go",
-    "description": "Go SDK for building durable AI agents on Temporal with support for tools, MCP, human approvals, and sub-agent delegation.",
+    "description": "Framework for building stateful AI agents in Go.",
     "category": "Artificial Intelligence"
   },
   {
@@ -823,6 +823,13 @@
     "import": "github.com/tucnak/telebot",
     "url": "https://github.com/tucnak/telebot",
     "description": "Telegram bot framework is written in Go.",
+    "category": "Bot Building"
+  },
+  {
+    "name": "teleflow",
+    "import": "github.com/kslamph/teleflow",
+    "url": "https://github.com/kslamph/teleflow",
+    "description": "Simple, type-safe Telegram bot framework with fluent flows and automatic state management.",
     "category": "Bot Building"
   },
   {
@@ -5740,6 +5747,20 @@
     "category": "Financial"
   },
   {
+    "name": "bingx-go",
+    "import": "github.com/tigusigalpa/bingx-go",
+    "url": "https://github.com/tigusigalpa/bingx-go",
+    "description": "Go client for BingX API v3 with 260+ methods, USDT-M/Coin-M futures, spot, TradFi, WebSocket streams, and copy trading.",
+    "category": "Financial"
+  },
+  {
+    "name": "bybit-go",
+    "import": "github.com/tigusigalpa/bybit-go",
+    "url": "https://github.com/tigusigalpa/bybit-go",
+    "description": "Go client for Bybit V5 API with HMAC/RSA authentication, WebSocket streams, demo trading, and TradFi instruments.",
+    "category": "Financial"
+  },
+  {
     "name": "cnn-fear-and-greed-parse",
     "import": "github.com/wildsurfer/cnn-fear-and-greed-parse",
     "url": "https://github.com/wildsurfer/cnn-fear-and-greed-parse",
@@ -5877,6 +5898,13 @@
     "import": "github.com/aclindsa/ofxgo",
     "url": "https://github.com/aclindsa/ofxgo",
     "description": "Query OFX servers and/or parse the responses (with example command-line client).",
+    "category": "Financial"
+  },
+  {
+    "name": "okx-go",
+    "import": "github.com/tigusigalpa/okx-go",
+    "url": "https://github.com/tigusigalpa/okx-go",
+    "description": "Go client for OKX v5 API with 335 REST endpoints, 53 WebSocket channels, generics support and auto-reconnect.",
     "category": "Financial"
   },
   {
@@ -13990,6 +14018,13 @@
     "import": "github.com/codeship/codeship-go",
     "url": "https://github.com/codeship/codeship-go",
     "description": "Go client library for interacting with Codeship's API v2.",
+    "category": "Third-party APIs"
+  },
+  {
+    "name": "coinglass-go",
+    "import": "github.com/tigusigalpa/coinglass-go",
+    "url": "https://github.com/tigusigalpa/coinglass-go",
+    "description": "Go client for Coinglass API v4 with zero dependencies, WebSocket streams, and typed endpoints for futures, spot, options, ETF, and indicators.",
     "category": "Third-party APIs"
   },
   {
