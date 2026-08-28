@@ -14490,6 +14490,13 @@
     "category": "Third-party APIs"
   },
   {
+    "name": "manus-ai-go",
+    "import": "github.com/tigusigalpa/manus-ai-go",
+    "url": "https://github.com/tigusigalpa/manus-ai-go",
+    "description": "Go client for Manus AI API v2 with task automation, file management, webhooks, and type-safe models.",
+    "category": "Third-party APIs"
+  },
+  {
     "name": "Medium",
     "import": "github.com/Medium/medium-sdk-go",
     "url": "https://github.com/Medium/medium-sdk-go",
