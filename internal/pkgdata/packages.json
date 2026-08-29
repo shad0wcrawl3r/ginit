@@ -70,6 +70,13 @@
     "category": "Artificial Intelligence"
   },
   {
+    "name": "ai-gateway",
+    "import": "github.com/ferro-labs/ai-gateway",
+    "url": "https://github.com/ferro-labs/ai-gateway",
+    "description": "OpenAI-compatible LLM gateway that routes requests across 30 providers with fallback, rate limiting, budgets, guardrails, and observability.",
+    "category": "Artificial Intelligence"
+  },
+  {
     "name": "chromem-go",
     "import": "github.com/philippgille/chromem-go",
     "url": "https://github.com/philippgille/chromem-go",
@@ -5940,6 +5947,13 @@
     "import": "github.com/sdcoffey/techan",
     "url": "https://github.com/sdcoffey/techan",
     "description": "Technical analysis library with advanced market analysis and trading strategies.",
+    "category": "Financial"
+  },
+  {
+    "name": "telegram-wallet-go",
+    "import": "github.com/tigusigalpa/telegram-wallet-go",
+    "url": "https://github.com/tigusigalpa/telegram-wallet-go",
+    "description": "Go client for Telegram Wallet Pay API with HMAC-SHA256 webhook verification, middleware for net/http, Gin, and Echo.",
     "category": "Financial"
   },
   {
