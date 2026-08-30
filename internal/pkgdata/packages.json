@@ -5761,6 +5761,13 @@
     "category": "Financial"
   },
   {
+    "name": "bitget-go",
+    "import": "github.com/tigusigalpa/bitget-go",
+    "url": "https://github.com/tigusigalpa/bitget-go",
+    "description": "Go client for Bitget UTA API v3 with typed models, string-based prices, auto-reconnecting WebSocket, and demo trading.",
+    "category": "Financial"
+  },
+  {
     "name": "bybit-go",
     "import": "github.com/tigusigalpa/bybit-go",
     "url": "https://github.com/tigusigalpa/bybit-go",
@@ -5884,6 +5891,13 @@
     "import": "github.com/cinar/indicator",
     "url": "https://github.com/cinar/indicator",
     "description": "Technical analysis library providing financial indicators, strategies, and backtesting framework.",
+    "category": "Financial"
+  },
+  {
+    "name": "kucoin-go",
+    "import": "github.com/tigusigalpa/kucoin-go",
+    "url": "https://github.com/tigusigalpa/kucoin-go",
+    "description": "Go client for KuCoin UTA and Classic REST \u0026 WebSocket APIs with HMAC-SHA256 auth, string-typed prices, and typed error hierarchy.",
     "category": "Financial"
   },
   {
@@ -11008,6 +11022,13 @@
     "import": "github.com/masterzen/winrm",
     "url": "https://github.com/masterzen/winrm",
     "description": "Go WinRM client to remotely execute commands on Windows machines.",
+    "category": "Networking"
+  },
+  {
+    "name": "ws-reconnect",
+    "import": "github.com/sing198/ws-reconnect",
+    "url": "https://github.com/sing198/ws-reconnect",
+    "description": "Resilient WebSocket client with automatic reconnection, exponential backoff, and heartbeat management.",
     "category": "Networking"
   },
   {
