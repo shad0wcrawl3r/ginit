@@ -2821,6 +2821,13 @@
     "category": "Data Structures and Algorithms"
   },
   {
+    "name": "skiplist",
+    "import": "github.com/huandu/skiplist",
+    "url": "https://github.com/huandu/skiplist",
+    "description": "Fast and easy-to-use skip list for Go.",
+    "category": "Data Structures and Algorithms"
+  },
+  {
     "name": "treemap",
     "import": "github.com/igrmk/treemap",
     "url": "https://github.com/igrmk/treemap",
@@ -8407,6 +8414,13 @@
     "category": "Logging"
   },
   {
+    "name": "slog-datadog",
+    "import": "github.com/samber/slog-datadog",
+    "url": "https://github.com/samber/slog-datadog",
+    "description": "A slog handler for Datadog.",
+    "category": "Logging"
+  },
+  {
     "name": "slog-formatter",
     "import": "github.com/samber/slog-formatter",
     "url": "https://github.com/samber/slog-formatter",
@@ -8414,10 +8428,31 @@
     "category": "Logging"
   },
   {
+    "name": "slog-loki",
+    "import": "github.com/samber/slog-loki",
+    "url": "https://github.com/samber/slog-loki",
+    "description": "A slog handler for Grafana Loki.",
+    "category": "Logging"
+  },
+  {
     "name": "slog-multi",
     "import": "github.com/samber/slog-multi",
     "url": "https://github.com/samber/slog-multi",
     "description": "Chain of slog.Handler (pipeline, fanout...).",
+    "category": "Logging"
+  },
+  {
+    "name": "slog-slack",
+    "import": "github.com/samber/slog-slack",
+    "url": "https://github.com/samber/slog-slack",
+    "description": "A slog handler for Slack.",
+    "category": "Logging"
+  },
+  {
+    "name": "slog-zap",
+    "import": "github.com/samber/slog-zap",
+    "url": "https://github.com/samber/slog-zap",
+    "description": "A slog handler for Zap.",
     "category": "Logging"
   },
   {
