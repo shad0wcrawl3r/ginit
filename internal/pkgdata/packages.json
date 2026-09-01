@@ -8428,6 +8428,13 @@
     "category": "Logging"
   },
   {
+    "name": "slog-logrus",
+    "import": "github.com/samber/slog-logrus",
+    "url": "https://github.com/samber/slog-logrus",
+    "description": "A slog handler for Logrus.",
+    "category": "Logging"
+  },
+  {
     "name": "slog-loki",
     "import": "github.com/samber/slog-loki",
     "url": "https://github.com/samber/slog-loki",
@@ -8442,6 +8449,13 @@
     "category": "Logging"
   },
   {
+    "name": "slog-sentry",
+    "import": "github.com/samber/slog-sentry",
+    "url": "https://github.com/samber/slog-sentry",
+    "description": "A slog handler for Sentry.",
+    "category": "Logging"
+  },
+  {
     "name": "slog-slack",
     "import": "github.com/samber/slog-slack",
     "url": "https://github.com/samber/slog-slack",
@@ -8453,6 +8467,13 @@
     "import": "github.com/samber/slog-zap",
     "url": "https://github.com/samber/slog-zap",
     "description": "A slog handler for Zap.",
+    "category": "Logging"
+  },
+  {
+    "name": "slog-zerolog",
+    "import": "github.com/samber/slog-zerolog",
+    "url": "https://github.com/samber/slog-zerolog",
+    "description": "A slog handler for Zerolog.",
     "category": "Logging"
   },
   {
@@ -13430,6 +13451,13 @@
     "import": "github.com/cabify/timex",
     "url": "https://github.com/cabify/timex",
     "description": "A test-friendly replacement for the native `time` package.",
+    "category": "Testing"
+  },
+  {
+    "name": "wsmock",
+    "import": "github.com/sing198/wsmock",
+    "url": "https://github.com/sing198/wsmock",
+    "description": "Expressive, zero-boilerplate WebSocket mock server for testing with fault injection and assertions.",
     "category": "Testing"
   },
   {
