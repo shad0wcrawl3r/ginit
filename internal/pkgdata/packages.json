@@ -3605,6 +3605,13 @@
     "category": "Database"
   },
   {
+    "name": "clickhouse-sql-parser",
+    "import": "github.com/AfterShip/clickhouse-sql-parser",
+    "url": "https://github.com/AfterShip/clickhouse-sql-parser",
+    "description": "Parser for ClickHouse-dialect SQL that produces a typed AST, with traversal helpers, round-trip formatting, and a CLI.",
+    "category": "Database"
+  },
+  {
     "name": "database-gateway",
     "import": "github.com/kazhuravlev/database-gateway",
     "url": "https://github.com/kazhuravlev/database-gateway",
@@ -11393,6 +11400,13 @@
     "import": "github.com/golobby/orm",
     "url": "https://github.com/golobby/orm",
     "description": "Simple, fast, type-safe, generic orm for developer happiness.",
+    "category": "ORM"
+  },
+  {
+    "name": "GoooQo",
+    "import": "github.com/doytowin/goooqo",
+    "url": "https://github.com/doytowin/goooqo",
+    "description": "A database access framework based on declarative query model.",
     "category": "ORM"
   },
   {
