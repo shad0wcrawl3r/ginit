@@ -5866,6 +5866,13 @@
     "category": "Financial"
   },
   {
+    "name": "glassnode-go",
+    "import": "github.com/tigusigalpa/glassnode-go",
+    "url": "https://github.com/tigusigalpa/glassnode-go",
+    "description": "Go client for Glassnode Basic API with 25 metric categories, typed structs, bulk endpoints, Point-in-Time data, and zero dependencies.",
+    "category": "Financial"
+  },
+  {
     "name": "go-finance",
     "import": "github.com/alpeb/go-finance",
     "url": "https://github.com/alpeb/go-finance",
@@ -12173,6 +12180,13 @@
     "category": "Security"
   },
   {
+    "name": "caddy-waf",
+    "import": "github.com/fabriziosalmi/caddy-waf",
+    "url": "https://github.com/fabriziosalmi/caddy-waf",
+    "description": "Web Application Firewall middleware for the Caddy server, with a regex rule engine, anomaly scoring, IP/DNS/ASN/country blacklists and rate limiting.",
+    "category": "Security"
+  },
+  {
     "name": "Cameradar",
     "import": "github.com/Ullaakut/cameradar",
     "url": "https://github.com/Ullaakut/cameradar",
@@ -14105,6 +14119,13 @@
     "category": "Third-party APIs"
   },
   {
+    "name": "birdeye-go",
+    "import": "github.com/tigusigalpa/birdeye-go",
+    "url": "https://github.com/tigusigalpa/birdeye-go",
+    "description": "Go client for Birdeye DeFi API with typed spot prices, OHLCV candles, historical data, and raw request escape hatch.",
+    "category": "Third-party APIs"
+  },
+  {
     "name": "brewerydb",
     "import": "github.com/naegelejd/brewerydb",
     "url": "https://github.com/naegelejd/brewerydb",
@@ -14634,6 +14655,13 @@
     "import": "github.com/dukex/mixpanel",
     "url": "https://github.com/dukex/mixpanel",
     "description": "Mixpanel is a library for tracking events and sending Mixpanel profile updates to Mixpanel from your go applications.",
+    "category": "Third-party APIs"
+  },
+  {
+    "name": "nansen-go",
+    "import": "github.com/tigusigalpa/nansen-go",
+    "url": "https://github.com/tigusigalpa/nansen-go",
+    "description": "Go client for Nansen AI API with Smart Money analytics, token screener, profiler, and zero dependencies.",
     "category": "Third-party APIs"
   },
   {
