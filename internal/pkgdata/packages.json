@@ -13958,6 +13958,13 @@
     "category": "Text Processing"
   },
   {
+    "name": "doc-scraper",
+    "import": "github.com/Sriram-PR/doc-scraper",
+    "url": "https://github.com/Sriram-PR/doc-scraper",
+    "description": "Web crawler that converts documentation sites to clean Markdown and JSONL for LLM ingestion (RAG, training data).",
+    "category": "Text Processing"
+  },
+  {
     "name": "go-recipe",
     "import": "github.com/kkyr/go-recipe",
     "url": "https://github.com/kkyr/go-recipe",
