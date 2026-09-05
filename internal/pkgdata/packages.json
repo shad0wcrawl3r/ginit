@@ -4053,6 +4053,13 @@
     "category": "Database Drivers"
   },
   {
+    "name": "go-mssqldb",
+    "import": "github.com/microsoft/go-mssqldb",
+    "url": "https://github.com/microsoft/go-mssqldb",
+    "description": "Microsoft's official Go driver for SQL Server, Azure SQL, Azure Synapse, SQL database in Fabric, and Fabric Data Warehouse. Supports Azure AD, Always Encrypted, bulk operations.",
+    "category": "Database Drivers"
+  },
+  {
     "name": "go-oci8",
     "import": "github.com/mattn/go-oci8",
     "url": "https://github.com/mattn/go-oci8",
@@ -6024,13 +6031,6 @@
     "import": "github.com/robfig/bind",
     "url": "https://github.com/robfig/bind",
     "description": "Bind form data to any Go values.",
-    "category": "Forms"
-  },
-  {
-    "name": "checker",
-    "import": "github.com/cinar/checker",
-    "url": "https://github.com/cinar/checker",
-    "description": "Checker helps validating user input through rules defined in struct tags or directly through functions.",
     "category": "Forms"
   },
   {
@@ -16314,6 +16314,13 @@
     "import": "github.com/osamingo/checkdigit",
     "url": "https://github.com/osamingo/checkdigit",
     "description": "Provide check digit algorithms (Luhn, Verhoeff, Damm) and calculators (ISBN, EAN, JAN, UPC, etc.).",
+    "category": "Validation"
+  },
+  {
+    "name": "checker",
+    "import": "github.com/cinar/checker",
+    "url": "https://github.com/cinar/checker",
+    "description": "Zero-dependency input validation and in-place normalization with struct tags, 23 locales, and JSON Schema generation.",
     "category": "Validation"
   },
   {
