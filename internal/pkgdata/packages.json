@@ -231,6 +231,13 @@
     "category": "Artificial Intelligence"
   },
   {
+    "name": "snip",
+    "import": "github.com/edouard-claude/snip",
+    "url": "https://github.com/edouard-claude/snip",
+    "description": "CLI proxy that reduces LLM token usage by 60-90% with declarative YAML filters. Drop-in for Claude Code, Cursor, Copilot, and Gemini. rtk alternative in Go.",
+    "category": "Artificial Intelligence"
+  },
+  {
     "name": "trpc-agent-go",
     "import": "github.com/trpc-group/trpc-agent-go",
     "url": "https://github.com/trpc-group/trpc-agent-go",
@@ -1124,6 +1131,13 @@
     "import": "github.com/lazynop/lazyenv",
     "url": "https://github.com/lazynop/lazyenv",
     "description": "TUI for browsing, comparing, and editing .env files.",
+    "category": "Command Line"
+  },
+  {
+    "name": "lazyteams",
+    "import": "github.com/agmonetti/lazyteams",
+    "url": "https://github.com/agmonetti/lazyteams",
+    "description": "Keyboard-driven terminal user interface for Microsoft Teams.",
     "category": "Command Line"
   },
   {
