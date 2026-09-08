@@ -6846,6 +6846,13 @@
     "category": "Goroutines"
   },
   {
+    "name": "goscade",
+    "import": "github.com/ognick/goscade",
+    "url": "https://github.com/ognick/goscade",
+    "description": "Minimalistic lifecycle orchestrator for Go components with dependency graphs, startup sequencing, readiness coordination, and graceful shutdown.",
+    "category": "Goroutines"
+  },
+  {
     "name": "gowl",
     "import": "github.com/hamed-yousefi/gowl",
     "url": "https://github.com/hamed-yousefi/gowl",
