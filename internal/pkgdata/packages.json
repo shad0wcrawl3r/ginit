@@ -12404,6 +12404,13 @@
     "category": "Security"
   },
   {
+    "name": "mist",
+    "import": "github.com/iSerganov/mist",
+    "url": "https://github.com/iSerganov/mist",
+    "description": "Asymmetric-key audio steganography library that hides encrypted messages inside compressed audio using X25519 and ChaCha20-Poly1305.",
+    "category": "Security"
+  },
+  {
     "name": "multikey",
     "import": "github.com/adrianosela/multikey",
     "url": "https://github.com/adrianosela/multikey",
@@ -12562,6 +12569,13 @@
     "import": "github.com/getveil/veil",
     "url": "https://github.com/getveil/veil",
     "description": "Local HTTPS proxy that hides API credentials from AI coding agents. OS keychain integration, format-aware placeholders, SQLite audit log.",
+    "category": "Security"
+  },
+  {
+    "name": "y509",
+    "import": "github.com/kanywst/y509",
+    "url": "https://github.com/kanywst/y509",
+    "description": "TUI for X.509 certificate chains that reports whether a chain verifies and, separately, whether a server served it correctly.",
     "category": "Security"
   },
   {
