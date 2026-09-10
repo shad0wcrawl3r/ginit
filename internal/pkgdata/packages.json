@@ -9422,13 +9422,6 @@
     "category": "Miscellaneous"
   },
   {
-    "name": "di",
-    "import": "github.com/goava/di",
-    "url": "https://github.com/goava/di",
-    "description": "A dependency injection container for go programming language.",
-    "category": "Miscellaneous"
-  },
-  {
     "name": "dig",
     "import": "github.com/uber-go/dig",
     "url": "https://github.com/uber-go/dig",
@@ -9447,6 +9440,13 @@
     "import": "github.com/samber/do",
     "url": "https://github.com/samber/do",
     "description": "A dependency injection framework based on Generics.",
+    "category": "Miscellaneous"
+  },
+  {
+    "name": "floatdrop/di",
+    "import": "github.com/floatdrop/di",
+    "url": "https://github.com/floatdrop/di",
+    "description": "Dependency injection container built on generic methods, with child scopes, lifecycle hooks and graph validation before anything is built.",
     "category": "Miscellaneous"
   },
   {
@@ -11624,6 +11624,13 @@
     "import": "github.com/tomwright/dasel",
     "url": "https://github.com/tomwright/dasel",
     "description": "Query and update data structures using selectors from the command line. Comparable to jq/yq but supports JSON, YAML, TOML and XML with zero runtime dependencies.",
+    "category": "Query Language"
+  },
+  {
+    "name": "gnata",
+    "import": "github.com/RecoLabs/gnata",
+    "url": "https://github.com/RecoLabs/gnata",
+    "description": "Pure-Go implementation of the JSONata 2.x query and transformation language.",
     "category": "Query Language"
   },
   {
