@@ -336,6 +336,13 @@
     "category": "Audio and Music"
   },
   {
+    "name": "gocue",
+    "import": "github.com/iSerganov/gocue",
+    "url": "https://github.com/iSerganov/gocue",
+    "description": "Audio analysis CLI that detects cue-in, cue-out, and overlay points and measures EBU R128 loudness, emitting JSON for Liquidsoap.",
+    "category": "Audio and Music"
+  },
+  {
     "name": "gosamplerate",
     "import": "github.com/dh1tw/gosamplerate",
     "url": "https://github.com/dh1tw/gosamplerate",
