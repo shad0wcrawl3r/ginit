@@ -6804,6 +6804,13 @@
     "category": "Goroutines"
   },
   {
+    "name": "go-future",
+    "import": "github.com/jizhuozhi/go-future",
+    "url": "https://github.com/jizhuozhi/go-future",
+    "description": "A Future/Promise library with generic combinators and a DAG execution engine.",
+    "category": "Goroutines"
+  },
+  {
     "name": "go-tools/multithreading",
     "import": "github.com/nikhilsaraf/go-tools",
     "url": "https://github.com/nikhilsaraf/go-tools",
@@ -8222,6 +8229,13 @@
     "import": "github.com/AyoubTadlaoui/GoLogX",
     "url": "https://github.com/AyoubTadlaoui/GoLogX",
     "description": "Append-only, hash-chained, optionally Ed25519-signed slog handler with offline verification of tampering.",
+    "category": "Logging"
+  },
+  {
+    "name": "gslog",
+    "import": "github.com/maguro/gslog",
+    "url": "https://github.com/maguro/gslog",
+    "description": "Google Cloud Logging handler for log/slog, with OpenTelemetry trace and baggage, and Kubernetes podinfo labels.",
     "category": "Logging"
   },
   {
