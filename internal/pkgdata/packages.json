@@ -1435,6 +1435,13 @@
     "category": "Command Line"
   },
   {
+    "name": "Fling-CLI",
+    "import": "github.com/SatyamKumarCS/Fling-CLI",
+    "url": "https://github.com/SatyamKumarCS/Fling-CLI",
+    "description": "Terminal-based peer-to-peer file and message transfer tool over custom reliable UDP.",
+    "category": "Command Line"
+  },
+  {
     "name": "getopt",
     "import": "github.com/jon-codes/getopt",
     "url": "https://github.com/jon-codes/getopt",
@@ -12380,6 +12387,13 @@
     "import": "github.com/rekurt/gost-crypto",
     "url": "https://github.com/rekurt/gost-crypto",
     "description": "Go library for Russian GOST cryptographic standards (digital signatures, Streebog hash, Kuznechik cipher, MGM AEAD) backed by OpenSSL gost-engine.",
+    "category": "Security"
+  },
+  {
+    "name": "grim",
+    "import": "github.com/ijin82/grim",
+    "url": "https://github.com/ijin82/grim",
+    "description": "Fast and secure CLI tool for managing encrypted Markdown note vaults in volatile memory.",
     "category": "Security"
   },
   {
