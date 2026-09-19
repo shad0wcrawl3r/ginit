@@ -9597,6 +9597,13 @@
     "category": "Miscellaneous"
   },
   {
+    "name": "yama",
+    "import": "github.com/livetribe/yama",
+    "url": "https://github.com/livetribe/yama",
+    "description": "Compile-time dependency injection and lifecycle framework that generates start, quiesce, and stop code for Google Wire graphs.",
+    "category": "Miscellaneous"
+  },
+  {
     "name": "ardanlabs/service",
     "import": "github.com/ardanlabs/service",
     "url": "https://github.com/ardanlabs/service",
