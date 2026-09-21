@@ -3731,6 +3731,13 @@
     "category": "Database"
   },
   {
+    "name": "pgwd",
+    "import": "github.com/hrodrig/pgwd",
+    "url": "https://github.com/hrodrig/pgwd",
+    "description": "CLI that monitors PostgreSQL connection counts (total, active, idle, stale) and notifies via Slack and/or Loki when thresholds are exceeded. Supports Kubernetes (kubectl port-forward) and optional run context in notifications.",
+    "category": "Database"
+  },
+  {
     "name": "pgweb",
     "import": "github.com/sosedoff/pgweb",
     "url": "https://github.com/sosedoff/pgweb",
