@@ -10668,6 +10668,13 @@
     "category": "Networking"
   },
   {
+    "name": "drainwatch",
+    "import": "github.com/jaynirmal15/drainwatch",
+    "url": "https://github.com/jaynirmal15/drainwatch",
+    "description": "Measures what actually happens to established TCP and UDP connections when a Kubernetes pod terminates.",
+    "category": "Networking"
+  },
+  {
     "name": "easytcp",
     "import": "github.com/DarthPestilane/easytcp",
     "url": "https://github.com/DarthPestilane/easytcp",
