@@ -91,6 +91,13 @@
     "category": "Artificial Intelligence"
   },
   {
+    "name": "Cynative",
+    "import": "github.com/cynative/cynative",
+    "url": "https://github.com/cynative/cynative",
+    "description": "Framework for building security engineering AI agents in Go. Read-only by construction, built-in sandbox, 45 agent blueprints for AWS, GCP, Azure, K8s, GitHub \u0026 GitLab deep research.",
+    "category": "Artificial Intelligence"
+  },
+  {
     "name": "dakera-go",
     "import": "github.com/dakera-ai/dakera-go",
     "url": "https://github.com/dakera-ai/dakera-go",
