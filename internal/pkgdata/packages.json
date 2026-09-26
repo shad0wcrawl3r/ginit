@@ -245,6 +245,13 @@
     "category": "Artificial Intelligence"
   },
   {
+    "name": "thermal",
+    "import": "github.com/jadmadi/thermal",
+    "url": "https://github.com/jadmadi/thermal",
+    "description": "Terminal contribution heatmap, streak tracker, and token leaderboard for AI coding assistants.",
+    "category": "Artificial Intelligence"
+  },
+  {
     "name": "trpc-agent-go",
     "import": "github.com/trpc-group/trpc-agent-go",
     "url": "https://github.com/trpc-group/trpc-agent-go",
