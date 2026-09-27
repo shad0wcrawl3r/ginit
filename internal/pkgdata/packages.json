@@ -1918,6 +1918,13 @@
     "category": "Configuration"
   },
   {
+    "name": "go-yamlvalidator",
+    "import": "github.com/Yakwilik/go-yamlvalidator",
+    "url": "https://github.com/Yakwilik/go-yamlvalidator",
+    "description": "Source-aware YAML validation with native Go schemas and JSON Schema support.",
+    "category": "Configuration"
+  },
+  {
     "name": "GoCfg",
     "import": "github.com/Jagerente/gocfg",
     "url": "https://github.com/Jagerente/gocfg",
@@ -6528,6 +6535,13 @@
     "import": "github.com/MUlt1mate/protoc-gen-httpgo",
     "url": "https://github.com/MUlt1mate/protoc-gen-httpgo",
     "description": "Generate HTTP server and client from protobuf.",
+    "category": "Generators"
+  },
+  {
+    "name": "protoc-gen-mcp",
+    "import": "github.com/easyp-tech/protoc-gen-mcp",
+    "url": "https://github.com/easyp-tech/protoc-gen-mcp",
+    "description": "Generate typed MCP tools, prompts, and resources from Protocol Buffers.",
     "category": "Generators"
   },
   {
