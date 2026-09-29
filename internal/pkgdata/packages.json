@@ -84,6 +84,13 @@
     "category": "Artificial Intelligence"
   },
   {
+    "name": "claude-code-go",
+    "import": "github.com/lancekrogers/claude-code-go",
+    "url": "https://github.com/lancekrogers/claude-code-go",
+    "description": "Go library for driving the Claude Code CLI non-interactive prompt surface from Go programs.",
+    "category": "Artificial Intelligence"
+  },
+  {
     "name": "crewai-go",
     "import": "github.com/rhgs/crewai-go",
     "url": "https://github.com/rhgs/crewai-go",
