@@ -3864,6 +3864,13 @@
     "category": "Database"
   },
   {
+    "name": "dba",
+    "import": "github.com/kran/dba",
+    "url": "https://github.com/kran/dba",
+    "description": "SQL query builder for hand-written SQL, adding dynamic conditions, dialect-aware placeholders, and immutable chaining.",
+    "category": "Database"
+  },
+  {
     "name": "dbq",
     "import": "github.com/rocketlaunchr/dbq",
     "url": "https://github.com/rocketlaunchr/dbq",
