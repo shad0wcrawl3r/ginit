@@ -10745,6 +10745,13 @@
     "category": "Networking"
   },
   {
+    "name": "expose",
+    "import": "github.com/kernelshard/expose",
+    "url": "https://github.com/kernelshard/expose",
+    "description": "Lightweight, open-source secure tunneling tool to expose local servers to the internet.",
+    "category": "Networking"
+  },
+  {
     "name": "fasthttp",
     "import": "github.com/valyala/fasthttp",
     "url": "https://github.com/valyala/fasthttp",
