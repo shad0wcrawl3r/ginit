@@ -6272,6 +6272,13 @@
     "category": "Game Development"
   },
   {
+    "name": "due",
+    "import": "github.com/dobyte/due",
+    "url": "https://github.com/dobyte/due",
+    "description": "Distributed game server framework with a modular component design, providing tcp, kcp, ws and quic gateways.",
+    "category": "Game Development"
+  },
+  {
     "name": "Ebitengine",
     "import": "github.com/hajimehoshi/ebiten",
     "url": "https://github.com/hajimehoshi/ebiten",
@@ -9258,6 +9265,13 @@
     "import": "github.com/socifi/jazz",
     "url": "https://github.com/socifi/jazz",
     "description": "A simple RabbitMQ abstraction layer for queue administration and publishing and consuming of messages.",
+    "category": "Messaging"
+  },
+  {
+    "name": "kiln",
+    "import": "github.com/rafaelaugustos/kiln",
+    "url": "https://github.com/rafaelaugustos/kiln",
+    "description": "Persistent background jobs in PostgreSQL, MySQL or SQLite, with retries, workflows, recurring jobs and a dashboard.",
     "category": "Messaging"
   },
   {
@@ -12352,6 +12366,13 @@
     "import": "github.com/corazawaf/coraza",
     "url": "https://github.com/corazawaf/coraza",
     "description": "Enterprise-ready, modsecurity and OWASP CRS compatible WAF library.",
+    "category": "Security"
+  },
+  {
+    "name": "coraza-rule-validator",
+    "import": "github.com/stardothosting/coraza-rule-validator",
+    "url": "https://github.com/stardothosting/coraza-rule-validator",
+    "description": "Standalone CLI tool to validate ModSecurity and Coraza SecLang WAF rules before production deployment.",
     "category": "Security"
   },
   {
@@ -16573,6 +16594,13 @@
     "import": "github.com/Oudwins/zog",
     "url": "https://github.com/Oudwins/zog",
     "description": "A [Zod](https://github.com/colinhacks/zod) inspired schema builder for runtime value parsing and validation.",
+    "category": "Validation"
+  },
+  {
+    "name": "vx",
+    "import": "github.com/sevlyar/vx",
+    "url": "https://github.com/sevlyar/vx",
+    "description": "Validation built from small, composable checks with zero dependencies and a reconstructable error path.",
     "category": "Validation"
   },
   {
