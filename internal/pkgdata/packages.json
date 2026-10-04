@@ -413,6 +413,13 @@
     "category": "Audio and Music"
   },
   {
+    "name": "voxrai-ai",
+    "import": "github.com/Voxray-AI/Voxray",
+    "url": "https://github.com/Voxray-AI/Voxray",
+    "description": "AI voice agents with a JSON configuration,  STT → LLM → TTS pipelines over WebSocket and WebRTC.",
+    "category": "Audio and Music"
+  },
+  {
     "name": "authboss",
     "import": "github.com/volatiletech/authboss",
     "url": "https://github.com/volatiletech/authboss",
@@ -1519,6 +1526,13 @@
     "category": "Command Line"
   },
   {
+    "name": "GoPOSIX",
+    "import": "github.com/ramayac/GoPOSIX",
+    "url": "https://github.com/ramayac/GoPOSIX",
+    "description": "A Go-native, single-binary multicall with 77 POSIX tools and \u003e97% BusyBox test compatibility.",
+    "category": "Command Line"
+  },
+  {
     "name": "hashicorp/cli",
     "import": "github.com/hashicorp/cli",
     "url": "https://github.com/hashicorp/cli",
@@ -2170,13 +2184,6 @@
     "category": "Continuous Integration"
   },
   {
-    "name": "coverage",
-    "import": "github.com/jbunds/coverage",
-    "url": "https://github.com/jbunds/coverage",
-    "description": "A simple Web UI for Go test coverage, and the [go-test-coverage-html-report](https://github.com/marketplace/actions/go-test-coverage-html-report) reusable GitHub Action.",
-    "category": "Continuous Integration"
-  },
-  {
     "name": "dot",
     "import": "github.com/opnlabs/dot",
     "url": "https://github.com/opnlabs/dot",
@@ -2464,6 +2471,13 @@
     "category": "Data Structures and Algorithms"
   },
   {
+    "name": "glinq",
+    "import": "github.com/CreateLab/glinq",
+    "url": "https://github.com/CreateLab/glinq",
+    "description": "LINQ-like lazy evaluation library with type-safe generics, performance optimizations and zero dependencies.",
+    "category": "Data Structures and Algorithms"
+  },
+  {
     "name": "gloop",
     "import": "github.com/alvii147/gloop",
     "url": "https://github.com/alvii147/gloop",
@@ -2664,6 +2678,13 @@
     "import": "github.com/twharmon/slices",
     "url": "https://github.com/twharmon/slices",
     "description": "Pure, generic functions for slices.",
+    "category": "Data Structures and Algorithms"
+  },
+  {
+    "name": "xsync",
+    "import": "github.com/puzpuzpuz/xsync",
+    "url": "https://github.com/puzpuzpuz/xsync",
+    "description": "Concurrent scalable data structures like `xsync.Map`, a concurrent generic hash table.",
     "category": "Data Structures and Algorithms"
   },
   {
@@ -2975,17 +2996,17 @@
     "category": "Database"
   },
   {
-    "name": "EchoVault",
-    "import": "github.com/EchoVault/EchoVault",
-    "url": "https://github.com/EchoVault/EchoVault",
-    "description": "Embeddable Distributed in-memory data store compatible with Redis clients.",
-    "category": "Database"
-  },
-  {
     "name": "easycache",
     "import": "github.com/hugocarreira/easycache",
     "url": "https://github.com/hugocarreira/easycache",
     "description": "A simple way to use in-memory cache in Golang (TTL/FIFO/LRU/LFU).",
+    "category": "Database"
+  },
+  {
+    "name": "EchoVault",
+    "import": "github.com/EchoVault/EchoVault",
+    "url": "https://github.com/EchoVault/EchoVault",
+    "description": "Embeddable Distributed in-memory data store compatible with Redis clients.",
     "category": "Database"
   },
   {
@@ -4001,6 +4022,13 @@
     "import": "github.com/kyleconroy/sqlc",
     "url": "https://github.com/kyleconroy/sqlc",
     "description": "Generate type-safe code from SQL.",
+    "category": "Database"
+  },
+  {
+    "name": "sqlcredo",
+    "import": "github.com/Klojer/sqlcredo",
+    "url": "https://github.com/Klojer/sqlcredo",
+    "description": "Package for type-safe generic SQL CRUD operations with pagination, transactions, debugging, and custom raw SQL extensions.",
     "category": "Database"
   },
   {
@@ -5723,6 +5751,13 @@
     "import": "github.com/SebastiaanKlippert/go-wkhtmltopdf",
     "url": "https://github.com/SebastiaanKlippert/go-wkhtmltopdf",
     "description": "A package to convert an HTML template to a PDF file.",
+    "category": "File Handling"
+  },
+  {
+    "name": "goflat",
+    "import": "github.com/lzambarda/goflat",
+    "url": "https://github.com/lzambarda/goflat",
+    "description": "Context-aware generic flat file marshaler/unmarshaler.",
     "category": "File Handling"
   },
   {
@@ -10703,6 +10738,13 @@
     "category": "Networking"
   },
   {
+    "name": "corsproxy",
+    "import": "github.com/melihbirim/corsproxy",
+    "url": "https://github.com/melihbirim/corsproxy",
+    "description": "CORS proxy server with SSRF protection, host allow/blocklisting, and optional API key authentication.",
+    "category": "Networking"
+  },
+  {
     "name": "dhcp6",
     "import": "github.com/mdlayher/dhcp6",
     "url": "https://github.com/mdlayher/dhcp6",
@@ -12250,17 +12292,17 @@
     "category": "Science and Data Analysis"
   },
   {
-    "name": "acmetool",
-    "import": "github.com/hlandau/acme",
-    "url": "https://github.com/hlandau/acme",
-    "description": "ACME (Let's Encrypt) client tool with automatic renewal.",
-    "category": "Security"
-  },
-  {
     "name": "acme-proxy",
     "import": "github.com/esnet/acme-proxy",
     "url": "https://github.com/esnet/acme-proxy",
     "description": "Solve ACME http-01 challenge without opening port 80 to the internet, obtain certs from an external certificate authority.",
+    "category": "Security"
+  },
+  {
+    "name": "acmetool",
+    "import": "github.com/hlandau/acme",
+    "url": "https://github.com/hlandau/acme",
+    "description": "ACME (Let's Encrypt) client tool with automatic renewal.",
     "category": "Security"
   },
   {
@@ -12565,10 +12607,24 @@
     "category": "Security"
   },
   {
+    "name": "nurago/pkg/redact",
+    "import": "github.com/tecnickcom/nurago",
+    "url": "https://github.com/tecnickcom/nurago/tree/main/pkg/redact",
+    "description": "Removes secrets from log lines and HTTP dumps in a single pass, covering headers, JSON, XML, URL-encoded data, JWTs, PEM keys, and vendor tokens.",
+    "category": "Security"
+  },
+  {
     "name": "optimus-go",
     "import": "github.com/pjebs/optimus-go",
     "url": "https://github.com/pjebs/optimus-go",
     "description": "ID hashing and Obfuscation using Knuth's Algorithm.",
+    "category": "Security"
+  },
+  {
+    "name": "osv-scanner",
+    "import": "github.com/google/osv-scanner",
+    "url": "https://github.com/google/osv-scanner",
+    "description": "Vulnerability scanner written in Go which uses the data provided by OSV.",
     "category": "Security"
   },
   {
@@ -12992,6 +13048,13 @@
     "category": "Template Engines"
   },
   {
+    "name": "liquidgo",
+    "import": "github.com/Notifuse/liquidgo",
+    "url": "https://github.com/Notifuse/liquidgo",
+    "description": "Full Go implementation of Shopify's Liquid template engine.",
+    "category": "Template Engines"
+  },
+  {
     "name": "maroto",
     "import": "github.com/johnfercher/maroto",
     "url": "https://github.com/johnfercher/maroto",
@@ -13076,6 +13139,13 @@
     "category": "Testing"
   },
   {
+    "name": "axiom",
+    "import": "github.com/Nikita-Filonov/axiom",
+    "url": "https://github.com/Nikita-Filonov/axiom",
+    "description": "Composable Go test framework with fixtures, hooks, retries, metadata, plugins, and parallel execution.",
+    "category": "Testing"
+  },
+  {
     "name": "baloo",
     "import": "github.com/h2non/baloo",
     "url": "https://github.com/h2non/baloo",
@@ -13108,6 +13178,13 @@
     "import": "github.com/SimonBaeumer/commander",
     "url": "https://github.com/SimonBaeumer/commander",
     "description": "Tool for testing cli applications on windows, linux and osx.",
+    "category": "Testing"
+  },
+  {
+    "name": "coverage",
+    "import": "github.com/jbunds/coverage",
+    "url": "https://github.com/jbunds/coverage",
+    "description": "A simple Web UI for Go test coverage, and the [go-test-coverage-html-report](https://github.com/marketplace/actions/go-test-coverage-html-report) reusable GitHub Action.",
     "category": "Testing"
   },
   {
@@ -13577,6 +13654,13 @@
     "import": "github.com/vibridi/gomock",
     "url": "https://github.com/vibridi/gomock",
     "description": "CLI tool to generate typed and framework-agnostic interface mocks, with support for generics.",
+    "category": "Testing"
+  },
+  {
+    "name": "gomocker",
+    "import": "github.com/zhongjie-cai/gomocker",
+    "url": "https://github.com/zhongjie-cai/gomocker",
+    "description": "A live mocker library for functions and methods in Golang for unit testing with fluent syntax, no code-gen needed.",
     "category": "Testing"
   },
   {
@@ -14294,17 +14378,17 @@
     "category": "Third-party APIs"
   },
   {
-    "name": "bqwriter",
-    "import": "github.com/OTA-Insight/bqwriter",
-    "url": "https://github.com/OTA-Insight/bqwriter",
-    "description": "High Level Go Library to write data into [Google BigQuery](https://cloud.google.com/bigquery) at a high throughout.",
-    "category": "Third-party APIs"
-  },
-  {
     "name": "birdeye-go",
     "import": "github.com/tigusigalpa/birdeye-go",
     "url": "https://github.com/tigusigalpa/birdeye-go",
     "description": "Go client for Birdeye DeFi API with typed spot prices, OHLCV candles, historical data, and raw request escape hatch.",
+    "category": "Third-party APIs"
+  },
+  {
+    "name": "bqwriter",
+    "import": "github.com/OTA-Insight/bqwriter",
+    "url": "https://github.com/OTA-Insight/bqwriter",
+    "description": "High Level Go Library to write data into [Google BigQuery](https://cloud.google.com/bigquery) at a high throughout.",
     "category": "Third-party APIs"
   },
   {
@@ -16429,6 +16513,13 @@
     "category": "UUID"
   },
   {
+    "name": "nanoid",
+    "import": "github.com/sixafter/nanoid",
+    "url": "https://github.com/sixafter/nanoid",
+    "description": "Efficient, cryptographically secure generator for fast, concurrent NanoID and UUID creation.",
+    "category": "UUID"
+  },
+  {
     "name": "sno",
     "import": "github.com/muyo/sno",
     "url": "https://github.com/muyo/sno",
@@ -16590,17 +16681,17 @@
     "category": "Validation"
   },
   {
-    "name": "Zog",
-    "import": "github.com/Oudwins/zog",
-    "url": "https://github.com/Oudwins/zog",
-    "description": "A [Zod](https://github.com/colinhacks/zod) inspired schema builder for runtime value parsing and validation.",
-    "category": "Validation"
-  },
-  {
     "name": "vx",
     "import": "github.com/sevlyar/vx",
     "url": "https://github.com/sevlyar/vx",
     "description": "Validation built from small, composable checks with zero dependencies and a reconstructable error path.",
+    "category": "Validation"
+  },
+  {
+    "name": "Zog",
+    "import": "github.com/Oudwins/zog",
+    "url": "https://github.com/Oudwins/zog",
+    "description": "A [Zod](https://github.com/colinhacks/zod) inspired schema builder for runtime value parsing and validation.",
     "category": "Validation"
   },
   {
@@ -17024,10 +17115,10 @@
     "category": "Web Frameworks"
   },
   {
-    "name": "templui",
-    "import": "github.com/axzilla/templui",
-    "url": "https://github.com/axzilla/templui",
-    "description": "Modern UI Components for Go \u0026 Templ.",
+    "name": "shadcn-templ",
+    "import": "github.com/axadrn/shadcn-templ",
+    "url": "https://github.com/axadrn/shadcn-templ",
+    "description": "Unofficial shadcn/ui port for Go and templ: accessible UI components with CLI and registry.",
     "category": "Web Frameworks"
   },
   {
@@ -17469,6 +17560,13 @@
     "import": "github.com/agnivade/wasmbrowsertest",
     "url": "https://github.com/agnivade/wasmbrowsertest",
     "description": "Run Go WASM tests in your browser.",
+    "category": "WebAssembly"
+  },
+  {
+    "name": "wasmtime-go",
+    "import": "github.com/bytecodealliance/wasmtime-go",
+    "url": "https://github.com/bytecodealliance/wasmtime-go",
+    "description": "Go bindings for the Wasmtime WebAssembly runtime (WASI support, JIT/AOT, secure and fast embedding).",
     "category": "WebAssembly"
   },
   {
