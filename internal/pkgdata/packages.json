@@ -119,6 +119,13 @@
     "category": "Artificial Intelligence"
   },
   {
+    "name": "Genkit",
+    "import": "github.com/firebase/genkit",
+    "url": "https://github.com/firebase/genkit",
+    "description": "Framework created by Google for building AI-powered and agentic applications in idiomatic Go.",
+    "category": "Artificial Intelligence"
+  },
+  {
     "name": "goai",
     "import": "github.com/zendev-sh/goai",
     "url": "https://github.com/zendev-sh/goai",
@@ -4697,6 +4704,13 @@
     "category": "Date and Time"
   },
   {
+    "name": "timex",
+    "import": "github.com/invzhi/timex",
+    "url": "https://github.com/invzhi/timex",
+    "description": "A Go package that extends the standard library time with dedicated date and time-of-day types.",
+    "category": "Date and Time"
+  },
+  {
     "name": "tuesday",
     "import": "github.com/osteele/tuesday",
     "url": "https://github.com/osteele/tuesday",
@@ -5618,6 +5632,13 @@
     "import": "github.com/Southclaws/fault",
     "url": "https://github.com/Southclaws/fault",
     "description": "An ergonomic mechanism for wrapping errors in order to facilitate structured metadata and context for error values.",
+    "category": "Error Handling"
+  },
+  {
+    "name": "go-bruh",
+    "import": "github.com/aisbergg/go-bruh",
+    "url": "https://github.com/aisbergg/go-bruh",
+    "description": "Error handling with stack traces, custom formatting, and observability integration.",
     "category": "Error Handling"
   },
   {
@@ -8940,8 +8961,8 @@
   },
   {
     "name": "gorse",
-    "import": "github.com/zhenghaoz/gorse",
-    "url": "https://github.com/zhenghaoz/gorse",
+    "import": "github.com/gorse-io/gorse",
+    "url": "https://github.com/gorse-io/gorse",
     "description": "An offline recommender system backend based on collaborative filtering written in Go.",
     "category": "Machine Learning"
   },
@@ -12460,6 +12481,13 @@
     "category": "Security"
   },
   {
+    "name": "FCaptcha",
+    "import": "github.com/WebDecoy/FCaptcha",
+    "url": "https://github.com/WebDecoy/FCaptcha",
+    "description": "Self-hosted CAPTCHA server and Go client that detects bots, AI agents, and headless browsers through behavioral analysis and proof of work.",
+    "category": "Security"
+  },
+  {
     "name": "firewalld-rest",
     "import": "github.com/prashantgupta24/firewalld-rest",
     "url": "https://github.com/prashantgupta24/firewalld-rest",
@@ -13486,6 +13514,13 @@
     "import": "github.com/dedalqq/omg.testingtools",
     "url": "https://github.com/dedalqq/omg.testingtools",
     "description": "The simple library for change a values of private fields for testing.",
+    "category": "Testing"
+  },
+  {
+    "name": "prettycov",
+    "import": "github.com/screwyprof/prettycov",
+    "url": "https://github.com/screwyprof/prettycov",
+    "description": "Draws a Go coverage profile as a package tree with a total on every row.",
     "category": "Testing"
   },
   {
@@ -14633,7 +14668,7 @@
     "name": "go-openproject",
     "import": "github.com/manuelbcd/go-openproject",
     "url": "https://github.com/manuelbcd/go-openproject",
-    "description": "Go client library for interacting with [OpenProject](https://docs.openproject.org/api/) API.",
+    "description": "Go client library for interacting with [OpenProject](https://www.openproject.org/docs/api/) API.",
     "category": "Third-party APIs"
   },
   {
@@ -17154,6 +17189,13 @@
     "import": "github.com/ankorstore/yokai",
     "url": "https://github.com/ankorstore/yokai",
     "description": "Simple, modular, and observable Go framework for backend applications.",
+    "category": "Web Frameworks"
+  },
+  {
+    "name": "apitally",
+    "import": "github.com/apitally/apitally-go",
+    "url": "https://github.com/apitally/apitally-go",
+    "description": "API monitoring and analytics middleware with metrics, logging, and alerts. Works with Chi, Echo, Fiber, and Gin.",
     "category": "Web Frameworks"
   },
   {
