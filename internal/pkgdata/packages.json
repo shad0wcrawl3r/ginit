@@ -133,6 +133,13 @@
     "category": "Artificial Intelligence"
   },
   {
+    "name": "golem",
+    "import": "github.com/abubakarsiddik31/golem",
+    "url": "https://github.com/abubakarsiddik31/golem",
+    "description": "Framework for building dependable AI agents with typed dependencies, zero external dependencies, and native MCP support.",
+    "category": "Artificial Intelligence"
+  },
+  {
     "name": "GoModel",
     "import": "github.com/ENTERPILOT/GoModel",
     "url": "https://github.com/ENTERPILOT/GoModel",
@@ -1092,6 +1099,13 @@
     "category": "Command Line"
   },
   {
+    "name": "glamour",
+    "import": "github.com/charmbracelet/glamour",
+    "url": "https://github.com/charmbracelet/glamour",
+    "description": "Stylesheet-based markdown rendering for terminal applications.",
+    "category": "Command Line"
+  },
+  {
     "name": "go-ataman",
     "import": "github.com/workanator/go-ataman",
     "url": "https://github.com/workanator/go-ataman",
@@ -1166,6 +1180,13 @@
     "import": "github.com/iyashjayesh/goscaf",
     "url": "https://github.com/iyashjayesh/goscaf",
     "description": "goscaf generates opinionated, production-quality Go project boilerplate via an interactive CLI. Stop copy-pasting skeleton code between projects.",
+    "category": "Command Line"
+  },
+  {
+    "name": "huh",
+    "import": "github.com/charmbracelet/huh",
+    "url": "https://github.com/charmbracelet/huh",
+    "description": "Lightweight library for building interactive forms and prompts in the terminal.",
     "category": "Command Line"
   },
   {
@@ -14984,6 +15005,13 @@
     "import": "github.com/otiai10/openaigo",
     "url": "https://github.com/otiai10/openaigo",
     "description": "OpenAI GPT3/GPT3.5 ChatGPT API client library for Go.",
+    "category": "Third-party APIs"
+  },
+  {
+    "name": "openapi",
+    "import": "github.com/speakeasy-api/openapi",
+    "url": "https://github.com/speakeasy-api/openapi",
+    "description": "Parse, validate, and manipulate OpenAPI, Swagger, Arazzo, and OpenAPI Overlay documents.",
     "category": "Third-party APIs"
   },
   {
