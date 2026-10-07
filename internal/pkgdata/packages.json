@@ -8141,6 +8141,13 @@
     "category": "JSON"
   },
   {
+    "name": "jseq",
+    "import": "github.com/bobg/jseq",
+    "url": "https://github.com/bobg/jseq",
+    "description": "Streaming JSON parser.",
+    "category": "JSON"
+  },
+  {
     "name": "json2go",
     "import": "github.com/m-zajac/json2go",
     "url": "https://github.com/m-zajac/json2go",
