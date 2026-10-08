@@ -1715,6 +1715,13 @@
     "category": "Command Line"
   },
   {
+    "name": "vibecheck",
+    "import": "github.com/rshdhere/vibecheck",
+    "url": "https://github.com/rshdhere/vibecheck",
+    "description": "Cross-platform CLI that generates Git commit messages automatically from code changes.",
+    "category": "Command Line"
+  },
+  {
     "name": "wlog",
     "import": "github.com/dixonwille/wlog",
     "url": "https://github.com/dixonwille/wlog",
@@ -14585,6 +14592,13 @@
     "import": "github.com/codingsince1985/geo-golang",
     "url": "https://github.com/codingsince1985/geo-golang",
     "description": "Go Library to access [Google Maps](https://developers.google.com/maps/documentation/geocoding/intro), [MapQuest](https://developer.mapquest.com/documentation/api/geocoding/), [Nominatim](https://nominatim.org/release-docs/latest/api/Overview/), [OpenCage](https://opencagedata.com/api), [Bing](https://msdn.microsoft.com/en-us/library/ff701715.aspx), [Mapbox](https://www.mapbox.com/developers/api/geocoding/), and [OpenStreetMap](https://wiki.openstreetmap.org/wiki/Nominatim) geocoding / reverse geocoding APIs.",
+    "category": "Third-party APIs"
+  },
+  {
+    "name": "gghstats",
+    "import": "github.com/hrodrig/gghstats",
+    "url": "https://github.com/hrodrig/gghstats",
+    "description": "Self-hosted GitHub traffic dashboard that stores clones and views in SQLite beyond the 14-day API window.",
     "category": "Third-party APIs"
   },
   {
