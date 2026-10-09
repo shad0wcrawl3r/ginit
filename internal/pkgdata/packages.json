@@ -84,6 +84,13 @@
     "category": "Artificial Intelligence"
   },
   {
+    "name": "clai",
+    "import": "github.com/baalimago/clai",
+    "url": "https://github.com/baalimago/clai",
+    "description": "Agentic harness focused on terminal workflows, following UNIX principles. No external dependencies, ideal for scripting/prototyping agentic apps, engine is also exposed as a package.",
+    "category": "Artificial Intelligence"
+  },
+  {
     "name": "claude-code-go",
     "import": "github.com/lancekrogers/claude-code-go",
     "url": "https://github.com/lancekrogers/claude-code-go",
@@ -109,13 +116,6 @@
     "import": "github.com/dakera-ai/dakera-go",
     "url": "https://github.com/dakera-ai/dakera-go",
     "description": "Official Go client SDK for the Dakera self-hosted agent memory server, providing typed interfaces for memory store/recall, session management, namespace operations, and decay configuration.",
-    "category": "Artificial Intelligence"
-  },
-  {
-    "name": "fun",
-    "import": "gitlab.com/tozd/go",
-    "url": "https://gitlab.com/tozd/go/fun",
-    "description": "The simplest but powerful way to use large language models (LLMs) in Go.",
     "category": "Artificial Intelligence"
   },
   {
@@ -5622,6 +5622,13 @@
   },
   {
     "name": "errors",
+    "import": "gitlab.com/tozd/go",
+    "url": "https://gitlab.com/tozd/go/errors",
+    "description": "Providing errors with a stack trace and optional structured details. Compatible with github.com/pkg/errors API but does not use it internally.",
+    "category": "Error Handling"
+  },
+  {
+    "name": "errors",
     "import": "github.com/naughtygopher/errors",
     "url": "https://github.com/naughtygopher/errors",
     "description": "Drop-in replacement for builtin Go errors. This is a minimal error handling package with custom error types, user friendly messages, Unwrap \u0026 Is. With very easy to use and straightforward helper functions.",
@@ -7977,6 +7984,13 @@
     "import": "github.com/kahoon/pending",
     "url": "https://github.com/kahoon/pending",
     "description": "ID-based debounced task scheduler for deferred tasks with cancellation, graceful shutdown, and optional concurrency limits.",
+    "category": "Job Scheduler"
+  },
+  {
+    "name": "RunWisp",
+    "import": "github.com/runwisp/runwisp",
+    "url": "https://github.com/runwisp/runwisp",
+    "description": "Single-binary replacement for cron and supervisord that keeps the exit code and output of every run, with a web UI and a TUI.",
     "category": "Job Scheduler"
   },
   {
