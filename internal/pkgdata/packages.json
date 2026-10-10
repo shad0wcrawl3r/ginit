@@ -1092,6 +1092,13 @@
     "category": "Command Line"
   },
   {
+    "name": "eyez",
+    "import": "github.com/tech-thinker/eyez",
+    "url": "https://github.com/tech-thinker/eyez",
+    "description": "eyez is a handy CLI tool that lets you view images directly in your terminal, with support for most terminal emulators.",
+    "category": "Command Line"
+  },
+  {
     "name": "fx",
     "import": "github.com/antonmedv/fx",
     "url": "https://github.com/antonmedv/fx",
@@ -11298,6 +11305,13 @@
     "category": "Networking"
   },
   {
+    "name": "telepath",
+    "import": "github.com/tech-thinker/telepath",
+    "url": "https://github.com/tech-thinker/telepath",
+    "description": "telepath is a powerful CLI tool for secure port forwarding with support for multiple jump hosts and flexible authentication.",
+    "category": "Networking"
+  },
+  {
     "name": "tspool",
     "import": "github.com/two/tspool",
     "url": "https://github.com/two/tspool",
@@ -12464,6 +12478,13 @@
     "import": "github.com/mvmaasakkers/certificates",
     "url": "https://github.com/mvmaasakkers/certificates",
     "description": "An opinionated tool for generating tls certificates.",
+    "category": "Security"
+  },
+  {
+    "name": "certifier",
+    "import": "github.com/0x524a/certifier",
+    "url": "https://github.com/0x524a/certifier",
+    "description": "Library and CLI for generating and validating X.509 certificates, certificate authorities, CRLs, and OCSP responses.",
     "category": "Security"
   },
   {
@@ -16954,6 +16975,20 @@
     "category": "Video"
   },
   {
+    "name": "onvif-go",
+    "import": "github.com/0x524a/onvif-go",
+    "url": "https://github.com/0x524a/onvif-go",
+    "description": "ONVIF client, WS-Discovery and virtual camera server for IP cameras.",
+    "category": "Video"
+  },
+  {
+    "name": "rtspeek",
+    "import": "github.com/0x524a/rtspeek",
+    "url": "https://github.com/0x524a/rtspeek",
+    "description": "Library and CLI for probing RTSP streams and reporting reachability, latency, codecs, and resolutions.",
+    "category": "Video"
+  },
+  {
     "name": "v4l",
     "import": "github.com/korandiz/v4l",
     "url": "https://github.com/korandiz/v4l",
@@ -17973,6 +18008,13 @@
     "import": "github.com/yuroyoro/goast-viewer",
     "url": "https://github.com/yuroyoro/goast-viewer",
     "description": "Web based Golang AST visualizer.",
+    "category": "Code Analysis"
+  },
+  {
+    "name": "gocondense",
+    "import": "github.com/abemedia/gocondense",
+    "url": "https://github.com/abemedia/gocondense",
+    "description": "A gofmt-compatible formatter that condenses multi-line constructs onto single lines where they fit.",
     "category": "Code Analysis"
   },
   {
