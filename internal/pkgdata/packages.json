@@ -1568,6 +1568,13 @@
     "category": "Command Line"
   },
   {
+    "name": "gozen",
+    "import": "github.com/tech-thinker/gozen",
+    "url": "https://github.com/tech-thinker/gozen",
+    "description": "gozen is a simplified golang MVC framework to generate projects and components with Support of REST, gRPC etc. Higly customizable and easy to add any api layer or worker.",
+    "category": "Command Line"
+  },
+  {
     "name": "hashicorp/cli",
     "import": "github.com/hashicorp/cli",
     "url": "https://github.com/hashicorp/cli",
