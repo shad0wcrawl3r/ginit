@@ -12768,6 +12768,13 @@
     "category": "Security"
   },
   {
+    "name": "PwnedCheck",
+    "import": "github.com/mohamedation/PwnedCheck",
+    "url": "https://github.com/mohamedation/PwnedCheck",
+    "description": "Command-line tool to check passwords against Have I Been Pwned breaches, with Bitwarden export support.",
+    "category": "Security"
+  },
+  {
     "name": "qrand",
     "import": "github.com/bitfield/qrand",
     "url": "https://github.com/bitfield/qrand",
