@@ -430,7 +430,7 @@
     "name": "voxrai-ai",
     "import": "github.com/Voxray-AI/Voxray",
     "url": "https://github.com/Voxray-AI/Voxray",
-    "description": "AI voice agents with a JSON configuration,  STT → LLM → TTS pipelines over WebSocket and WebRTC.",
+    "description": "AI voice agents with a JSON configuration, STT → LLM → TTS pipelines over WebSocket and WebRTC.",
     "category": "Audio and Music"
   },
   {
@@ -924,17 +924,17 @@
     "category": "Bot Building"
   },
   {
-    "name": "ymsdk",
-    "import": "github.com/rekurt/ymsdk",
-    "url": "https://github.com/rekurt/ymsdk",
-    "description": "Go SDK for Yandex Messenger Bot API with type-safe models, automatic retry, and rate-limit handling.",
-    "category": "Bot Building"
-  },
-  {
     "name": "Wisp",
     "import": "github.com/wisp-trading/wisp",
     "url": "https://github.com/wisp-trading/wisp",
     "description": "Event-driven trading framework for Go. Spot, perpetual futures, prediction markets. Multi-exchange (Bybit, Hyperliquid, Polymarket).",
+    "category": "Bot Building"
+  },
+  {
+    "name": "ymsdk",
+    "import": "github.com/rekurt/ymsdk",
+    "url": "https://github.com/rekurt/ymsdk",
+    "description": "Go SDK for Yandex Messenger Bot API with type-safe models, automatic retry, and rate-limit handling.",
     "category": "Bot Building"
   },
   {
@@ -1257,6 +1257,13 @@
     "import": "github.com/pterm/pterm",
     "url": "https://github.com/pterm/pterm",
     "description": "A library to beautify console output on every platform with many combinable components.",
+    "category": "Command Line"
+  },
+  {
+    "name": "rummage",
+    "import": "github.com/rummage-dev/rummage",
+    "url": "https://github.com/rummage-dev/rummage",
+    "description": "Cross-platform terminal file/folder picker with fuzzy search, multi-select, and a preview pane.",
     "category": "Command Line"
   },
   {
@@ -6682,6 +6689,13 @@
     "import": "github.com/kpfaulkner/borders",
     "url": "https://github.com/kpfaulkner/borders",
     "description": "Detects image borders and converts to GeoJSON for GIS operations.",
+    "category": "Geographic"
+  },
+  {
+    "name": "geo-engine-go",
+    "import": "github.com/AlexG695/geo-engine-go",
+    "url": "https://github.com/AlexG695/geo-engine-go",
+    "description": "Official Go SDK for GeoEngine, offering high-performance geospatial data ingestion with single-digit millisecond latency.",
     "category": "Geographic"
   },
   {
@@ -16972,6 +16986,13 @@
     "import": "github.com/alanzng/manifestor",
     "url": "https://github.com/alanzng/manifestor",
     "description": "Zero-dependency library for parsing, filtering, transforming, and building HLS and DASH manifests.",
+    "category": "Video"
+  },
+  {
+    "name": "mosaic",
+    "import": "github.com/farshidrezaei/mosaic",
+    "url": "https://github.com/farshidrezaei/mosaic",
+    "description": "Predictable, production-ready Adaptive Bitrate (ABR) video packaging for Go (HLS \u0026 DASH CMAF).",
     "category": "Video"
   },
   {
