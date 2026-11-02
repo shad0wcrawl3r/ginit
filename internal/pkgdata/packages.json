@@ -1071,13 +1071,6 @@
     "category": "Command Line"
   },
   {
-    "name": "chroma16",
-    "import": "github.com/arceus-7/chroma16",
-    "url": "https://github.com/arceus-7/chroma16",
-    "description": "Generate a harmonious 16-color terminal palette from a single seed color or string.",
-    "category": "Command Line"
-  },
-  {
     "name": "crab-config-files-templating",
     "import": "github.com/alfiankan/crab-config-files-templating",
     "url": "https://github.com/alfiankan/crab-config-files-templating",
