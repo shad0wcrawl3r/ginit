@@ -12278,13 +12278,6 @@
     "category": "Science and Data Analysis"
   },
   {
-    "name": "matrix",
-    "import": "github.com/Arceus-7/matrix",
-    "url": "https://github.com/Arceus-7/matrix",
-    "description": "A clean, generic, zero-dependency matrix math package for Go with support for arithmetic, decompositions, and linear system solving.",
-    "category": "Science and Data Analysis"
-  },
-  {
     "name": "ode",
     "import": "github.com/ChristopherRabotin/ode",
     "url": "https://github.com/ChristopherRabotin/ode",
