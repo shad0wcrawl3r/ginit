@@ -5789,6 +5789,13 @@
     "category": "File Handling"
   },
   {
+    "name": "go-cabinet",
+    "import": "github.com/abemedia/go-cabinet",
+    "url": "https://github.com/abemedia/go-cabinet",
+    "description": "Read, write and extract Microsoft Cabinet (.cab) files, with MSZIP and LZX compression and io/fs support.",
+    "category": "File Handling"
+  },
+  {
     "name": "go-csv-tag",
     "import": "github.com/artonge/go-csv-tag",
     "url": "https://github.com/artonge/go-csv-tag",
@@ -13720,6 +13727,13 @@
     "category": "Testing"
   },
   {
+    "name": "auth0-mock",
+    "import": "github.com/sergiught/auth0-mock",
+    "url": "https://github.com/sergiught/auth0-mock",
+    "description": "Mock Auth0 server for tests and local development, with signed JWTs, OIDC login flows and the Management API.",
+    "category": "Testing"
+  },
+  {
     "name": "counterfeiter",
     "import": "github.com/maxbrunsfeld/counterfeiter",
     "url": "https://github.com/maxbrunsfeld/counterfeiter",
@@ -17007,6 +17021,13 @@
     "import": "github.com/0x524a/rtspeek",
     "url": "https://github.com/0x524a/rtspeek",
     "description": "Library and CLI for probing RTSP streams and reporting reachability, latency, codecs, and resolutions.",
+    "category": "Video"
+  },
+  {
+    "name": "subgo",
+    "import": "github.com/kianelbo/subgo",
+    "url": "https://github.com/kianelbo/subgo",
+    "description": "Library and CLI for working with subtitles (.srt, .ass, .webvtt, etc.).",
     "category": "Video"
   },
   {
