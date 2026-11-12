@@ -1599,7 +1599,14 @@
     "name": "kingpin",
     "import": "github.com/alecthomas/kingpin",
     "url": "https://github.com/alecthomas/kingpin",
-    "description": "Command line and flag parser supporting sub commands (superseded by `kong`; see below).",
+    "description": "Command line and flag parser supporting sub commands (superseded by `kong`).",
+    "category": "Command Line"
+  },
+  {
+    "name": "kong",
+    "import": "github.com/alecthomas/kong",
+    "url": "https://github.com/alecthomas/kong",
+    "description": "Command-line parser with support for arbitrarily complex command-line structures (successor to `kingpin`).",
     "category": "Command Line"
   },
   {
@@ -2125,13 +2132,6 @@
     "import": "github.com/lalamove/konfig",
     "url": "https://github.com/lalamove/konfig",
     "description": "Composable, observable and performant config handling for Go for the distributed processing era.",
-    "category": "Configuration"
-  },
-  {
-    "name": "kong",
-    "import": "github.com/alecthomas/kong",
-    "url": "https://github.com/alecthomas/kong",
-    "description": "Command-line parser with support for arbitrarily complex command-line structures and additional sources of configuration such as YAML, JSON, TOML, etc (successor to `kingpin`).",
     "category": "Configuration"
   },
   {
@@ -2839,6 +2839,13 @@
     "import": "github.com/zoumo/goset",
     "url": "https://github.com/zoumo/goset",
     "description": "A useful Set collection implementation for Go.",
+    "category": "Data Structures and Algorithms"
+  },
+  {
+    "name": "readyset",
+    "import": "github.com/kastolars/readyset",
+    "url": "https://github.com/kastolars/readyset",
+    "description": "Generic sets, including sets of records identified by a key, with an opt-in thread-safe variant.",
     "category": "Data Structures and Algorithms"
   },
   {
@@ -9188,6 +9195,13 @@
     "import": "github.com/qvcloud/broker",
     "url": "https://github.com/qvcloud/broker",
     "description": "Production-grade messaging abstraction with a unified API for various brokers and built-in OpenTelemetry integration.",
+    "category": "Messaging"
+  },
+  {
+    "name": "bus",
+    "import": "github.com/korableg/bus",
+    "url": "https://github.com/korableg/bus",
+    "description": "Kafka event bus framework with protobuf-typed producer and consumer groups, retries, batch handlers and automatic offset commits.",
     "category": "Messaging"
   },
   {
