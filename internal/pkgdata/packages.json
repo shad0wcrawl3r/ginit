@@ -4144,6 +4144,13 @@
     "category": "Database Drivers"
   },
   {
+    "name": "dalgo",
+    "import": "github.com/dal-go/dalgo",
+    "url": "https://github.com/dal-go/dalgo",
+    "description": "Database abstraction layer with one API for records, queries and transactions across SQL and NoSQL backends, including Firestore, SQLite, filesystem and in-memory adapters.",
+    "category": "Database Drivers"
+  },
+  {
     "name": "dsc",
     "import": "github.com/viant/dsc",
     "url": "https://github.com/viant/dsc",
@@ -15173,6 +15180,13 @@
     "import": "github.com/sergiotapia/smitego",
     "url": "https://github.com/sergiotapia/smitego",
     "description": "Go package to wraps access to the Smite game API.",
+    "category": "Third-party APIs"
+  },
+  {
+    "name": "snaprender-go",
+    "import": "github.com/User0856/snaprender-go",
+    "url": "https://github.com/User0856/snaprender-go",
+    "description": "Go client for the SnapRender screenshot API.",
     "category": "Third-party APIs"
   },
   {
