@@ -16625,6 +16625,13 @@
     "category": "Utilities"
   },
   {
+    "name": "topic",
+    "import": "github.com/yurirocha15/topic",
+    "url": "https://github.com/yurirocha15/topic",
+    "description": "Top-like terminal monitor for containers that shows CPU, memory, GPU and process usage against the container's cgroup limits.",
+    "category": "Utilities"
+  },
+  {
     "name": "UNIS",
     "import": "github.com/esemplastic/unis",
     "url": "https://github.com/esemplastic/unis",
