@@ -3622,7 +3622,7 @@
     "name": "go-pg-migrate",
     "import": "github.com/lawzava/go-pg-migrate",
     "url": "https://github.com/lawzava/go-pg-migrate",
-    "description": "CLI-friendly package for go-pg migrations management.",
+    "description": "PostgreSQL schema migrations for Go, with no dependencies outside the standard library.",
     "category": "Database"
   },
   {
@@ -5999,6 +5999,13 @@
     "category": "Financial"
   },
   {
+    "name": "canary",
+    "import": "github.com/osauer/canary",
+    "url": "https://github.com/osauer/canary",
+    "description": "Clean-room client for the Interactive Brokers TWS socket protocol, in pkg/ibkr.",
+    "category": "Financial"
+  },
+  {
     "name": "cnn-fear-and-greed-parse",
     "import": "github.com/wildsurfer/cnn-fear-and-greed-parse",
     "url": "https://github.com/wildsurfer/cnn-fear-and-greed-parse",
@@ -6269,6 +6276,13 @@
     "import": "github.com/bdjimmy/gbind",
     "url": "https://github.com/bdjimmy/gbind",
     "description": "Bind data to any Go value. Can use built-in and custom expression binding capabilities; supports data validation",
+    "category": "Forms"
+  },
+  {
+    "name": "go-form",
+    "import": "github.com/donseba/go-form",
+    "url": "https://github.com/donseba/go-form",
+    "description": "Render HTML forms from Go structs with struct tags, bind and validate submissions.",
     "category": "Forms"
   },
   {
@@ -12838,6 +12852,13 @@
     "category": "Security"
   },
   {
+    "name": "Quantum-Go",
+    "import": "github.com/sara-star-quant/Quantum-Go",
+    "url": "https://github.com/sara-star-quant/Quantum-Go",
+    "description": "Post-quantum encrypted tunnels over TCP and UDP using a hybrid ML-KEM-1024 and X25519 handshake.",
+    "category": "Security"
+  },
+  {
     "name": "Razify",
     "import": "github.com/Hossiy21/razify",
     "url": "https://github.com/Hossiy21/razify",
@@ -16961,13 +16982,6 @@
     "category": "Version Control"
   },
   {
-    "name": "gitty",
-    "import": "github.com/Omibranch/gitty",
-    "url": "https://github.com/Omibranch/gitty",
-    "description": "Single-binary Git/GitHub CLI that replaces add→commit→push with one command; human-readable syntax, no external dependencies.",
-    "category": "Version Control"
-  },
-  {
     "name": "go-git",
     "import": "github.com/go-git/go-git",
     "url": "https://github.com/go-git/go-git",
@@ -17147,6 +17161,13 @@
     "import": "github.com/beego/beego",
     "url": "https://github.com/beego/beego",
     "description": "beego is an open-source, high-performance web framework for the Go programming language.",
+    "category": "Web Frameworks"
+  },
+  {
+    "name": "BunGo",
+    "import": "github.com/piotr-nierobisz/BunGo",
+    "url": "https://github.com/piotr-nierobisz/BunGo",
+    "description": "Full-stack framework pairing Go handlers with React (JSX/TSX) views compiled by an embedded esbuild, with no Node.js toolchain required.",
     "category": "Web Frameworks"
   },
   {
@@ -17640,6 +17661,13 @@
     "category": "Web Frameworks"
   },
   {
+    "name": "go-router",
+    "import": "github.com/donseba/go-router",
+    "url": "https://github.com/donseba/go-router",
+    "description": "Router on top of net/http's ServeMux with named routes, groups, mounts, host routing and middleware.",
+    "category": "Web Frameworks"
+  },
+  {
     "name": "goblin",
     "import": "github.com/bmf-san/goblin",
     "url": "https://github.com/bmf-san/goblin",
@@ -17900,9 +17928,9 @@
   },
   {
     "name": "Dagu",
-    "import": "github.com/dagu-go/dagu",
-    "url": "https://github.com/dagu-go/dagu",
-    "description": "No-code workflow executor. it executes DAGs defined in a simple YAML format.",
+    "import": "github.com/dagucloud/dagu",
+    "url": "https://github.com/dagucloud/dagu",
+    "description": "Workflow engine that runs DAGs of commands, containers, and HTTP calls defined in YAML.",
     "category": "Workflow Frameworks"
   },
   {
