@@ -798,6 +798,13 @@
     "category": "Blockchain"
   },
   {
+    "name": "seed-poet",
+    "import": "github.com/abkvme/seed-poet",
+    "url": "https://github.com/abkvme/seed-poet",
+    "description": "BIP39 mnemonic generator that arranges 12 or 24-word seed phrases as rhyming couplets, with a JavaScript port that produces identical output.",
+    "category": "Blockchain"
+  },
+  {
     "name": "solana-go",
     "import": "github.com/gagliardetto/solana-go",
     "url": "https://github.com/gagliardetto/solana-go",
@@ -11085,6 +11092,13 @@
     "import": "github.com/joeig/go-powerdns",
     "url": "https://github.com/joeig/go-powerdns",
     "description": "PowerDNS API bindings for Golang.",
+    "category": "Networking"
+  },
+  {
+    "name": "go-socket.io",
+    "import": "github.com/sshaplygin/go-socket.io",
+    "url": "https://github.com/sshaplygin/go-socket.io",
+    "description": "Socket.IO server and client with namespaces, rooms and acknowledgements, for socket.io-client 1.x and 2.x.",
     "category": "Networking"
   },
   {
