@@ -126,6 +126,13 @@
     "category": "Artificial Intelligence"
   },
   {
+    "name": "gleann",
+    "import": "github.com/tevfik/gleann",
+    "url": "https://github.com/tevfik/gleann",
+    "description": "Local vector search engine, codebase intelligence graph, and persistent memory with MCP support.",
+    "category": "Artificial Intelligence"
+  },
+  {
     "name": "goai",
     "import": "github.com/zendev-sh/goai",
     "url": "https://github.com/zendev-sh/goai",
