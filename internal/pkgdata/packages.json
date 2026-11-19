@@ -455,6 +455,13 @@
     "category": "Authentication and Authorization"
   },
   {
+    "name": "authula",
+    "import": "github.com/Authula/authula",
+    "url": "https://github.com/Authula/authula",
+    "description": "Authentication library and standalone auth server that can be embedded in a Go app or run as a service.",
+    "category": "Authentication and Authorization"
+  },
+  {
     "name": "branca",
     "import": "github.com/essentialkaos/branca",
     "url": "https://github.com/essentialkaos/branca",
@@ -12187,6 +12194,13 @@
     "category": "Science and Data Analysis"
   },
   {
+    "name": "capigraph",
+    "import": "github.com/capillariesio/capigraph",
+    "url": "https://github.com/capillariesio/capigraph",
+    "description": "Go library for visualizing DAGs using Sugiyama-style (layered, hierarchical) technique.",
+    "category": "Science and Data Analysis"
+  },
+  {
     "name": "chart",
     "import": "github.com/vdobler/chart",
     "url": "https://github.com/vdobler/chart",
@@ -12625,6 +12639,13 @@
     "import": "github.com/ahmadraza100/dotlock",
     "url": "https://github.com/ahmadraza100/dotlock",
     "description": "Encrypted .env vault manager with interactive TUI for managing secrets across multiple environments and profiles.",
+    "category": "Security"
+  },
+  {
+    "name": "embargo",
+    "import": "github.com/nao1215/embargo",
+    "url": "https://github.com/nao1215/embargo",
+    "description": "Detect and mask personal data, payment data and secrets in Go logs, errors and traces.",
     "category": "Security"
   },
   {
