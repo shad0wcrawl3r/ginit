@@ -4606,6 +4606,13 @@
     "category": "Database Drivers"
   },
   {
+    "name": "riot",
+    "import": "github.com/vcaesar/riot",
+    "url": "https://github.com/vcaesar/riot",
+    "description": "Simple and fast text and vector index engine.",
+    "category": "Database Drivers"
+  },
+  {
     "name": "skizze",
     "import": "github.com/skizzehq/skizze",
     "url": "https://github.com/skizzehq/skizze",
@@ -9405,6 +9412,13 @@
     "import": "github.com/jcuga/golongpoll",
     "url": "https://github.com/jcuga/golongpoll",
     "description": "HTTP longpoll server library that makes web pub-sub simple.",
+    "category": "Messaging"
+  },
+  {
+    "name": "goncordia",
+    "import": "github.com/kirimatt/goncordia",
+    "url": "https://github.com/kirimatt/goncordia",
+    "description": "Background job queue on the database you already use (Postgres, MySQL, SQLite, MongoDB, Redis and more), with transactional enqueue and typed futures.",
     "category": "Messaging"
   },
   {
