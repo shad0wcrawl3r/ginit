@@ -217,6 +217,13 @@
     "category": "Artificial Intelligence"
   },
   {
+    "name": "miro-mcp-server",
+    "import": "github.com/olgasafonova/miro-mcp-server",
+    "url": "https://github.com/olgasafonova/miro-mcp-server",
+    "description": "MCP server that lets AI assistants read and edit Miro boards, including sticky notes, shapes, connectors, frames, and mind maps.",
+    "category": "Artificial Intelligence"
+  },
+  {
     "name": "Ollama",
     "import": "github.com/jmorganca/ollama",
     "url": "https://github.com/jmorganca/ollama",
@@ -11148,6 +11155,13 @@
     "import": "github.com/osrg/gobgp",
     "url": "https://github.com/osrg/gobgp",
     "description": "BGP implemented in the Go Programming Language.",
+    "category": "Networking"
+  },
+  {
+    "name": "godownload",
+    "import": "github.com/saromanov/godownload",
+    "url": "https://github.com/saromanov/godownload",
+    "description": "Resumable, multi-segment download manager with checksum verification, mirrors and HuggingFace model support.",
     "category": "Networking"
   },
   {
