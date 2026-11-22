@@ -763,6 +763,13 @@
     "category": "Blockchain"
   },
   {
+    "name": "erpc",
+    "import": "github.com/erpc/erpc",
+    "url": "https://github.com/erpc/erpc",
+    "description": "Fault-tolerant RPC proxy for EVM and Solana chains with caching, failover, hedging and rate limiting.",
+    "category": "Blockchain"
+  },
+  {
     "name": "gno",
     "import": "github.com/gnolang/gno",
     "url": "https://github.com/gnolang/gno",
@@ -1008,17 +1015,17 @@
     "category": "Build Automation"
   },
   {
+    "name": "grog",
+    "import": "github.com/chrismatix/grog",
+    "url": "https://github.com/chrismatix/grog",
+    "description": "Language-agnostic monorepo build tool with caching and parallel execution.",
+    "category": "Build Automation"
+  },
+  {
     "name": "mage",
     "import": "github.com/magefile/mage",
     "url": "https://github.com/magefile/mage",
     "description": "Mage is a make/rake-like build tool using Go.",
-    "category": "Build Automation"
-  },
-  {
-    "name": "mmake",
-    "import": "github.com/tj/mmake",
-    "url": "https://github.com/tj/mmake",
-    "description": "Modern Make.",
     "category": "Build Automation"
   },
   {
@@ -2356,6 +2363,13 @@
     "import": "github.com/woodpecker-ci/woodpecker",
     "url": "https://github.com/woodpecker-ci/woodpecker",
     "description": "Woodpecker is a community fork of the Drone CI system.",
+    "category": "Continuous Integration"
+  },
+  {
+    "name": "zanadir",
+    "import": "github.com/MustacheCase/zanadir",
+    "url": "https://github.com/MustacheCase/zanadir",
+    "description": "Reports which security and quality checks a repository's CI is missing, and which cannot fail the build.",
     "category": "Continuous Integration"
   },
   {
@@ -17672,6 +17686,13 @@
     "import": "github.com/gernest/alien",
     "url": "https://github.com/gernest/alien",
     "description": "Lightweight and fast http router from outer space.",
+    "category": "Web Frameworks"
+  },
+  {
+    "name": "apex",
+    "import": "github.com/vroomy/apex",
+    "url": "https://github.com/vroomy/apex",
+    "description": "High-performance, zero-allocation HTTP router with trie-based routing and SIMD-accelerated path matching.",
     "category": "Web Frameworks"
   },
   {
