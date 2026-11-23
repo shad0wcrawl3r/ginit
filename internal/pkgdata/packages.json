@@ -98,6 +98,13 @@
     "category": "Artificial Intelligence"
   },
   {
+    "name": "codex-sdk-go",
+    "import": "github.com/pmenglund/codex-sdk-go",
+    "url": "https://github.com/pmenglund/codex-sdk-go",
+    "description": "Go SDK for the OpenAI Codex app-server with streaming, approval callbacks, and structured output.",
+    "category": "Artificial Intelligence"
+  },
+  {
     "name": "crewai-go",
     "import": "github.com/rhgs/crewai-go",
     "url": "https://github.com/rhgs/crewai-go",
@@ -165,6 +172,13 @@
     "import": "github.com/gojargo/jargo",
     "url": "https://github.com/gojargo/jargo",
     "description": "Framework for building real-time voice AI agents over WebRTC, wiring speech-to-text, LLMs, and text-to-speech into a streaming pipeline.",
+    "category": "Artificial Intelligence"
+  },
+  {
+    "name": "KafClaw",
+    "import": "github.com/KafClaw/KafClaw",
+    "url": "https://github.com/KafClaw/KafClaw",
+    "description": "Agent runtime that connects AI agents through Kafka topics, with groups, an orchestrator, shared memory and skill routing.",
     "category": "Artificial Intelligence"
   },
   {
@@ -6928,6 +6942,13 @@
     "url": "https://github.com/gopherjs/gopherjs",
     "description": "Compiler from Go to JavaScript.",
     "category": "Go Compilers"
+  },
+  {
+    "name": "agilePool",
+    "import": "github.com/Yiming1997/agilePool",
+    "url": "https://github.com/Yiming1997/agilePool",
+    "description": "Goroutine pool with adaptive worker scaling, bounded concurrency, and overflow task buffering.",
+    "category": "Goroutines"
   },
   {
     "name": "anchor",
