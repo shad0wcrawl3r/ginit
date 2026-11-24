@@ -959,13 +959,6 @@
     "category": "Bot Building"
   },
   {
-    "name": "TG",
-    "import": "github.com/enetx/tg",
-    "url": "https://github.com/enetx/tg",
-    "description": "Telegram Bot Framework for Go.",
-    "category": "Bot Building"
-  },
-  {
     "name": "wayback",
     "import": "github.com/wabarc/wayback",
     "url": "https://github.com/wabarc/wayback",
@@ -2671,13 +2664,6 @@
     "import": "github.com/seiflotfy/count-min-log",
     "url": "https://github.com/seiflotfy/count-min-log",
     "description": "Go implementation Count-Min-Log sketch: Approximately counting with approximate counters (Like Count-Min sketch but using less memory).",
-    "category": "Data Structures and Algorithms"
-  },
-  {
-    "name": "FSM",
-    "import": "github.com/enetx/fsm",
-    "url": "https://github.com/enetx/fsm",
-    "description": "FSM for Go.",
     "category": "Data Structures and Algorithms"
   },
   {
@@ -6230,6 +6216,13 @@
     "category": "Financial"
   },
   {
+    "name": "openbymadata",
+    "import": "github.com/carvalab/openbymadata",
+    "url": "https://github.com/carvalab/openbymadata",
+    "description": "Client for the BYMA (Buenos Aires stock exchange) Open Data API with stocks, CEDEARs, bonds, options, quotes and historical OHLCV.",
+    "category": "Financial"
+  },
+  {
     "name": "orderbook",
     "import": "github.com/i25959341/orderbook",
     "url": "https://github.com/i25959341/orderbook",
@@ -6416,13 +6409,6 @@
     "import": "github.com/koss-null/FuncFrog",
     "url": "https://github.com/koss-null/FuncFrog",
     "description": "Functional helpers library providing Map, Filter, Reduce and other stream operations on generic slices Go1.18+ with lazy evaluation and error handling mechanisms.",
-    "category": "Functional"
-  },
-  {
-    "name": "g",
-    "import": "github.com/enetx/g",
-    "url": "https://github.com/enetx/g",
-    "description": "Functional programming framework for Go.",
     "category": "Functional"
   },
   {
@@ -9520,6 +9506,13 @@
     "category": "Messaging"
   },
   {
+    "name": "KafScale",
+    "import": "github.com/KafScale/platform",
+    "url": "https://github.com/KafScale/platform",
+    "description": "Kafka-compatible streaming platform with stateless brokers that store data in S3.",
+    "category": "Messaging"
+  },
+  {
     "name": "kiln",
     "import": "github.com/rafaelaugustos/kiln",
     "url": "https://github.com/rafaelaugustos/kiln",
@@ -9979,6 +9972,13 @@
     "import": "github.com/vahiiiid/go-rest-api-boilerplate",
     "url": "https://github.com/vahiiiid/go-rest-api-boilerplate",
     "description": "AI-friendly, production-ready Go REST API boilerplate with clean architecture, JWT authentication, RBAC, PostgreSQL, Docker hot-reload, and Swagger documentation.",
+    "category": "Miscellaneous"
+  },
+  {
+    "name": "go-rest-template",
+    "import": "github.com/antoniopaya22/go-rest-template",
+    "url": "https://github.com/antoniopaya22/go-rest-template",
+    "description": "REST API template with chi, an OpenAPI 3.1 contract, JWT authentication, PostgreSQL or SQLite, and an init tool that removes the features you do not need.",
     "category": "Miscellaneous"
   },
   {
@@ -11708,13 +11708,6 @@
     "import": "github.com/dghubble/sling",
     "url": "https://github.com/dghubble/sling",
     "description": "Sling is a Go HTTP client library for creating and sending API requests.",
-    "category": "Networking"
-  },
-  {
-    "name": "surf",
-    "import": "github.com/enetx/surf",
-    "url": "https://github.com/enetx/surf",
-    "description": "Advanced HTTP client with HTTP/1.1, HTTP/2, HTTP/3 (QUIC), SOCKS5 proxy support and browser-grade TLS fingerprinting.",
     "category": "Networking"
   },
   {
@@ -17000,6 +16993,13 @@
     "import": "github.com/go-ozzo/ozzo-validation",
     "url": "https://github.com/go-ozzo/ozzo-validation",
     "description": "Supports validation of various data types (structs, strings, maps, slices, etc.) with configurable and extensible validation rules specified in usual code constructs instead of struct tags.",
+    "category": "Validation"
+  },
+  {
+    "name": "shak",
+    "import": "github.com/yashx/shak",
+    "url": "https://github.com/yashx/shak",
+    "description": "Type-safe validation built from generic, composable rule functions, without reflection or struct tags.",
     "category": "Validation"
   },
   {
