@@ -12740,6 +12740,13 @@
     "category": "Security"
   },
   {
+    "name": "gmrtd",
+    "import": "github.com/gmrtd/gmrtd",
+    "url": "https://github.com/gmrtd/gmrtd",
+    "description": "Library for reading and verifying ePassports and ID cards (ICAO Doc 9303) over NFC, including PACE/BAC access control and passive, active and chip authentication.",
+    "category": "Security"
+  },
+  {
     "name": "go-generate-password",
     "import": "github.com/m1/go-generate-password",
     "url": "https://github.com/m1/go-generate-password",
