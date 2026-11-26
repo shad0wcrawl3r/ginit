@@ -11557,6 +11557,13 @@
     "category": "Networking"
   },
   {
+    "name": "failnext",
+    "import": "github.com/yermakovsa/failnext",
+    "url": "https://github.com/yermakovsa/failnext",
+    "description": "HTTP transport for client-side failover across priority-ordered endpoints.",
+    "category": "Networking"
+  },
+  {
     "name": "fast-shot",
     "import": "github.com/opus-domini/fast-shot",
     "url": "https://github.com/opus-domini/fast-shot",
