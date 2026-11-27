@@ -161,6 +161,13 @@
     "category": "Artificial Intelligence"
   },
   {
+    "name": "graymatter",
+    "import": "github.com/angelnicolasc/graymatter",
+    "url": "https://github.com/angelnicolasc/graymatter",
+    "description": "Local persistent memory layer and MCP server for AI agents with hybrid search, knowledge graph, and TUI.",
+    "category": "Artificial Intelligence"
+  },
+  {
     "name": "hotplex",
     "import": "github.com/hrygo/hotplex",
     "url": "https://github.com/hrygo/hotplex",
@@ -466,13 +473,6 @@
     "import": "github.com/volatiletech/authboss",
     "url": "https://github.com/volatiletech/authboss",
     "description": "Modular authentication system for the web. It tries to remove as much boilerplate and \"hard things\" as possible so that each time you start a new web project in Go, you can plug it in, configure it, and start building your app without having to build an authentication system each time.",
-    "category": "Authentication and Authorization"
-  },
-  {
-    "name": "authgate",
-    "import": "github.com/go-authgate/authgate",
-    "url": "https://github.com/go-authgate/authgate",
-    "description": "A lightweight OAuth 2.0 Authorization Server supporting Device Authorization Grant ([RFC 8628](https://datatracker.ietf.org/doc/html/rfc8628)), Authorization Code Flow with PKCE ([RFC 6749](https://datatracker.ietf.org/doc/html/rfc6749) + [RFC 7636](https://datatracker.ietf.org/doc/html/rfc7636)), and Client Credentials Grant for machine-to-machine authentication.",
     "category": "Authentication and Authorization"
   },
   {
@@ -4641,6 +4641,13 @@
     "category": "Database Drivers"
   },
   {
+    "name": "zedsearch",
+    "import": "github.com/vcaesar/zedsearch",
+    "url": "https://github.com/vcaesar/zedsearch",
+    "description": "Faster lightweight hybrid search engine with Elasticsearch-compatible ingestion APIs and an embedded web UI.",
+    "category": "Database Drivers"
+  },
+  {
     "name": "zoekt",
     "import": "github.com/sourcegraph/zoekt",
     "url": "https://github.com/sourcegraph/zoekt",
@@ -4963,6 +4970,13 @@
     "category": "Distributed Systems"
   },
   {
+    "name": "ghoti",
+    "import": "github.com/dankomiocevic/ghoti",
+    "url": "https://github.com/dankomiocevic/ghoti",
+    "description": "Centralized server for shared state across distributed instances: rate limiters, leases, atomic counters and broadcast signals.",
+    "category": "Distributed Systems"
+  },
+  {
     "name": "gleam",
     "import": "github.com/chrislusf/gleam",
     "url": "https://github.com/chrislusf/gleam",
@@ -5278,6 +5292,13 @@
     "category": "Distributed Systems"
   },
   {
+    "name": "ygo",
+    "import": "github.com/Deln0r/ygo",
+    "url": "https://github.com/Deln0r/ygo",
+    "description": "Pure Go port of the Yjs CRDT, wire-compatible with JavaScript yjs clients.",
+    "category": "Distributed Systems"
+  },
+  {
     "name": "DDNS",
     "import": "github.com/skibish/ddns",
     "url": "https://github.com/skibish/ddns",
@@ -5506,6 +5527,13 @@
     "import": "github.com/krotik/ecal",
     "url": "https://github.com/krotik/ecal",
     "description": "A simple embeddable scripting language which supports concurrent event processing.",
+    "category": "Embeddable Scripting Languages"
+  },
+  {
+    "name": "evie",
+    "import": "github.com/hxkhan/evie",
+    "url": "https://github.com/hxkhan/evie",
+    "description": "Embeddable scripting language with classes, fibers and per-engine sandboxing.",
     "category": "Embeddable Scripting Languages"
   },
   {
@@ -10273,6 +10301,13 @@
     "import": "github.com/pioz/faker",
     "url": "https://github.com/pioz/faker",
     "description": "Random fake data and struct generator for Go.",
+    "category": "Miscellaneous"
+  },
+  {
+    "name": "fejkdata",
+    "import": "github.com/larvit/fejkdata",
+    "url": "https://github.com/larvit/fejkdata",
+    "description": "CLI and library that render fake test data from JSON templates, with related values that match.",
     "category": "Miscellaneous"
   },
   {
